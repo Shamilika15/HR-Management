@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Large ML model files
+Models/*.pkl
