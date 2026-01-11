@@ -41,7 +41,7 @@ The system is designed as a **modular web-based admin platform** with integrated
 ### ✅ Architecture Diagram
  
 
-![System Architecture](docs/architecture.png)
+![System Architecture](docs/ArchitectureDiagram.png)
 
 ---
 
