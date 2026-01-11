@@ -39,7 +39,7 @@ This project proposes an **AI-Driven Human Capital Management (HCM) and Workforc
 The system is designed as a **modular web-based admin platform** with integrated AI/ML pipelines for each HR function.
 
 ### ✅ Architecture Diagram
- Add an image named `architecture.png` inside a folder called `docs/` and reference it below:
+ 
 
 ![System Architecture](docs/architecture.png)
 
