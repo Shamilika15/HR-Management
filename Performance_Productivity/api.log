@@ -1,0 +1,188 @@
+2026-03-01 13:39:24,333 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-01 13:39:24,494 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-01 13:39:24,494 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-01 13:39:30,300 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-01 13:39:30,301 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-01 13:39:30,302 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-01 13:39:30,302 - __main__ - ERROR - Traceback (most recent call last):
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_App\Employee_Retention\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_App\Employee_Retention\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_App\Employee_Retention\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-01 13:39:30,318 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.87.70.163:5002
+2026-03-01 13:39:30,319 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-01 13:39:30,323 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-01 13:39:32,778 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-01 13:39:32,779 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-01 13:39:32,780 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-01 13:39:32,781 - __main__ - ERROR - Traceback (most recent call last):
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_App\Employee_Retention\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_App\Employee_Retention\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_App\Employee_Retention\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-01 13:39:32,788 - werkzeug - WARNING -  * Debugger is active!
+2026-03-01 13:39:32,792 - werkzeug - INFO -  * Debugger PIN: 136-785-371
+2026-03-01 13:41:43,408 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-01 13:41:43,410 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-01 13:41:43,764 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.87.70.163:5002
+2026-03-01 13:41:43,764 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-01 13:41:43,769 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-01 13:41:46,263 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-01 13:41:46,264 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-01 13:41:46,608 - werkzeug - WARNING -  * Debugger is active!
+2026-03-01 13:41:46,612 - werkzeug - INFO -  * Debugger PIN: 136-785-371
+2026-03-01 13:41:57,572 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:41:57] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:42:08,117 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-01 13:42:08,118 - __main__ - INFO - Processing 25 employees...
+2026-03-01 13:42:08,337 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:42:08] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-01 13:42:19,362 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:42:19] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-01 13:42:27,646 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:42:27] "GET /api/download/productivity_results_20260301_134208.csv HTTP/1.1" 200 -
+2026-03-01 13:51:13,449 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:51:13] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:51:18,078 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:51:18] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:51:46,583 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:51:46] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:51:49,409 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:51:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:51:52,505 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:51:52] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:52:29,484 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:52:29] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:52:38,874 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:52:38] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:52:52,860 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:52:52] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:53:08,865 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:53:08] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 13:53:15,027 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:53:15] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-01 13:53:21,416 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-01 13:53:21,417 - __main__ - INFO - Processing 25 employees...
+2026-03-01 13:53:21,459 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:53:21] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-01 13:53:34,790 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:53:34] "GET /api/download/productivity_results_20260301_135321.csv HTTP/1.1" 200 -
+2026-03-01 13:53:42,026 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:53:42] "[36mGET /api/download/productivity_results_20260301_135321.csv HTTP/1.1[0m" 304 -
+2026-03-01 13:53:58,334 - werkzeug - INFO - 127.0.0.1 - - [01/Mar/2026 13:53:58] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:36:27,437 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 14:36:27,463 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 14:36:27,913 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.175.192.163:5002
+2026-03-03 14:36:27,913 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 14:36:27,918 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 14:36:30,437 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 14:36:30,439 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 14:36:30,786 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 14:36:30,789 - werkzeug - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 14:36:31,852 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 14:36:31] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:36:54,016 - werkzeug - INFO -  * Detected change in 'C:\\Users\\AroosoftMars\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-03 14:36:54,554 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 14:36:57,169 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 14:36:57,171 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 14:36:57,532 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 14:36:57,536 - werkzeug - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 14:36:57,828 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 14:36:57] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-03 14:37:14,211 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-03 14:37:14,212 - __main__ - INFO - Processing 25 employees...
+2026-03-03 14:37:14,247 - werkzeug - INFO -  * Detected change in 'C:\\Users\\AroosoftMars\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-03 14:37:14,331 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 14:37:14] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-03 14:37:15,262 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 14:37:17,805 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 14:37:17,807 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 14:37:18,180 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 14:37:18,183 - werkzeug - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 14:37:38,200 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 14:37:38] "GET /api/download/productivity_results_20260303_143714.csv HTTP/1.1" 200 -
+2026-03-03 14:37:47,931 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 14:37:47] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:37:49,617 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 14:37:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:37:53,797 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 14:37:53] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 10:23:06,287 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 10:23:06,337 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 10:23:06,698 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-03-04 10:23:06,703 - absl - WARNING - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2026-03-04 10:23:07,647 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 10:23:07,692 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.8.155:5002
+2026-03-04 10:23:07,693 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 10:27:37,384 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 10:27:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 10:27:49,402 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 10:27:49,414 - __main__ - INFO - Processing 25 employees...
+2026-03-04 10:27:49,452 - __main__ - ERROR - Batch prediction error: 'OneHotEncoder' object has no attribute '_drop_idx_after_grouping'
+2026-03-04 10:27:49,603 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 244, in predict_batch
+    X_new = preprocessor.transform(df)
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\compose\_column_transformer.py", line 1099, in transform
+    Xs = self._call_func_on_transformers(
+        X,
+    ...<3 lines>...
+        routed_params=routed_params,
+    )
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\compose\_column_transformer.py", line 901, in _call_func_on_transformers
+    return Parallel(n_jobs=self.n_jobs)(jobs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\parallel.py", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\parallel.py", line 184, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\pipeline.py", line 1464, in _transform_one
+    res = transformer.transform(X, **params.transform)
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\pavat\AppData\Roaming\Python\Python313\site-packages\sklearn\preprocessing\_encoders.py", line 1060, in transform
+    if self._drop_idx_after_grouping is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OneHotEncoder' object has no attribute '_drop_idx_after_grouping'
+
+2026-03-04 10:27:49,605 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 10:27:49] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-04 10:30:53,723 - __main__ - ERROR - Preview error: 'OneHotEncoder' object has no attribute '_drop_idx_after_grouping'
+2026-03-04 10:30:53,725 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 10:30:53] "[35m[1mPOST /api/predict/preview HTTP/1.1[0m" 500 -
+2026-03-04 10:34:04,479 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 10:34:04,532 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 10:34:04,729 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-03-04 10:34:04,735 - absl - WARNING - Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2026-03-04 10:34:04,865 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 10:34:04,903 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.8.155:5002
+2026-03-04 10:34:04,903 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 10:34:11,406 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 10:34:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 10:34:18,955 - __main__ - ERROR - Preview error: 'OneHotEncoder' object has no attribute '_drop_idx_after_grouping'
+2026-03-04 10:34:18,956 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 10:34:18] "[35m[1mPOST /api/predict/preview HTTP/1.1[0m" 500 -
