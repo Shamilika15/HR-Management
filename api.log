@@ -1,0 +1,1112 @@
+2026-03-03 15:20:53,615 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 15:20:53,617 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 15:20:53,622 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 15:20:53,650 - __main__ - ERROR - Traceback (most recent call last):
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 15:20:53,667 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.175.192.163:5002
+2026-03-03 15:20:53,667 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 15:20:53,671 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 15:20:56,855 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 15:20:56,858 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 15:20:56,858 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 15:20:56,859 - __main__ - ERROR - Traceback (most recent call last):
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\AroosoftMars\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "F:\Current\2025 Slit_July Active\HR group G4 PP1--Done\ReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 15:20:56,874 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 15:20:56,883 - werkzeug - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 15:21:02,684 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 15:21:02] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 22:22:07,554 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 22:22:07,558 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 22:22:07,562 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 22:22:07,621 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 22:22:07,649 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.8.155:5002
+2026-03-03 22:22:07,649 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 22:22:07,667 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 22:22:16,800 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 22:22:16,802 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 22:22:16,802 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 22:22:16,803 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 22:22:16,808 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 22:22:16,812 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-03 22:22:54,985 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 22:22:54,987 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 22:22:54,987 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 22:22:54,988 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 22:22:55,006 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.8.155:5002
+2026-03-03 22:22:55,007 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 22:22:55,020 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 22:23:01,720 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 22:23:01,722 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 22:23:01,723 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 22:23:01,724 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 22:23:01,729 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 22:23:01,734 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-03 23:50:07,540 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 23:50:07,542 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 23:50:07,547 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 23:50:07,549 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 23:50:07,560 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.8.155:5002
+2026-03-03 23:50:07,560 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 23:50:07,567 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 23:50:12,161 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 23:50:12,162 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 23:50:12,163 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 23:50:12,163 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 23:50:12,167 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 23:50:12,170 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-03 23:50:34,914 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 23:50:34] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 23:50:44,554 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 23:50:44,555 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 23:50:44,557 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 23:50:44,558 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 23:50:44] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-03 23:52:37,808 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\flask_cors\\__init__.py', reloading
+2026-03-03 23:52:39,125 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 23:52:43,955 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 23:52:43,956 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 23:52:43,956 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 23:52:43,956 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 23:52:43,959 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 23:52:43,963 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-03 23:55:07,058 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\predict_main.py', reloading
+2026-03-03 23:55:08,178 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 23:55:12,386 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 23:55:12,387 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 23:55:12,387 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 23:55:12,387 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 23:55:12,391 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 23:55:12,393 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-03 23:57:45,117 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 23:57:45] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-03 23:57:45,128 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 23:57:45] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-03 23:57:45,194 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 23:57:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-03 23:57:45,198 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2026 23:57:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-03 23:58:00,492 - werkzeug - INFO - 192.168.8.155 - - [03/Mar/2026 23:58:00] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-03 23:58:00,504 - werkzeug - INFO - 192.168.8.155 - - [03/Mar/2026 23:58:00] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-03 23:58:00,580 - werkzeug - INFO - 192.168.8.155 - - [03/Mar/2026 23:58:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-03 23:58:00,584 - werkzeug - INFO - 192.168.8.155 - - [03/Mar/2026 23:58:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-03 23:59:00,082 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\_api\\v2\\compat\\v2\\debugging\\__init__.py', reloading
+2026-03-03 23:59:00,119 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\_api\\v2\\compat\\v2\\errors\\__init__.py', reloading
+2026-03-03 23:59:00,620 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 23:59:05,221 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-03 23:59:05,222 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-03 23:59:05,222 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-03 23:59:05,223 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-03 23:59:05,227 - werkzeug - WARNING -  * Debugger is active!
+2026-03-03 23:59:05,230 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 00:08:18,345 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 00:08:18] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 13:42:26,641 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 13:42:26,644 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:42:26,649 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:42:26,682 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:42:26,682 - __main__ - WARNING -  API starting without model
+2026-03-04 13:42:26,694 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.28.20.130:5002
+2026-03-04 13:42:26,694 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 13:42:49,041 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:42:49,042 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:42:49,043 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:42:49,043 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:42:49] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-04 13:43:04,331 - werkzeug - INFO - 172.28.20.130 - - [04/Mar/2026 13:43:04] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-04 13:43:04,363 - werkzeug - INFO - 172.28.20.130 - - [04/Mar/2026 13:43:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-04 13:43:15,865 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:43:15] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-04 13:43:15,899 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:43:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-04 13:43:30,938 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:43:30,941 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:43:30,942 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:43:30,943 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:43:30] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-04 13:43:31,962 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:43:31,962 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:43:31,963 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:43:31,963 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:43:31] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-04 13:43:37,836 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:43:37,837 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:43:37,837 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:43:37,838 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:43:37] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-04 13:49:08,581 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 13:49:08,582 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:49:08,582 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:49:08,584 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:49:08,584 - __main__ - WARNING -  API starting without model
+2026-03-04 13:49:08,589 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.28.20.130:5002
+2026-03-04 13:49:08,590 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 13:49:44,663 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:49:44] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 13:49:56,982 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:49:56,982 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:49:56,983 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:49:56,983 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:49:56] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-04 13:54:36,431 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 13:54:36,433 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 13:54:36,434 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 13:54:36,434 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 13:54:36] "[35m[1mPOST /api/predict/preview HTTP/1.1[0m" 500 -
+2026-03-04 14:13:32,502 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 14:13:32,503 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 14:13:32,504 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+2026-03-04 14:13:32,504 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at Performance Productivity Model/advanced_feedback_model.h5
+
+2026-03-04 14:13:32,504 - __main__ - WARNING -  API starting without model
+2026-03-04 14:13:32,510 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.20.10.2:5002
+2026-03-04 14:13:32,510 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 14:14:19,618 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 14:14:19,619 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 14:14:19,619 - __main__ - ERROR - Error loading model: Failed to load model. Error: No file or directory found at advanced_feedback_model.h5
+2026-03-04 14:14:19,619 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 7, in load_feedback_model
+    model = load_model(model_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\keras\saving\save.py", line 209, in load_model
+    raise IOError(f'No file or directory found at {filepath}')
+OSError: No file or directory found at advanced_feedback_model.h5
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 52, in load_model_and_preprocessor
+    model = load_feedback_model()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 11, in load_feedback_model
+    raise FileNotFoundError(f"Failed to load model. Error: {e}")
+FileNotFoundError: Failed to load model. Error: No file or directory found at advanced_feedback_model.h5
+
+2026-03-04 14:14:19,619 - __main__ - WARNING -  API starting without model
+2026-03-04 14:14:19,626 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.20.10.2:5002
+2026-03-04 14:14:19,626 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 14:14:57,814 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 14:14:57,815 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 14:14:57,983 - __main__ - ERROR - Error loading model: Failed to load preprocessor. Error: [Errno 2] No such file or directory: 'preprocessor.pkl'
+2026-03-04 14:14:58,023 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 16, in load_preprocessor
+    preprocessor = joblib.load(preprocessor_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 53, in load_model_and_preprocessor
+    preprocessor = load_preprocessor()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 20, in load_preprocessor
+    raise FileNotFoundError(f"Failed to load preprocessor. Error: {e}")
+FileNotFoundError: Failed to load preprocessor. Error: [Errno 2] No such file or directory: 'preprocessor.pkl'
+
+2026-03-04 14:14:58,023 - __main__ - WARNING -  API starting without model
+2026-03-04 14:14:58,035 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.20.10.2:5002
+2026-03-04 14:14:58,035 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 14:16:40,586 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 14:16:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 14:16:52,198 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 14:16:52] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 14:16:54,824 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 14:16:54] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 14:17:17,088 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 14:17:17,400 - __main__ - ERROR - Error loading model: Failed to load preprocessor. Error: [Errno 2] No such file or directory: 'preprocessor.pkl'
+2026-03-04 14:17:17,402 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 16, in load_preprocessor
+    preprocessor = joblib.load(preprocessor_path)
+  File "C:\Users\pavat\Desktop\MyFinal\Lib\Python38\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Performance_Productivity/Api.py", line 53, in load_model_and_preprocessor
+    preprocessor = load_preprocessor()
+  File "C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Performance_Productivity\model_utils.py", line 20, in load_preprocessor
+    raise FileNotFoundError(f"Failed to load preprocessor. Error: {e}")
+FileNotFoundError: Failed to load preprocessor. Error: [Errno 2] No such file or directory: 'preprocessor.pkl'
+
+2026-03-04 14:17:17,403 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 14:17:17] "[35m[1mPOST /api/predict/batch HTTP/1.1[0m" 500 -
+2026-03-04 14:22:41,088 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 14:22:41,088 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 14:22:41,501 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 14:22:41,505 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.20.10.2:5002
+2026-03-04 14:22:41,505 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 14:28:12,887 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 14:28:12,888 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 14:28:13,281 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 14:28:13,285 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.28.20.130:5002
+2026-03-04 14:28:13,285 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 16:56:02,343 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 16:56:02,345 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 16:56:02,917 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 16:56:02,920 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.28.20.130:5002
+2026-03-04 16:56:02,920 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 16:56:33,017 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 16:56:33] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 16:56:40,509 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 16:56:40,515 - __main__ - INFO - Processing 25 employees...
+2026-03-04 16:56:41,745 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 16:56:41] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 16:56:47,321 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 16:56:47] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 17:04:32,206 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:04:32] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 17:04:53,219 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:04:53] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 17:05:24,269 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 17:05:24,269 - __main__ - INFO - Processing 25 employees...
+2026-03-04 17:05:24,337 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:05:24] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 17:05:29,454 - __main__ - ERROR - Download error: [WinError 2] The system cannot find the file specified: 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\results\\productivity_results_20260304_170524.csv'
+2026-03-04 17:05:29,455 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:05:29] "[35m[1mGET /api/download/productivity_results_20260304_170524.csv HTTP/1.1[0m" 500 -
+2026-03-04 17:05:29,501 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:05:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-04 17:17:23,112 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:17:23] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 17:17:38,892 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:17:38] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 17:17:41,796 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 17:17:41,797 - __main__ - INFO - Processing 25 employees...
+2026-03-04 17:17:41,857 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:17:41] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 17:20:11,442 - __main__ - ERROR - Download error: [WinError 2] The system cannot find the file specified: 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\results\\productivity_results_20260304_171741.csv'
+2026-03-04 17:20:11,443 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:20:11] "[35m[1mGET /api/download/productivity_results_20260304_171741.csv HTTP/1.1[0m" 500 -
+2026-03-04 17:20:11,479 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:20:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-04 17:20:46,679 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:20:46] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 17:21:03,879 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:21:03] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 17:21:11,053 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 17:21:11,054 - __main__ - INFO - Processing 25 employees...
+2026-03-04 17:21:11,147 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:21:11] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 17:55:55,392 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:55:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 17:56:03,625 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:56:03] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 17:56:12,279 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 17:56:12,279 - __main__ - INFO - Processing 25 employees...
+2026-03-04 17:56:12,357 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:56:12] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 17:56:15,518 - __main__ - ERROR - Download error: [WinError 2] The system cannot find the file specified: 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\results\\productivity_results_20260304_175612.csv'
+2026-03-04 17:56:15,518 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:56:15] "[35m[1mGET /api/download/productivity_results_20260304_175612.csv HTTP/1.1[0m" 500 -
+2026-03-04 17:56:15,548 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:56:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-04 17:57:05,338 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:57:05] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 17:57:14,187 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:57:14] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 17:57:16,074 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 17:57:16,074 - __main__ - INFO - Processing 25 employees...
+2026-03-04 17:57:16,140 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:57:16] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 17:57:19,355 - __main__ - ERROR - Download error: [WinError 2] The system cannot find the file specified: 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\results\\productivity_results_20260304_175716.csv'
+2026-03-04 17:57:19,355 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:57:19] "[35m[1mGET /api/download/productivity_results_20260304_175716.csv HTTP/1.1[0m" 500 -
+2026-03-04 17:58:23,316 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 17:58:23,318 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 17:58:24,280 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 17:58:24,292 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.12:5002
+2026-03-04 17:58:24,292 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 17:58:24,303 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 17:58:27,971 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 17:58:27,972 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 17:58:28,366 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 17:58:28,369 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 17:58:28,371 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 17:58:33,898 - __main__ - INFO - Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-04 17:58:33,899 - __main__ - INFO - Download requested - filename: productivity_results_20260304_175716.csv
+2026-03-04 17:58:33,899 - __main__ - INFO - Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\productivity_results_20260304_175716.csv
+2026-03-04 17:58:33,900 - __main__ - INFO - File found, size: 1884 bytes
+2026-03-04 17:58:33,903 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:58:33] "GET /api/download/productivity_results_20260304_175716.csv HTTP/1.1" 200 -
+2026-03-04 17:58:34,289 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:58:34] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 17:58:41,232 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:58:41] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 17:58:49,125 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-04 17:58:49,285 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:58:49] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 17:58:50,200 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 17:58:55,672 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 17:58:55,674 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 17:58:56,319 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 17:58:56,325 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 17:58:56,329 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 17:58:56,360 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 17:58:56,360 - __main__ - INFO - Processing 25 employees...
+2026-03-04 17:58:56,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-04 17:58:56,595 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:58:56] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 17:58:57,800 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 17:59:03,660 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 17:59:03,662 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 17:59:04,315 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 17:59:04,318 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 17:59:04,321 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 17:59:22,598 - __main__ - INFO - Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-04 17:59:22,598 - __main__ - INFO - Download requested - filename: productivity_results_20260304_175856.csv
+2026-03-04 17:59:22,599 - __main__ - INFO - Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\productivity_results_20260304_175856.csv
+2026-03-04 17:59:22,599 - __main__ - INFO - File found, size: 1884 bytes
+2026-03-04 17:59:22,600 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 17:59:22] "GET /api/download/productivity_results_20260304_175856.csv HTTP/1.1" 200 -
+2026-03-04 18:02:01,909 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:02:02,316 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictionV2.py', reloading
+2026-03-04 18:02:02,394 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\django\\__init__.py', reloading
+2026-03-04 18:02:02,435 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\django\\apps\\__init__.py', reloading
+2026-03-04 18:02:03,105 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:02:07,472 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:02:07,473 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:02:07,871 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:02:07,874 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:02:07,877 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:02:14,949 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:02:14,950 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:02:14,950 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:02:14,951 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:02:15,519 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:02:21,871 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:02:21,873 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:02:22,491 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:02:22,496 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:02:22,500 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:02:42,652 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\base.py', reloading
+2026-03-04 18:02:43,313 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:02:49,963 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:02:49,965 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:02:50,720 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:02:50,730 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:02:50,735 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:04:47,111 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\official\\modeling\\hyperparams\\__init__.py', reloading
+2026-03-04 18:04:47,128 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\generic_utils\\__init__.py', reloading
+2026-03-04 18:04:47,617 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:04:51,709 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:04:51,710 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:04:52,089 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:04:52,092 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:04:52,095 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:05:12,427 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-04 18:05:12,427 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-04 18:05:12,428 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-04 18:05:13,780 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:05:19,632 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:05:19,634 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:05:20,261 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:05:20,265 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:05:20,267 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:05:53,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:05:53,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:05:53,337 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:05:53,338 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:05:54,181 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:05:59,863 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:05:59,867 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:06:00,651 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:06:00,658 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:06:00,663 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:09:03,126 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:09:03] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 18:09:26,341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\plotly\\__init__.py', reloading
+2026-03-04 18:09:26,366 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Data_Validators.py', reloading
+2026-03-04 18:09:26,367 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Train.py', reloading
+2026-03-04 18:09:26,782 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:09:31,904 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:09:31,906 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:09:32,453 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:09:32,457 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:09:32,460 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:09:46,341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:09:46,341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:09:46,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:09:46,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:09:47,144 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:09:53,338 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:09:53,339 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:09:53,930 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:09:53,936 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:09:53,941 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:10:22,239 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\openai\\api_resources\\chat_completion.py', reloading
+2026-03-04 18:10:22,255 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\openai\\api_resources\\abstract\\engine_api_resource.py', reloading
+2026-03-04 18:10:22,274 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\openai\\api_resources\\abstract\\api_resource.py', reloading
+2026-03-04 18:10:22,287 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\openai\\openai_object.py', reloading
+2026-03-04 18:10:22,710 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:10:27,670 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:10:27,671 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:10:28,049 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:10:28,052 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:10:28,055 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:10:33,254 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\torch\\nn\\__init__.py', reloading
+2026-03-04 18:10:33,261 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\TrainModel.py', reloading
+2026-03-04 18:10:34,556 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:10:38,813 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:10:38,814 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:10:39,168 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:10:39,171 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:10:39,174 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:11:03,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:03,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:03,500 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:03,501 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:04,938 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:11:10,823 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:11:10,825 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:11:11,426 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:11:11,429 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:11:11,432 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:11:17,103 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:17,104 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:17,104 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:17,105 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-04 18:11:17,889 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:11:22,865 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:11:22,867 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:11:23,293 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:11:23,297 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:11:23,299 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:12:50,046 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:12:50,047 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:12:50,047 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:12:50,806 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:12:56,044 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:12:56,046 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:12:56,523 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:12:56,527 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:12:56,529 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:13:21,049 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:13:21,050 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:13:22,423 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:13:28,417 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:13:28,418 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:13:28,945 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:13:28,949 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:13:28,952 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:13:42,059 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:13:42,060 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:13:42,060 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:13:42,061 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:13:42,475 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:13:48,974 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:13:48,976 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:13:49,496 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:13:49,500 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:13:49,502 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:14:51,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\__init__.py', reloading
+2026-03-04 18:14:51,402 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\__init__.py', reloading
+2026-03-04 18:14:51,403 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\metrics\\__init__.py', reloading
+2026-03-04 18:14:51,403 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\impute\\__init__.py', reloading
+2026-03-04 18:14:51,404 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\compose\\__init__.py', reloading
+2026-03-04 18:14:51,440 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\ensemble\\__init__.py', reloading
+2026-03-04 18:14:51,464 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\sklearn\\model_selection\\__init__.py', reloading
+2026-03-04 18:14:52,719 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:14:57,111 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:14:57,113 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:14:57,534 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:14:57,538 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:14:57,540 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:21:59,020 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:21:59,021 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:21:59,021 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:21:59,022 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-04 18:22:00,171 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:22:06,449 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:22:06,452 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:22:07,113 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:22:07,119 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:22:07,125 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:24:04,929 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:24:04,929 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:24:04,930 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:24:04,931 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:24:05,950 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:24:11,280 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:24:11,282 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:24:11,981 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:24:11,986 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:24:11,992 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:42:37,345 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:42:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 18:42:51,603 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:42:51] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 18:42:55,031 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 18:42:55,031 - __main__ - INFO - Processing 25 employees...
+2026-03-04 18:42:55,097 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:42:55] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 18:43:32,380 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:43:32] "GET /api/test HTTP/1.1" 200 -
+2026-03-04 18:43:49,294 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:43:49] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-04 18:43:55,462 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-04 18:43:55,462 - __main__ - INFO - Processing 25 employees...
+2026-03-04 18:43:55,528 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:43:55] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-04 18:44:15,370 - __main__ - INFO - Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-04 18:44:15,370 - __main__ - INFO - Download requested - filename: productivity_results_20260304_184355.csv
+2026-03-04 18:44:15,370 - __main__ - INFO - Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\productivity_results_20260304_184355.csv
+2026-03-04 18:44:15,370 - __main__ - INFO - File found, size: 1884 bytes
+2026-03-04 18:44:15,371 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2026 18:44:15] "GET /api/download/productivity_results_20260304_184355.csv HTTP/1.1" 200 -
+2026-03-04 18:49:48,236 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:49:48,237 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:49:48,237 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:49:48,238 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:49:49,289 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:49:54,044 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:49:54,045 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:49:54,500 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:49:54,504 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:49:54,507 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:53:29,669 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:53:30,726 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:53:37,544 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:53:37,548 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:53:38,430 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:53:38,436 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:53:38,440 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:55:55,424 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:55:55,425 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 18:55:56,796 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:56:01,316 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:56:01,317 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:56:01,774 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:56:01,779 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:56:01,782 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:58:12,693 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:58:12,699 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:58:12,700 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:58:13,971 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:58:21,193 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:58:21,196 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:58:21,915 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:58:21,924 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:58:21,929 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:58:22,741 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-04 18:58:22,742 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-04 18:58:22,744 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-04 18:58:22,763 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-04 18:58:22,792 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-04 18:58:22,818 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2026-03-04 18:58:22,822 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2026-03-04 18:58:22,832 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2026-03-04 18:58:22,905 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\resource_variable_ops.py', reloading
+2026-03-04 18:58:22,922 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
+2026-03-04 18:58:22,926 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
+2026-03-04 18:58:22,929 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
+2026-03-04 18:58:22,941 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\io_ops.py', reloading
+2026-03-04 18:58:22,950 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\string_ops.py', reloading
+2026-03-04 18:58:23,451 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:58:29,983 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:58:29,985 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:58:30,643 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:58:30,650 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:58:30,654 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:58:54,095 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:58:54,095 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\base_config.py', reloading
+2026-03-04 18:58:55,406 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:58:59,758 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:58:59,760 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:59:00,505 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:59:00,513 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:59:00,518 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 18:59:22,269 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:59:22,272 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:59:23,082 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:59:23,093 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.12:5002
+2026-03-04 18:59:23,093 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-04 18:59:23,103 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 18:59:28,643 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 18:59:28,644 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 18:59:29,229 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 18:59:29,234 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 18:59:29,237 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:07:28,656 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 19:07:30,084 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 19:07:36,080 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 19:07:36,081 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 19:07:36,589 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 19:07:36,594 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 19:07:36,597 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:12:06,633 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 19:12:06,634 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 19:12:06,634 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-04 19:12:07,591 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 19:12:13,944 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 19:12:13,945 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 19:12:14,583 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 19:12:14,593 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 19:12:14,599 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:14:24,035 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandocfilters-1.4.3.dist-info.zip', reloading
+2026-03-04 19:14:24,268 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\api\\extensions\\__init__.py', reloading
+2026-03-04 19:14:24,286 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\api\\indexers\\__init__.py', reloading
+2026-03-04 19:14:24,815 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 19:14:36,051 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 19:14:36,054 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 19:14:37,412 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 19:14:37,429 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 19:14:37,444 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:14:37,527 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\constructors\\test_from_records.py', reloading
+2026-03-04 19:14:37,621 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_coercion.py', reloading
+2026-03-04 19:14:37,649 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_delitem.py', reloading
+2026-03-04 19:14:37,674 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_get.py', reloading
+2026-03-04 19:14:37,695 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_getitem.py', reloading
+2026-03-04 19:14:37,722 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_get_value.py', reloading
+2026-03-04 19:14:37,743 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_indexing.py', reloading
+2026-03-04 19:14:37,775 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_insert.py', reloading
+2026-03-04 19:14:37,800 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_lookup.py', reloading
+2026-03-04 19:14:37,825 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_mask.py', reloading
+2026-03-04 19:14:37,851 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_setitem.py', reloading
+2026-03-04 19:14:37,885 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_set_value.py', reloading
+2026-03-04 19:14:37,908 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_take.py', reloading
+2026-03-04 19:14:37,930 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_where.py', reloading
+2026-03-04 19:14:37,959 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\indexing\\test_xs.py', reloading
+2026-03-04 19:14:38,286 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_add_prefix_suffix.py', reloading
+2026-03-04 19:14:38,314 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_align.py', reloading
+2026-03-04 19:14:38,343 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_append.py', reloading
+2026-03-04 19:14:38,369 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_asfreq.py', reloading
+2026-03-04 19:14:38,396 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_asof.py', reloading
+2026-03-04 19:14:38,424 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_assign.py', reloading
+2026-03-04 19:14:38,452 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_astype.py', reloading
+2026-03-04 19:14:38,484 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_at_time.py', reloading
+2026-03-04 19:14:38,510 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_between_time.py', reloading
+2026-03-04 19:14:38,542 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_clip.py', reloading
+2026-03-04 19:14:39,619 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 19:15:00,201 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 19:15:00,208 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 19:15:02,135 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 19:15:02,152 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 19:15:02,164 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:15:02,232 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\indexing\\test_set_value.py', reloading
+2026-03-04 19:15:02,246 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\indexing\\test_take.py', reloading
+2026-03-04 19:15:02,263 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\indexing\\test_where.py', reloading
+2026-03-04 19:15:02,283 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\indexing\\test_xs.py', reloading
+2026-03-04 19:15:02,455 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_align.py', reloading
+2026-03-04 19:15:02,472 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_append.py', reloading
+2026-03-04 19:15:02,488 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_argsort.py', reloading
+2026-03-04 19:15:02,506 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_asof.py', reloading
+2026-03-04 19:15:02,523 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_astype.py', reloading
+2026-03-04 19:15:02,543 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_autocorr.py', reloading
+2026-03-04 19:15:02,559 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_between.py', reloading
+2026-03-04 19:15:02,574 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_clip.py', reloading
+2026-03-04 19:15:02,591 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_combine.py', reloading
+2026-03-04 19:15:02,604 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_combine_first.py', reloading
+2026-03-04 19:15:02,620 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_compare.py', reloading
+2026-03-04 19:15:02,637 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_convert.py', reloading
+2026-03-04 19:15:02,653 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_convert_dtypes.py', reloading
+2026-03-04 19:15:02,669 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_copy.py', reloading
+2026-03-04 19:15:02,685 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_count.py', reloading
+2026-03-04 19:15:02,700 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_cov_corr.py', reloading
+2026-03-04 19:15:02,718 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_describe.py', reloading
+2026-03-04 19:15:02,736 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_diff.py', reloading
+2026-03-04 19:15:02,752 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_drop.py', reloading
+2026-03-04 19:15:02,769 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_dropna.py', reloading
+2026-03-04 19:15:02,790 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_drop_duplicates.py', reloading
+2026-03-04 19:15:02,808 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_dtypes.py', reloading
+2026-03-04 19:15:02,824 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_duplicated.py', reloading
+2026-03-04 19:15:02,839 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_equals.py', reloading
+2026-03-04 19:15:02,855 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_explode.py', reloading
+2026-03-04 19:15:02,872 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_fillna.py', reloading
+2026-03-04 19:15:02,893 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_get_numeric_data.py', reloading
+2026-03-04 19:15:02,910 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_head_tail.py', reloading
+2026-03-04 19:15:02,926 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_infer_objects.py', reloading
+2026-03-04 19:15:02,941 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_interpolate.py', reloading
+2026-03-04 19:15:02,965 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_isin.py', reloading
+2026-03-04 19:15:02,986 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_isna.py', reloading
+2026-03-04 19:15:03,004 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_is_monotonic.py', reloading
+2026-03-04 19:15:03,020 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_is_unique.py', reloading
+2026-03-04 19:15:03,035 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_item.py', reloading
+2026-03-04 19:15:03,052 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_matmul.py', reloading
+2026-03-04 19:15:03,069 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_nlargest.py', reloading
+2026-03-04 19:15:03,090 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_nunique.py', reloading
+2026-03-04 19:15:03,106 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_pct_change.py', reloading
+2026-03-04 19:15:03,124 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_pop.py', reloading
+2026-03-04 19:15:03,141 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_quantile.py', reloading
+2026-03-04 19:15:03,166 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_rank.py', reloading
+2026-03-04 19:15:03,189 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_reindex.py', reloading
+2026-03-04 19:15:03,211 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\tests\\series\\methods\\test_reindex_like.py', reloading
+2026-03-04 19:15:04,125 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 19:15:21,444 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 19:15:21,450 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 19:15:22,792 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 19:15:22,806 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 19:15:22,816 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:15:41,546 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+2026-03-04 19:15:41,592 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+2026-03-04 19:15:42,942 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 19:15:57,391 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 19:15:57,395 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 19:15:58,565 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 19:15:58,578 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 19:15:58,587 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:15:58,853 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\compat\\numpy\\function.py', reloading
+2026-03-04 19:15:58,891 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\compat\\numpy\\__init__.py', reloading
+2026-03-04 19:15:59,001 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\api\\__init__.py', reloading
+2026-03-04 19:15:59,005 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\api\\types\\__init__.py', reloading
+2026-03-04 19:15:59,013 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\api\\extensions\\__init__.py', reloading
+2026-03-04 19:15:59,017 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\api\\interchange\\__init__.py', reloading
+2026-03-04 19:15:59,021 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\arrays\\__init__.py', reloading
+2026-03-04 19:15:59,027 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\compat\\chainmap.py', reloading
+2026-03-04 19:16:00,754 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-04 19:16:11,288 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-04 19:16:11,291 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-04 19:16:12,300 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-04 19:16:12,310 - werkzeug - WARNING -  * Debugger is active!
+2026-03-04 19:16:12,316 - werkzeug - INFO -  * Debugger PIN: 796-502-977
+2026-03-04 19:16:13,885 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\compat\\pyarrow.py', reloading
+2026-03-04 19:16:13,890 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\compat\\__init__.py', reloading
+2026-03-04 19:16:13,895 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\compat\\_optional.py', reloading
+2026-03-04 19:16:13,914 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\conftest.py', reloading
+2026-03-04 19:16:13,915 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\conftest.py', reloading
+2026-03-04 19:16:13,915 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\conftest.py', reloading
+2026-03-04 19:16:13,918 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\conftest.py', reloading
+2026-03-04 19:16:13,931 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\core\\accessor.py', reloading
+2026-03-04 19:16:13,932 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\MyFinal\\Lib\\Python38\\Lib\\site-packages\\pandas\\core\\accessor.py', reloading
+2026-03-04 19:16:15,662 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)

@@ -1,0 +1,27 @@
+2025-12-07 08:33:25,717 | INFO | Starting Employee Attrition Prediction API Server...
+2025-12-07 08:33:25,738 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-07 08:33:25,738 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-07 08:33:25,747 | INFO |  * Restarting with watchdog (windowsapi)
+2025-12-07 08:33:26,376 | INFO | Starting Employee Attrition Prediction API Server...
+2025-12-07 08:33:26,383 | WARNING |  * Debugger is active!
+2025-12-07 08:33:26,387 | INFO |  * Debugger PIN: 600-138-675
+2025-12-07 08:33:28,596 | INFO | Root endpoint accessed
+2025-12-07 08:33:28,596 | INFO | 127.0.0.1 - - [07/Dec/2025 08:33:28] "GET / HTTP/1.1" 200 -
+2025-12-07 08:33:28,619 | INFO | 127.0.0.1 - - [07/Dec/2025 08:33:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-07 08:33:48,124 | INFO | Starting Employee Attrition Prediction API Server...
+2025-12-07 08:33:48,141 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-07 08:33:48,141 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-07 08:33:48,147 | INFO |  * Restarting with watchdog (windowsapi)
+2025-12-07 08:33:48,817 | INFO | Starting Employee Attrition Prediction API Server...
+2025-12-07 08:33:48,829 | WARNING |  * Debugger is active!
+2025-12-07 08:33:48,832 | INFO |  * Debugger PIN: 600-138-675
+2025-12-07 08:33:58,763 | INFO | Starting Employee Attrition Prediction API Server...
+2025-12-07 08:33:58,776 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-07 08:33:58,776 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-07 08:33:58,782 | INFO |  * Restarting with watchdog (windowsapi)
+2025-12-07 08:33:59,509 | INFO | Starting Employee Attrition Prediction API Server...
+2025-12-07 08:33:59,520 | WARNING |  * Debugger is active!
+2025-12-07 08:33:59,524 | INFO |  * Debugger PIN: 600-138-675

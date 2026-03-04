@@ -1,0 +1,26 @@
+role_level,position,age,experience_years,avg_task_completion,attendance_rate,projects_handled,overtime_hours,training_hours,FeedBack,Predicted_Class,Productivity_Score,Adjusted_Productivity,Risk_Level
+Senior,Data Scientist,45,20,5,5,15,20,30,5,5,85.59,80.24,Low Risk
+Junior,Data Analyst,26,3,2,3,4,35,12,2,1,33.33,26.82,High Risk
+Trainee,Business Analyst,23,1,1,2,2,40,8,1,1,19.82,15.64,High Risk
+Senior,UX Designer,39,15,4,4,12,18,22,4,4,66.67,59.9,Moderate Risk
+Junior,DevOps Engineer,30,6,3,3,7,25,15,3,2,45.05,37.31,High Risk
+Senior,System Administrator,50,25,5,4,18,12,28,5,5,86.49,84.46,Low Risk
+Trainee,Data Analyst,24,2,2,2,3,30,10,2,1,27.03,21.54,High Risk
+Senior,Database Administrator,42,18,4,5,14,15,20,4,4,71.17,65.61,Moderate Risk
+Junior,Business Analyst,28,5,3,3,6,27,14,3,2,42.34,34.73,High Risk
+Trainee,UX Designer,22,1,1,1,1,45,6,1,1,13.51,10.66,High Risk
+Senior,Data Scientist,47,22,5,5,20,10,35,5,5,99.1,94.45,Low Risk
+Junior,QA Tester,33,7,3,4,8,22,18,3,2,52.25,43.68,High Risk
+Senior,DevOps Engineer,44,19,4,4,16,16,25,4,5,76.58,71.2,Low Risk
+Trainee,Database Administrator,25,2,2,2,4,38,9,2,1,27.93,22.26,High Risk
+Junior,Data Scientist,31,6,3,3,9,24,16,3,3,49.55,41.03,High Risk
+Senior,Business Analyst,52,28,5,5,22,14,32,5,5,100.0,100.0,Low Risk
+Senior,Solution Architect,48,23,5,5,18,12,30,5,5,90.99,87.44,Low Risk
+Junior,System Analyst,29,5,3,3,7,28,12,3,2,42.34,34.73,High Risk
+Trainee,UX Researcher,24,2,2,2,3,35,10,2,1,27.03,21.54,High Risk
+Senior,Cloud Engineer,41,17,4,4,14,20,25,4,4,72.97,66.7,Moderate Risk
+Junior,QA Engineer,27,4,3,3,6,30,14,3,2,42.34,34.4,High Risk
+Senior,Data Engineer,45,20,5,5,16,18,28,5,5,85.59,80.24,Low Risk
+Trainee,Support Analyst,23,1,1,2,2,40,8,1,1,19.82,15.64,High Risk
+Junior,DevOps Intern,25,1,2,2,3,38,10,2,1,27.03,21.33,High Risk
+Senior,IT Manager,50,25,5,5,20,15,32,5,5,96.4,94.14,Low Risk
