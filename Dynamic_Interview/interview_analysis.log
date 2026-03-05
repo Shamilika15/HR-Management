@@ -1,0 +1,503 @@
+2025-12-07 20:48:27,510 - INFO - Initializing Interview Data Processor...
+2025-12-07 20:48:27,511 - INFO - Loading model: all-MiniLM-L6-v2
+2025-12-07 20:48:27,511 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-07 20:48:27,956 - INFO - Use pytorch device: cpu
+2025-12-07 20:48:35,263 - INFO - Model loaded successfully
+2025-12-07 20:48:35,263 - INFO - Loading data from: interview_data.csv
+2025-12-07 20:48:35,267 - INFO - Successfully loaded data with utf-8 encoding
+2025-12-07 20:48:35,268 - INFO - Cleaning dataset...
+2025-12-07 20:48:35,271 - INFO - Analyzing dataset...
+2025-12-07 20:48:35,277 - INFO - Data processor initialized successfully
+2025-12-07 20:48:35,278 - INFO - Evaluating semantic similarity for all answers...
+2025-12-07 20:48:36,014 - INFO - Semantic similarity evaluation completed successfully
+2025-12-07 20:48:36,030 - INFO - Processed dataset saved to: interview_eval_dataset_processed_20251207_204836.csv
+2025-12-07 20:48:36,030 - INFO - Analysis report saved to: interview_eval_dataset_processed_20251207_204836_report.json
+2025-12-07 20:52:48,445 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-07 20:52:48,887 - INFO - Use pytorch device: cpu
+2025-12-07 20:54:48,990 - INFO - ===== TRAINING STARTED =====
+2025-12-07 20:54:48,992 - INFO - Loaded dataset with 120 rows
+2025-12-07 20:54:48,994 - INFO - Loading model: all-MiniLM-L6-v2
+2025-12-07 20:54:48,995 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-07 20:54:49,439 - INFO - Use pytorch device: cpu
+2025-12-07 20:54:49,439 - INFO - Computing similarity scores...
+2025-12-07 20:54:58,920 - INFO - Processed dataset saved to: F:\Current\2025 Slit_July Active\HR group G4\Dynamic Interview\Development Process\processed_interview_dataset.csv
+2025-12-07 20:54:59,006 - INFO - Model saved to: F:\Current\2025 Slit_July Active\HR group G4\Dynamic Interview\Development Process\trained_interview_model.pkl
+2025-12-07 20:54:59,006 - INFO - ===== TRAINING COMPLETED SUCCESSFULLY =====
+2025-12-07 20:55:39,701 - INFO - Model loaded successfully.
+2025-12-07 20:57:13,399 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-07 20:57:13,824 - INFO - Use pytorch device: cpu
+2025-12-07 20:57:13,825 - INFO - Loading dataset...
+2025-12-07 20:57:13,828 - INFO - Dataset loaded successfully
+2025-12-07 20:57:13,829 - INFO - Computing semantic similarity...
+2025-12-07 20:57:21,436 - INFO - Model saved.
+2025-12-07 20:57:21,440 - INFO - Processed dataset saved to: processed_interview_data_20251207_2057.csv
+2025-12-07 20:57:34,138 - INFO - Loading trained model...
+2025-12-07 20:58:06,551 - INFO - Loading trained model...
+2025-12-07 21:03:18,088 - INFO - Starting training pipeline...
+2025-12-07 21:03:18,091 - ERROR - Training pipeline failed: name 'InterviewDataProcessor' is not defined
+2025-12-07 21:12:24,190 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-12-07 21:12:24,190 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-07 21:12:24,863 - INFO - Use pytorch device: cpu
+2025-12-07 21:12:32,328 - INFO - Model loaded successfully
+2025-12-07 21:12:32,341 - INFO - CSV loaded with utf-8
+2025-12-07 21:12:56,757 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-12-07 21:12:56,758 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-07 21:12:56,911 - INFO - Use pytorch device: cpu
+2025-12-07 21:12:56,921 - INFO - Model loaded successfully
+2025-12-07 21:12:56,923 - INFO - CSV loaded with utf-8
+2025-12-07 21:16:29,601 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-12-07 21:16:29,601 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-07 21:16:29,753 - INFO - Use pytorch device: cpu
+2025-12-07 21:16:29,765 - INFO - Model loaded successfully
+2025-12-07 21:16:29,767 - INFO - CSV loaded with utf-8
+2025-12-08 07:58:13,884 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-12-08 07:58:13,887 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-08 07:58:14,265 - INFO - Use pytorch device: cpu
+2025-12-08 07:58:14,292 - INFO - Model loaded successfully
+2025-12-08 07:58:14,302 - INFO - CSV loaded with utf-8
+2025-12-08 08:07:58,149 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-12-08 08:07:58,149 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-08 08:07:58,562 - INFO - Use pytorch device: cpu
+2025-12-08 08:08:05,539 - INFO - Model loaded successfully
+2025-12-08 08:08:05,542 - INFO - CSV loaded with utf-8
+2025-12-08 08:08:22,571 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-12-08 08:08:22,571 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-08 08:08:22,775 - INFO - Use pytorch device: cpu
+2025-12-08 08:08:22,796 - INFO - Model loaded successfully
+2025-12-08 08:08:22,799 - INFO - CSV loaded with utf-8
+2025-12-08 08:08:50,743 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-12-08 08:08:50,743 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-08 08:08:50,934 - INFO - Use pytorch device: cpu
+2025-12-08 08:08:50,952 - INFO - Model loaded successfully
+2025-12-08 08:08:50,955 - INFO - CSV loaded with utf-8
+2026-03-01 10:57:21,084 - INFO - Initializing Interview Data Processor...
+2026-03-01 10:57:21,084 - INFO - Loading model: all-MiniLM-L6-v2
+2026-03-01 10:57:21,085 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-01 10:57:45,736 - INFO - Use pytorch device: cuda
+2026-03-01 10:57:46,315 - INFO - Model loaded successfully
+2026-03-01 10:57:46,315 - INFO - Loading data from: interview_data.csv
+2026-03-01 10:57:46,325 - INFO - Successfully loaded data with utf-8 encoding
+2026-03-01 10:57:46,326 - INFO - Cleaning dataset...
+2026-03-01 10:57:46,330 - INFO - Analyzing dataset...
+2026-03-01 10:57:46,336 - INFO - Data processor initialized successfully
+2026-03-01 10:57:46,336 - INFO - Evaluating semantic similarity for all answers...
+2026-03-01 10:57:46,474 - INFO - Semantic similarity evaluation completed successfully
+2026-03-01 10:57:46,489 - INFO - Processed dataset saved to: interview_eval_dataset_processed_20260301_105746.csv
+2026-03-01 10:57:46,493 - INFO - Analysis report saved to: interview_eval_dataset_processed_20260301_105746_report.json
+2026-03-01 14:42:54,492 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-01 14:42:54,492 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-01 14:42:56,296 - INFO - Use pytorch device: cuda
+2026-03-01 14:42:56,483 - INFO - Model loaded successfully
+2026-03-01 14:42:56,486 - INFO - CSV loaded with utf-8
+2026-03-01 14:43:58,039 - INFO - Initializing Interview Data Processor...
+2026-03-01 14:43:58,040 - INFO - Loading model: all-MiniLM-L6-v2
+2026-03-01 14:43:58,040 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-01 14:44:11,102 - INFO - Use pytorch device: cuda
+2026-03-01 14:44:11,291 - INFO - Model loaded successfully
+2026-03-01 14:44:11,292 - INFO - Loading data from: interview_data.csv
+2026-03-01 14:44:11,294 - INFO - Successfully loaded data with utf-8 encoding
+2026-03-01 14:44:11,295 - INFO - Cleaning dataset...
+2026-03-01 14:44:11,297 - INFO - Analyzing dataset...
+2026-03-01 14:44:11,301 - INFO - Data processor initialized successfully
+2026-03-01 14:44:11,302 - INFO - Evaluating semantic similarity for all answers...
+2026-03-01 14:44:11,424 - INFO - Semantic similarity evaluation completed successfully
+2026-03-01 14:44:11,437 - INFO - Processed dataset saved to: interview_eval_dataset_processed_20260301_144411.csv
+2026-03-01 14:44:11,438 - INFO - Analysis report saved to: interview_eval_dataset_processed_20260301_144411_report.json
+2026-03-01 14:46:49,227 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-01 14:46:49,227 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-01 14:46:51,027 - INFO - Use pytorch device: cuda
+2026-03-01 14:46:51,226 - INFO - Model loaded successfully
+2026-03-01 14:46:51,229 - INFO - CSV loaded with utf-8
+2026-03-01 14:54:47,688 - INFO - Starting Dynamic Interview API...
+2026-03-01 14:54:47,688 - INFO - Dataset path: interview_data.csv
+2026-03-01 14:54:47,688 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-01 14:54:47,688 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-01 14:55:01,675 - INFO - Use pytorch device: cuda
+2026-03-01 14:55:01,871 - INFO - Model loaded successfully
+2026-03-01 14:55:01,873 - INFO - CSV loaded with utf-8
+2026-03-01 14:55:01,876 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 14:55:01,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://10.87.70.163:5004
+2026-03-01 14:55:01,890 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-01 14:55:01,895 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-01 14:55:04,877 - INFO - Starting Dynamic Interview API...
+2026-03-01 14:55:04,879 - INFO - Dataset path: interview_data.csv
+2026-03-01 14:55:04,879 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-01 14:55:04,879 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-01 14:55:15,879 - INFO - Use pytorch device: cuda
+2026-03-01 14:55:16,090 - INFO - Model loaded successfully
+2026-03-01 14:55:16,093 - INFO - CSV loaded with utf-8
+2026-03-01 14:55:16,097 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 14:55:16,105 - WARNING -  * Debugger is active!
+2026-03-01 14:55:16,108 - INFO -  * Debugger PIN: 136-785-371
+2026-03-01 14:55:24,145 - INFO - 127.0.0.1 - - [01/Mar/2026 14:55:24] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 14:55:24,148 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 14:55:24,149 - INFO - 127.0.0.1 - - [01/Mar/2026 14:55:24] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-01 14:55:37,180 - INFO - 127.0.0.1 - - [01/Mar/2026 14:55:37] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-01 14:55:37,495 - INFO - Generating 3 questions for role: Backend Engineer
+2026-03-01 14:55:40,792 - INFO - 127.0.0.1 - - [01/Mar/2026 14:55:40] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-01 14:56:00,913 - INFO - 127.0.0.1 - - [01/Mar/2026 14:56:00] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 14:56:01,218 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 14:56:01,220 - INFO - 127.0.0.1 - - [01/Mar/2026 14:56:01] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-01 14:56:33,903 - INFO - 127.0.0.1 - - [01/Mar/2026 14:56:33] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 14:56:33,905 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 14:56:33,906 - INFO - 127.0.0.1 - - [01/Mar/2026 14:56:33] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-01 14:56:53,764 - INFO - 127.0.0.1 - - [01/Mar/2026 14:56:53] "OPTIONS /api/full-interview HTTP/1.1" 200 -
+2026-03-01 14:56:54,081 - INFO - Generating 1 questions for role: Backend Engineer
+2026-03-01 14:56:56,507 - INFO - 127.0.0.1 - - [01/Mar/2026 14:56:56] "POST /api/full-interview HTTP/1.1" 200 -
+2026-03-01 14:57:08,646 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:08] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 14:57:08,956 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 14:57:08,957 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:08] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-01 14:57:13,616 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:13] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-01 14:57:13,878 - INFO - Generating 3 questions for role: Backend Engineer
+2026-03-01 14:57:16,260 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:16] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-01 14:57:30,281 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:30] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 14:57:30,584 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 14:57:30,585 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:30] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-01 14:57:52,269 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:52] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-01 14:57:52,518 - INFO - Generating 3 questions for role: Backend Enegineer
+2026-03-01 14:57:55,232 - INFO - 127.0.0.1 - - [01/Mar/2026 14:57:55] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-01 15:02:04,481 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\api.py', reloading
+2026-03-01 15:02:04,482 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\api.py', reloading
+2026-03-01 15:02:05,870 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-01 15:02:09,030 - INFO - Starting Dynamic Interview API...
+2026-03-01 15:02:09,030 - INFO - Dataset path: interview_data.csv
+2026-03-01 15:02:09,030 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-01 15:02:09,030 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-01 15:02:23,168 - INFO - Use pytorch device: cuda
+2026-03-01 15:02:23,501 - INFO - Model loaded successfully
+2026-03-01 15:02:23,506 - INFO - CSV loaded with utf-8
+2026-03-01 15:02:23,510 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 15:02:23,527 - WARNING -  * Debugger is active!
+2026-03-01 15:02:23,534 - INFO -  * Debugger PIN: 136-785-371
+2026-03-01 15:03:23,243 - INFO - 127.0.0.1 - - [01/Mar/2026 15:03:23] "GET /api/test HTTP/1.1" 200 -
+2026-03-01 15:03:23,244 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-01 15:03:23,245 - INFO - 127.0.0.1 - - [01/Mar/2026 15:03:23] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-01 15:04:11,914 - INFO - 127.0.0.1 - - [01/Mar/2026 15:04:11] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-01 15:04:12,221 - INFO - Generating 4 questions for role: Backend Engineer
+2026-03-01 15:04:14,668 - INFO - Raw output type: <class 'str'>
+2026-03-01 15:04:14,668 - INFO - Returning 4 questions
+2026-03-01 15:04:14,668 - INFO - 127.0.0.1 - - [01/Mar/2026 15:04:14] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-02 09:33:31,421 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\test.py', reloading
+2026-03-02 09:33:34,022 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-02 09:33:41,087 - INFO - Starting Dynamic Interview API...
+2026-03-02 09:33:41,087 - INFO - Dataset path: interview_data.csv
+2026-03-02 09:33:41,088 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-02 09:33:41,088 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-02 09:33:58,655 - INFO - Use pytorch device: cuda
+2026-03-02 09:33:59,135 - INFO - Model loaded successfully
+2026-03-02 09:33:59,139 - INFO - CSV loaded with utf-8
+2026-03-02 09:33:59,142 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:33:59,167 - WARNING -  * Debugger is active!
+2026-03-02 09:33:59,175 - INFO -  * Debugger PIN: 136-785-371
+2026-03-02 09:34:18,707 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\machine.py', reloading
+2026-03-02 09:34:18,708 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\machine.py', reloading
+2026-03-02 09:34:21,158 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-02 09:34:26,622 - INFO - Starting Dynamic Interview API...
+2026-03-02 09:34:26,623 - INFO - Dataset path: interview_data.csv
+2026-03-02 09:34:26,623 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-02 09:34:26,623 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-02 09:34:40,907 - INFO - Use pytorch device: cuda
+2026-03-02 09:34:41,181 - INFO - Model loaded successfully
+2026-03-02 09:34:41,184 - INFO - CSV loaded with utf-8
+2026-03-02 09:34:41,188 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:34:41,202 - WARNING -  * Debugger is active!
+2026-03-02 09:34:41,208 - INFO -  * Debugger PIN: 136-785-371
+2026-03-02 09:40:05,125 - INFO - 127.0.0.1 - - [02/Mar/2026 09:40:05] "GET /api/test HTTP/1.1" 200 -
+2026-03-02 09:40:05,128 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:40:05,130 - INFO - 127.0.0.1 - - [02/Mar/2026 09:40:05] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-02 09:41:25,945 - INFO - 127.0.0.1 - - [02/Mar/2026 09:41:25] "GET /api/test HTTP/1.1" 200 -
+2026-03-02 09:41:25,948 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:41:25,949 - INFO - 127.0.0.1 - - [02/Mar/2026 09:41:25] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-02 09:41:31,211 - INFO - 127.0.0.1 - - [02/Mar/2026 09:41:31] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-02 09:41:31,519 - INFO - Generating 3 questions for role: Backend Engineer
+2026-03-02 09:41:34,404 - INFO - Raw output type: <class 'str'>
+2026-03-02 09:41:34,405 - INFO - Returning 3 questions
+2026-03-02 09:41:34,405 - INFO - 127.0.0.1 - - [02/Mar/2026 09:41:34] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-02 09:42:10,345 - INFO - 127.0.0.1 - - [02/Mar/2026 09:42:10] "OPTIONS /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-02 09:42:10,650 - INFO - Evaluating 3 answers...
+2026-03-02 09:42:11,306 - INFO - 127.0.0.1 - - [02/Mar/2026 09:42:11] "POST /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-02 09:46:20,858 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-02 09:46:20,858 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-02 09:46:22,728 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-02 09:46:26,110 - INFO - Starting Dynamic Interview API...
+2026-03-02 09:46:26,111 - INFO - Dataset path: interview_data.csv
+2026-03-02 09:46:26,111 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-02 09:46:26,112 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-02 09:46:39,749 - INFO - Use pytorch device: cuda
+2026-03-02 09:46:40,037 - INFO - Model loaded successfully
+2026-03-02 09:46:40,040 - INFO - CSV loaded with utf-8
+2026-03-02 09:46:40,043 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:46:40,056 - WARNING -  * Debugger is active!
+2026-03-02 09:46:40,063 - INFO -  * Debugger PIN: 136-785-371
+2026-03-02 09:46:57,281 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\api.py', reloading
+2026-03-02 09:46:57,281 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_App\\Dynamic_Interview\\api.py', reloading
+2026-03-02 09:46:59,069 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-02 09:47:02,539 - INFO - Starting Dynamic Interview API...
+2026-03-02 09:47:02,539 - INFO - Dataset path: interview_data.csv
+2026-03-02 09:47:02,539 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-02 09:47:02,539 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-02 09:47:15,387 - INFO - Use pytorch device: cuda
+2026-03-02 09:47:15,653 - INFO - Model loaded successfully
+2026-03-02 09:47:15,655 - INFO - CSV loaded with utf-8
+2026-03-02 09:47:15,658 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:47:15,673 - WARNING -  * Debugger is active!
+2026-03-02 09:47:15,677 - INFO -  * Debugger PIN: 136-785-371
+2026-03-02 09:53:12,823 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:12] "GET /api/test HTTP/1.1" 200 -
+2026-03-02 09:53:12,824 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:53:12,826 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:12] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-02 09:53:15,647 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:15] "GET /api/test HTTP/1.1" 200 -
+2026-03-02 09:53:15,958 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:53:15,959 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:15] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-02 09:53:19,471 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:19] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-02 09:53:19,721 - INFO - Generating 3 questions for role: Backend Engineer
+2026-03-02 09:53:21,893 - INFO - Raw output: ['Can you explain your experience with designing and implementing RESTful APIs?', 'How do you ensure the scalability and performance of backend systems in your previous projects?', 'What is your approach to database design and optimization for backend applications?']
+2026-03-02 09:53:21,894 - INFO - Raw output type: <class 'list'>
+2026-03-02 09:53:21,895 - INFO - Returning 3 cleaned questions
+2026-03-02 09:53:21,895 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:21] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-02 09:53:57,666 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:57] "OPTIONS /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-02 09:53:57,978 - INFO - Evaluating 3 answers...
+2026-03-02 09:53:58,450 - INFO - 127.0.0.1 - - [02/Mar/2026 09:53:58] "POST /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-02 09:54:08,137 - INFO - 127.0.0.1 - - [02/Mar/2026 09:54:08] "GET /api/test HTTP/1.1" 200 -
+2026-03-02 09:54:08,447 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-02 09:54:08,448 - INFO - 127.0.0.1 - - [02/Mar/2026 09:54:08] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-02 09:54:11,529 - INFO - 127.0.0.1 - - [02/Mar/2026 09:54:11] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-02 09:54:11,794 - INFO - Generating 3 questions for role: Backend Engineer
+2026-03-02 09:54:13,916 - INFO - Raw output: ['Can you explain the process of optimizing database queries for improved performance?', 'How do you handle large-scale data processing and ensure scalability in backend systems?', 'Describe a challenging technical problem you faced in a previous project and how you solved it as a Backend Engineer.']
+2026-03-02 09:54:13,917 - INFO - Raw output type: <class 'list'>
+2026-03-02 09:54:13,917 - INFO - Returning 3 cleaned questions
+2026-03-02 09:54:13,918 - INFO - 127.0.0.1 - - [02/Mar/2026 09:54:13] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-02 09:54:21,320 - INFO - 127.0.0.1 - - [02/Mar/2026 09:54:21] "OPTIONS /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-02 09:54:21,637 - INFO - Evaluating 3 answers...
+2026-03-02 09:54:22,030 - INFO - 127.0.0.1 - - [02/Mar/2026 09:54:22] "POST /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-03 14:44:06,484 - INFO - Starting Dynamic Interview API...
+2026-03-03 14:44:06,486 - INFO - Dataset path: interview_data.csv
+2026-03-03 14:44:06,486 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 14:44:06,486 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 14:44:22,032 - INFO - Use pytorch device: cuda
+2026-03-03 14:44:22,520 - INFO - Model loaded successfully
+2026-03-03 14:44:22,529 - INFO - CSV loaded with utf-8
+2026-03-03 14:44:22,532 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:44:22,545 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://10.175.192.163:5004
+2026-03-03 14:44:22,545 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-03 14:44:22,550 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 14:44:25,474 - INFO - Starting Dynamic Interview API...
+2026-03-03 14:44:25,474 - INFO - Dataset path: interview_data.csv
+2026-03-03 14:44:25,474 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 14:44:25,474 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 14:44:37,125 - INFO - Use pytorch device: cuda
+2026-03-03 14:44:37,329 - INFO - Model loaded successfully
+2026-03-03 14:44:37,332 - INFO - CSV loaded with utf-8
+2026-03-03 14:44:37,334 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:44:37,342 - WARNING -  * Debugger is active!
+2026-03-03 14:44:37,345 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 14:44:37,363 - INFO - 127.0.0.1 - - [03/Mar/2026 14:44:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:45:49,230 - INFO - 127.0.0.1 - - [03/Mar/2026 14:45:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:45:49,232 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:45:49,233 - INFO - 127.0.0.1 - - [03/Mar/2026 14:45:49] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:46:05,840 - INFO - 127.0.0.1 - - [03/Mar/2026 14:46:05] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:46:06,144 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:46:06,145 - INFO - 127.0.0.1 - - [03/Mar/2026 14:46:06] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:46:34,919 - INFO - 127.0.0.1 - - [03/Mar/2026 14:46:34] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:46:34,921 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:46:34,922 - INFO - 127.0.0.1 - - [03/Mar/2026 14:46:34] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:46:43,715 - INFO - 127.0.0.1 - - [03/Mar/2026 14:46:43] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:46:44,025 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:46:44,026 - INFO - 127.0.0.1 - - [03/Mar/2026 14:46:44] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:47:00,231 - INFO - 127.0.0.1 - - [03/Mar/2026 14:47:00] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:47:00,233 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:47:00,233 - INFO - 127.0.0.1 - - [03/Mar/2026 14:47:00] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:48:04,599 - INFO - 127.0.0.1 - - [03/Mar/2026 14:48:04] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:48:04,601 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:48:04,601 - INFO - 127.0.0.1 - - [03/Mar/2026 14:48:04] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:48:07,597 - INFO - 127.0.0.1 - - [03/Mar/2026 14:48:07] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:48:07,912 - INFO - Generating 3 questions for role: BI Analyst
+2026-03-03 14:48:09,934 - INFO - Raw output: ['Can you explain your experience with data visualization tools such as Tableau or Power BI?', 'How do you approach identifying key performance indicators (KPIs) for a business?', 'Describe a project where you used SQL to extract and analyze data.']
+2026-03-03 14:48:09,935 - INFO - Raw output type: <class 'list'>
+2026-03-03 14:48:09,935 - INFO - Returning 3 cleaned questions
+2026-03-03 14:48:09,935 - INFO - 127.0.0.1 - - [03/Mar/2026 14:48:09] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:49:58,649 - INFO - 127.0.0.1 - - [03/Mar/2026 14:49:58] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:49:58,652 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:49:58,653 - INFO - 127.0.0.1 - - [03/Mar/2026 14:49:58] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:50:26,534 - INFO - 127.0.0.1 - - [03/Mar/2026 14:50:26] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:50:26,854 - INFO - Generating 3 questions for role: BI Analyst
+2026-03-03 14:50:28,725 - INFO - Raw output: ['Can you walk us through a recent project where you used data visualization tools to present insights to stakeholders?', 'How do you stay updated on the latest trends and technologies in business intelligence?', 'Can you provide an example of a challenging data problem you encountered and how you approached solving it?']
+2026-03-03 14:50:28,725 - INFO - Raw output type: <class 'list'>
+2026-03-03 14:50:28,726 - INFO - Returning 3 cleaned questions
+2026-03-03 14:50:28,727 - INFO - 127.0.0.1 - - [03/Mar/2026 14:50:28] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:50:49,925 - INFO - 127.0.0.1 - - [03/Mar/2026 14:50:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:50:50,231 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:50:50,232 - INFO - 127.0.0.1 - - [03/Mar/2026 14:50:50] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:51:00,228 - INFO - 127.0.0.1 - - [03/Mar/2026 14:51:00] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:51:00,230 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:51:00,230 - INFO - 127.0.0.1 - - [03/Mar/2026 14:51:00] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:51:50,446 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 14:51:50,447 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 14:51:52,292 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 14:51:55,588 - INFO - Starting Dynamic Interview API...
+2026-03-03 14:51:55,589 - INFO - Dataset path: interview_data.csv
+2026-03-03 14:51:55,589 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 14:51:55,589 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 14:52:09,782 - INFO - Use pytorch device: cuda
+2026-03-03 14:52:10,110 - INFO - Model loaded successfully
+2026-03-03 14:52:10,114 - INFO - CSV loaded with utf-8
+2026-03-03 14:52:10,118 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:52:10,134 - WARNING -  * Debugger is active!
+2026-03-03 14:52:10,141 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 14:52:10,180 - INFO - 127.0.0.1 - - [03/Mar/2026 14:52:10] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:52:10,190 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:52:10,192 - INFO - 127.0.0.1 - - [03/Mar/2026 14:52:10] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:52:10,194 - INFO - 127.0.0.1 - - [03/Mar/2026 14:52:10] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:52:10,501 - INFO - Generating 3 questions for role: Backend Engineer
+2026-03-03 14:52:12,253 - INFO - Raw output: ['Can you explain the difference between synchronous and asynchronous programming in the context of backend development?', 'What experience do you have with designing and implementing RESTful APIs?', 'How do you ensure the security and scalability of backend systems in your previous projects?']
+2026-03-03 14:52:12,254 - INFO - Raw output type: <class 'list'>
+2026-03-03 14:52:12,254 - INFO - Returning 3 cleaned questions
+2026-03-03 14:52:12,255 - INFO - 127.0.0.1 - - [03/Mar/2026 14:52:12] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:53:27,927 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 14:53:27,927 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 14:53:29,495 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 14:53:33,015 - INFO - Starting Dynamic Interview API...
+2026-03-03 14:53:33,016 - INFO - Dataset path: interview_data.csv
+2026-03-03 14:53:33,016 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 14:53:33,016 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 14:53:46,924 - INFO - Use pytorch device: cuda
+2026-03-03 14:53:47,245 - INFO - Model loaded successfully
+2026-03-03 14:53:47,249 - INFO - CSV loaded with utf-8
+2026-03-03 14:53:47,253 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:53:47,265 - WARNING -  * Debugger is active!
+2026-03-03 14:53:47,274 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 14:53:47,304 - INFO - 127.0.0.1 - - [03/Mar/2026 14:53:47] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:53:47,311 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:53:47,312 - INFO - 127.0.0.1 - - [03/Mar/2026 14:53:47] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:53:47,313 - INFO - 127.0.0.1 - - [03/Mar/2026 14:53:47] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:53:47,630 - INFO - Generating 3 questions for role: DevOps Engineer
+2026-03-03 14:53:49,633 - INFO - Raw output: ['Can you explain the importance of automation in the DevOps process and provide examples of tools you have used for automation?', 'What experience do you have with cloud platforms such as AWS, Azure, or Google Cloud Platform in a DevOps context?', 'How do you approach troubleshooting and resolving issues in a DevOps environment, and can you give an example of a challenging problem you solved in the past?']
+2026-03-03 14:53:49,634 - INFO - Raw output type: <class 'list'>
+2026-03-03 14:53:49,634 - INFO - Returning 3 cleaned questions
+2026-03-03 14:53:49,635 - INFO - 127.0.0.1 - - [03/Mar/2026 14:53:49] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:54:09,865 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 14:54:09,865 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 14:54:11,802 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 14:54:15,000 - INFO - Starting Dynamic Interview API...
+2026-03-03 14:54:15,000 - INFO - Dataset path: interview_data.csv
+2026-03-03 14:54:15,001 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 14:54:15,001 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 14:54:28,826 - INFO - Use pytorch device: cuda
+2026-03-03 14:54:29,143 - INFO - Model loaded successfully
+2026-03-03 14:54:29,147 - INFO - CSV loaded with utf-8
+2026-03-03 14:54:29,152 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:54:29,165 - WARNING -  * Debugger is active!
+2026-03-03 14:54:29,172 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 14:54:29,202 - INFO - 127.0.0.1 - - [03/Mar/2026 14:54:29] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:54:29,206 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:54:29,210 - INFO - 127.0.0.1 - - [03/Mar/2026 14:54:29] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:54:29,210 - INFO - 127.0.0.1 - - [03/Mar/2026 14:54:29] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:54:29,526 - INFO - Generating 3 questions for role: DevOps Engineer
+2026-03-03 14:54:30,758 - INFO - Raw output: ['Can you explain your experience with implementing CI/CD pipelines in previous projects?', 'How do you handle incidents and troubleshoot issues in a production environment?', 'What tools and technologies do you have expertise in for infrastructure automation and configuration management?']
+2026-03-03 14:54:30,759 - INFO - Raw output type: <class 'list'>
+2026-03-03 14:54:30,760 - INFO - Returning 3 cleaned questions
+2026-03-03 14:54:30,761 - INFO - 127.0.0.1 - - [03/Mar/2026 14:54:30] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:54:37,661 - INFO - 127.0.0.1 - - [03/Mar/2026 14:54:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:54:37,663 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:54:37,663 - INFO - 127.0.0.1 - - [03/Mar/2026 14:54:37] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:55:28,090 - INFO - 127.0.0.1 - - [03/Mar/2026 14:55:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:55:28,399 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:55:28,400 - INFO - 127.0.0.1 - - [03/Mar/2026 14:55:28] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:55:32,385 - INFO - 127.0.0.1 - - [03/Mar/2026 14:55:32] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:55:32,632 - INFO - Generating 3 questions for role: HR Manager
+2026-03-03 14:55:34,071 - INFO - Raw output: ['What strategies would you implement to improve employee retention within the company?', 'Can you provide an example of a successful employee relations issue you resolved in the past?', 'How do you stay current with HR laws and regulations to ensure compliance within the organization?']
+2026-03-03 14:55:34,071 - INFO - Raw output type: <class 'list'>
+2026-03-03 14:55:34,071 - INFO - Returning 3 cleaned questions
+2026-03-03 14:55:34,072 - INFO - 127.0.0.1 - - [03/Mar/2026 14:55:34] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:56:11,920 - INFO - 127.0.0.1 - - [03/Mar/2026 14:56:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:56:12,225 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:56:12,225 - INFO - 127.0.0.1 - - [03/Mar/2026 14:56:12] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:56:13,828 - INFO - 127.0.0.1 - - [03/Mar/2026 14:56:13] "GET /api/test HTTP/1.1" 200 -
+2026-03-03 14:56:13,830 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 14:56:13,832 - INFO - 127.0.0.1 - - [03/Mar/2026 14:56:13] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-03 14:56:17,636 - INFO - 127.0.0.1 - - [03/Mar/2026 14:56:17] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:56:17,947 - INFO - Generating 10 questions for role: HR Manager
+2026-03-03 14:56:21,077 - INFO - Raw output: ['Can you explain your experience in developing and implementing HR policies and procedures?', 'How do you stay updated on current employment laws and regulations?', 'Describe a time when you successfully resolved a conflict between employees. What approach did you take?', 'How do you approach performance management and employee development within a company?', 'Can you provide an example of a successful recruitment strategy you have implemented in the past?', 'How do you handle sensitive employee relations issues, such as harassment or discrimination complaints?', 'What methods do you use to ensure employee engagement and retention?', 'How do you assess and address training needs within a company?', 'Describe your experience in conducting disciplinary actions or terminations. How do you ensure fairness and compliance in these situations?', 'How do you measure the effectiveness of HR programs and initiatives in achieving organizational goals?']
+2026-03-03 14:56:21,078 - INFO - Raw output type: <class 'list'>
+2026-03-03 14:56:21,078 - INFO - Returning 10 cleaned questions
+2026-03-03 14:56:21,079 - INFO - 127.0.0.1 - - [03/Mar/2026 14:56:21] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-03 14:57:05,772 - INFO - 127.0.0.1 - - [03/Mar/2026 14:57:05] "OPTIONS /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-03 14:57:06,091 - INFO - Evaluating 10 answers...
+2026-03-03 14:57:07,604 - INFO - 127.0.0.1 - - [03/Mar/2026 14:57:07] "POST /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-03 15:01:02,564 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\test.py', reloading
+2026-03-03 15:01:02,645 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\PredictModel.py', reloading
+2026-03-03 15:01:02,668 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\TrainModel.py', reloading
+2026-03-03 15:01:03,113 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\Data_Validators.py', reloading
+2026-03-03 15:01:03,114 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\machine.py', reloading
+2026-03-03 15:01:03,114 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-03 15:01:03,115 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-03 15:01:03,117 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\Full_master_interview_llm_service.py', reloading
+2026-03-03 15:01:04,566 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 15:01:08,171 - INFO - Starting Dynamic Interview API...
+2026-03-03 15:01:08,171 - INFO - Dataset path: interview_data.csv
+2026-03-03 15:01:08,171 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 15:01:08,172 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:01:23,464 - INFO - Use pytorch device: cuda
+2026-03-03 15:01:23,814 - INFO - Model loaded successfully
+2026-03-03 15:01:23,817 - INFO - CSV loaded with utf-8
+2026-03-03 15:01:23,821 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 15:01:23,834 - WARNING -  * Debugger is active!
+2026-03-03 15:01:23,843 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 15:02:23,932 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 15:02:23,934 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 15:02:23,938 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-03 15:02:26,261 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 15:02:29,849 - INFO - Starting Dynamic Interview API...
+2026-03-03 15:02:29,849 - INFO - Dataset path: interview_data.csv
+2026-03-03 15:02:29,849 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 15:02:29,849 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:02:43,533 - INFO - Use pytorch device: cuda
+2026-03-03 15:02:43,856 - INFO - Model loaded successfully
+2026-03-03 15:02:43,861 - INFO - CSV loaded with utf-8
+2026-03-03 15:02:43,865 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 15:02:43,882 - WARNING -  * Debugger is active!
+2026-03-03 15:02:43,890 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 15:02:54,364 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\Full_master_interview_llm_service.py', reloading
+2026-03-03 15:02:54,365 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\Full_master_interview_llm_service.py', reloading
+2026-03-03 15:02:54,365 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\Full_master_interview_llm_service.py', reloading
+2026-03-03 15:02:56,274 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 15:02:59,328 - INFO - Starting Dynamic Interview API...
+2026-03-03 15:02:59,328 - INFO - Dataset path: interview_data.csv
+2026-03-03 15:02:59,329 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 15:02:59,329 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:03:13,017 - INFO - Use pytorch device: cuda
+2026-03-03 15:03:13,342 - INFO - Model loaded successfully
+2026-03-03 15:03:13,347 - INFO - CSV loaded with utf-8
+2026-03-03 15:03:13,351 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 15:03:13,366 - WARNING -  * Debugger is active!
+2026-03-03 15:03:13,375 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 15:03:19,582 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-03 15:03:19,582 - INFO -  * Detected change in 'F:\\Current\\2025 Slit_July Active\\HR group G4 PP1--Done\\ReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-03 15:03:21,714 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 15:03:25,530 - INFO - Starting Dynamic Interview API...
+2026-03-03 15:03:25,531 - INFO - Dataset path: interview_data.csv
+2026-03-03 15:03:25,531 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 15:03:25,531 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:03:39,206 - INFO - Use pytorch device: cuda
+2026-03-03 15:03:39,555 - INFO - Model loaded successfully
+2026-03-03 15:03:39,560 - INFO - CSV loaded with utf-8
+2026-03-03 15:03:39,566 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 15:03:39,583 - WARNING -  * Debugger is active!
+2026-03-03 15:03:39,591 - INFO -  * Debugger PIN: 123-501-001
+2026-03-03 15:07:56,915 - INFO -  * Detected change in 'C:\\Users\\AroosoftMars\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\seaborn\\categorical.py', reloading
+2026-03-03 15:07:58,256 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-03 15:08:01,808 - INFO - Starting Dynamic Interview API...
+2026-03-03 15:08:01,809 - INFO - Dataset path: interview_data.csv
+2026-03-03 15:08:01,809 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-03 15:08:01,810 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-03 15:08:15,895 - INFO - Use pytorch device: cuda
+2026-03-03 15:08:16,227 - INFO - Model loaded successfully
+2026-03-03 15:08:16,231 - INFO - CSV loaded with utf-8
+2026-03-03 15:08:16,235 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-03 15:08:16,249 - WARNING -  * Debugger is active!
+2026-03-03 15:08:16,257 - INFO -  * Debugger PIN: 123-501-001

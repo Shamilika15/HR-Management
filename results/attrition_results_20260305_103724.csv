@@ -1,0 +1,5 @@
+Age,BusinessTravel,JobRole,JobLevel,MonthlyIncome,OverTime,Risk_Score,Risk_Label
+50,Travel_Rarely,Research Scientist,2,500,No,0.0935,Low Risk
+35,Travel_Frequently,Sales Executive,3,600,No,0.0657,Low Risk
+55,Travel_Rarely,Laboratory Technician,3,200,No,0.2308,Low Risk
+45,Travel_Frequently,Manager,3,400,No,0.0626,Low Risk
