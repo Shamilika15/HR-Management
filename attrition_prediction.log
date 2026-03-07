@@ -7595,3 +7595,1270 @@ TypeError: Column 'Risk_Score' has dtype object, cannot use method 'nlargest' wi
 2026-03-05 10:43:00,979 | INFO | File exists? True
 2026-03-05 10:43:00,995 | WARNING |  * Debugger is active!
 2026-03-05 10:43:01,004 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 13:36:03,546 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\MasterAPI.py', reloading
+2026-03-05 13:36:04,153 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 13:36:07,807 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 13:36:07,807 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 13:36:07,807 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 13:36:07,808 | INFO | File exists? True
+2026-03-05 13:36:07,825 | WARNING |  * Debugger is active!
+2026-03-05 13:36:07,835 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 13:36:08,447 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\cuda\\__init__.py', reloading
+2026-03-05 13:36:08,462 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\__init__.py', reloading
+2026-03-05 13:36:08,477 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\DenoisingAutoEncoderDataset.py', reloading
+2026-03-05 13:36:08,481 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\__init__.py', reloading
+2026-03-05 13:36:08,492 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2026-03-05 13:36:08,498 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-05 13:36:08,657 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-05 13:36:08,746 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-05 13:36:08,831 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-05 13:36:09,069 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 13:36:11,875 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 13:36:11,875 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 13:36:11,875 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 13:36:11,876 | INFO | File exists? True
+2026-03-05 13:36:11,883 | WARNING |  * Debugger is active!
+2026-03-05 13:36:11,887 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 13:36:12,029 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\special_math_ops.py', reloading
+2026-03-05 13:36:12,198 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_ops.py', reloading
+2026-03-05 13:36:12,395 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_prims\\__init__.py', reloading
+2026-03-05 13:36:12,411 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\autograph\\utils\\ag_logging.py', reloading
+2026-03-05 13:36:12,480 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_math_ops.py', reloading
+2026-03-05 13:36:12,520 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\parsing_ops.py', reloading
+2026-03-05 13:36:12,710 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_grad.py', reloading
+2026-03-05 13:36:12,713 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_meta_registrations.py', reloading
+2026-03-05 13:36:12,745 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ctc_ops.py', reloading
+2026-03-05 13:36:12,800 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\data_flow_grad.py', reloading
+2026-03-05 13:36:12,853 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sets_impl.py', reloading
+2026-03-05 13:36:12,872 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\pyparsing.py', reloading
+2026-03-05 13:36:12,909 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\composite_tensor_ops.py', reloading
+2026-03-05 13:36:13,096 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 13:36:16,416 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 13:36:16,417 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 13:36:16,417 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 13:36:16,417 | INFO | File exists? True
+2026-03-05 13:36:16,437 | WARNING |  * Debugger is active!
+2026-03-05 13:36:16,447 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 13:36:17,087 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cudnn_rnn_grad.py', reloading
+2026-03-05 13:36:17,160 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\rnn_grad.py', reloading
+2026-03-05 13:36:17,188 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sparse_grad.py', reloading
+2026-03-05 13:36:17,226 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\state_grad.py', reloading
+2026-03-05 13:36:17,289 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\proto_ops.py', reloading
+2026-03-05 13:36:17,710 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 13:36:20,601 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 13:36:20,601 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 13:36:20,601 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 13:36:20,601 | INFO | File exists? True
+2026-03-05 13:36:20,617 | WARNING |  * Debugger is active!
+2026-03-05 13:36:20,625 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 13:36:25,442 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-05 13:36:25,462 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-05 13:36:25,872 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 13:36:28,831 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 13:36:28,831 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 13:36:28,831 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 13:36:28,831 | INFO | File exists? True
+2026-03-05 13:36:28,840 | WARNING |  * Debugger is active!
+2026-03-05 13:36:28,846 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 13:54:25,178 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 13:54:25,178 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 13:54:25,178 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 13:54:25,178 | INFO | File exists? True
+2026-03-05 13:54:25,200 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.28.5.143:5003
+2026-03-05 13:54:25,201 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-05 13:54:25,217 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 13:54:27,698 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 13:54:27,698 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 13:54:27,698 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 13:54:27,698 | INFO | File exists? True
+2026-03-05 13:54:27,712 | WARNING |  * Debugger is active!
+2026-03-05 13:54:27,722 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 14:38:13,940 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-05 14:38:14,471 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 14:38:17,564 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 14:38:17,564 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 14:38:17,564 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 14:38:17,564 | INFO | File exists? True
+2026-03-05 14:38:17,579 | WARNING |  * Debugger is active!
+2026-03-05 14:38:17,587 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 14:38:17,736 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\cuda\\__init__.py', reloading
+2026-03-05 14:38:17,737 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\__init__.py', reloading
+2026-03-05 14:38:17,738 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-05 14:38:17,738 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\DenoisingAutoEncoderDataset.py', reloading
+2026-03-05 14:38:17,738 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\__init__.py', reloading
+2026-03-05 14:38:17,739 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2026-03-05 14:38:17,861 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-05 14:38:17,903 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-05 14:38:17,976 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-05 14:38:18,338 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-05 14:38:18,339 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-05 14:38:18,341 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-05 14:38:18,365 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-05 14:38:18,405 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-05 14:38:18,437 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2026-03-05 14:38:18,441 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2026-03-05 14:38:18,454 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2026-03-05 14:38:18,530 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\library.py', reloading
+2026-03-05 14:38:18,530 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_prims\\nvfuser_prims.py', reloading
+2026-03-05 14:38:18,596 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\resource_variable_ops.py', reloading
+2026-03-05 14:38:18,618 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
+2026-03-05 14:38:18,624 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
+2026-03-05 14:38:18,781 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 14:38:21,487 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 14:38:21,487 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 14:38:21,487 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 14:38:21,487 | INFO | File exists? True
+2026-03-05 14:38:21,496 | WARNING |  * Debugger is active!
+2026-03-05 14:38:21,500 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 14:38:21,664 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2026-03-05 14:38:21,672 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2026-03-05 14:38:21,720 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\signal\\fft_ops.py', reloading
+2026-03-05 14:38:21,761 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\linalg\\sparse\\sparse_csr_matrix_grad.py', reloading
+2026-03-05 14:38:21,775 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_conversion_ops.py', reloading
+2026-03-05 14:38:21,817 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\profiler\\internal\\flops_registry.py', reloading
+2026-03-05 14:38:21,887 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sdca_ops.py', reloading
+2026-03-05 14:38:21,917 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\checkpoint_ops.py', reloading
+2026-03-05 14:38:21,990 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\debug_gradients.py', reloading
+2026-03-05 14:38:22,040 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\dumping_callback.py', reloading
+2026-03-05 14:38:22,676 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 14:38:24,652 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 14:38:24,652 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 14:38:24,652 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 14:38:24,652 | INFO | File exists? True
+2026-03-05 14:38:24,659 | WARNING |  * Debugger is active!
+2026-03-05 14:38:24,663 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 14:38:25,069 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\base.py', reloading
+2026-03-05 14:38:25,144 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-05 14:38:25,830 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 14:38:28,067 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 14:38:28,067 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 14:38:28,067 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 14:38:28,067 | INFO | File exists? True
+2026-03-05 14:38:28,073 | WARNING |  * Debugger is active!
+2026-03-05 14:38:28,077 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 14:54:21,109 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 14:54:21,973 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 14:54:24,669 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 14:54:24,669 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 14:54:24,669 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 14:54:24,669 | INFO | File exists? True
+2026-03-05 14:54:24,681 | WARNING |  * Debugger is active!
+2026-03-05 14:54:24,687 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 16:53:00,864 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Api.py', reloading
+2026-03-05 16:53:02,042 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 16:53:06,021 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 16:53:06,022 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 16:53:06,022 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 16:53:06,023 | INFO | File exists? True
+2026-03-05 16:53:06,041 | WARNING |  * Debugger is active!
+2026-03-05 16:53:06,049 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 16:53:07,400 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-05 16:53:07,430 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-05 16:53:07,486 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\cuda\\__init__.py', reloading
+2026-03-05 16:53:07,493 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-05 16:53:07,515 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\__init__.py', reloading
+2026-03-05 16:53:07,548 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\DenoisingAutoEncoderDataset.py', reloading
+2026-03-05 16:53:07,554 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\__init__.py', reloading
+2026-03-05 16:53:07,578 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2026-03-05 16:53:07,598 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-05 16:53:07,599 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-05 16:53:07,736 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-05 16:53:07,858 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2026-03-05 16:53:07,913 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2026-03-05 16:53:07,914 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-05 16:53:08,022 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2026-03-05 16:53:08,084 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-05 16:53:08,373 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 16:53:12,136 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 16:53:12,137 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 16:53:12,137 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 16:53:12,137 | INFO | File exists? True
+2026-03-05 16:53:12,153 | WARNING |  * Debugger is active!
+2026-03-05 16:53:12,164 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 16:53:14,170 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cudnn_rnn_grad.py', reloading
+2026-03-05 16:53:14,215 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\rnn_grad.py', reloading
+2026-03-05 16:53:14,512 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 16:53:18,658 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 16:53:18,658 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 16:53:18,658 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 16:53:18,658 | INFO | File exists? True
+2026-03-05 16:53:18,674 | WARNING |  * Debugger is active!
+2026-03-05 16:53:18,684 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 16:53:21,285 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-05 16:53:21,311 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-05 16:53:21,893 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 16:53:24,082 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 16:53:24,082 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 16:53:24,082 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 16:53:24,082 | INFO | File exists? True
+2026-03-05 16:53:24,089 | WARNING |  * Debugger is active!
+2026-03-05 16:53:24,092 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:15:21,147 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\tests\\unicode_font.zip', reloading
+2026-03-05 17:15:21,245 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\tests\\unicode_files.zip', reloading
+2026-03-05 17:15:22,013 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:15:24,777 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:15:24,777 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:15:24,777 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:15:24,778 | INFO | File exists? True
+2026-03-05 17:15:24,788 | WARNING |  * Debugger is active!
+2026-03-05 17:15:24,793 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:15:49,176 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\data\\images\\image-loading.zip', reloading
+2026-03-05 17:15:50,258 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:15:52,462 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:15:52,462 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:15:52,462 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:15:52,462 | INFO | File exists? True
+2026-03-05 17:15:52,469 | WARNING |  * Debugger is active!
+2026-03-05 17:15:52,472 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:22:50,243 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\importlib_resources\\tests\\zipdata02\\ziptestdata.zip', reloading
+2026-03-05 17:22:50,380 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\importlib_resources\\tests\\zipdata01\\ziptestdata.zip', reloading
+2026-03-05 17:22:51,363 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:22:53,532 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:22:53,533 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:22:53,533 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:22:53,533 | INFO | File exists? True
+2026-03-05 17:22:53,541 | WARNING |  * Debugger is active!
+2026-03-05 17:22:53,545 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:22:59,006 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\imageio\\resources\\images\\chelsea.zip', reloading
+2026-03-05 17:22:59,754 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:23:01,939 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:23:01,939 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:23:01,939 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:23:01,939 | INFO | File exists? True
+2026-03-05 17:23:01,947 | WARNING |  * Debugger is active!
+2026-03-05 17:23:01,951 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:46:24,198 | INFO | 127.0.0.1 - - [05/Mar/2026 17:46:24] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:53:47,688 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-05 17:53:47,994 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:53:50,690 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:53:50,690 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:53:50,690 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:53:50,690 | INFO | File exists? True
+2026-03-05 17:53:50,701 | WARNING |  * Debugger is active!
+2026-03-05 17:53:50,707 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:53:50,821 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\cuda\\__init__.py', reloading
+2026-03-05 17:53:50,822 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\__init__.py', reloading
+2026-03-05 17:53:50,823 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\DenoisingAutoEncoderDataset.py', reloading
+2026-03-05 17:53:50,823 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\__init__.py', reloading
+2026-03-05 17:53:50,824 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2026-03-05 17:53:50,824 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-05 17:53:50,951 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-05 17:53:51,000 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-05 17:53:51,018 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-05 17:53:51,021 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-05 17:53:51,023 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-05 17:53:51,040 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-05 17:53:51,057 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-05 17:53:51,068 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-05 17:53:51,094 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2026-03-05 17:53:51,096 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2026-03-05 17:53:51,108 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2026-03-05 17:53:51,213 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\resource_variable_ops.py', reloading
+2026-03-05 17:53:51,230 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
+2026-03-05 17:53:51,236 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
+2026-03-05 17:53:51,238 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
+2026-03-05 17:53:51,251 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\io_ops.py', reloading
+2026-03-05 17:53:51,257 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\string_ops.py', reloading
+2026-03-05 17:53:51,293 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\tpu\\ops\\tpu_ops.py', reloading
+2026-03-05 17:53:51,327 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\saver.py', reloading
+2026-03-05 17:53:51,332 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\logging_ops.py', reloading
+2026-03-05 17:53:51,339 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\script_ops.py', reloading
+2026-03-05 17:53:51,348 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\data\\ops\\dataset_ops.py', reloading
+2026-03-05 17:53:51,351 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\auto_control_deps.py', reloading
+2026-03-05 17:53:51,412 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\lookup_ops.py', reloading
+2026-03-05 17:53:51,459 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\special_math_ops.py', reloading
+2026-03-05 17:53:51,498 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_ops.py', reloading
+2026-03-05 17:53:51,618 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\autograph\\utils\\ag_logging.py', reloading
+2026-03-05 17:53:51,640 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_math_ops.py', reloading
+2026-03-05 17:53:51,648 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\parsing_ops.py', reloading
+2026-03-05 17:53:51,658 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\library.py', reloading
+2026-03-05 17:53:51,659 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_prims\\nvfuser_prims.py', reloading
+2026-03-05 17:53:51,714 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_grad.py', reloading
+2026-03-05 17:53:51,725 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ctc_ops.py', reloading
+2026-03-05 17:53:51,736 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\data_flow_grad.py', reloading
+2026-03-05 17:53:51,875 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:53:53,624 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:53:53,624 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:53:53,624 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:53:53,624 | INFO | File exists? True
+2026-03-05 17:53:53,632 | WARNING |  * Debugger is active!
+2026-03-05 17:53:53,635 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:53:53,726 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2026-03-05 17:53:53,736 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2026-03-05 17:53:53,781 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\signal\\fft_ops.py', reloading
+2026-03-05 17:53:53,825 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\linalg\\sparse\\sparse_csr_matrix_grad.py', reloading
+2026-03-05 17:53:53,839 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_conversion_ops.py', reloading
+2026-03-05 17:53:53,885 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\profiler\\internal\\flops_registry.py', reloading
+2026-03-05 17:53:53,960 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sdca_ops.py', reloading
+2026-03-05 17:53:53,994 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\checkpoint_ops.py', reloading
+2026-03-05 17:53:54,085 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\debug_gradients.py', reloading
+2026-03-05 17:53:54,141 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\dumping_callback.py', reloading
+2026-03-05 17:53:54,611 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\lite\\experimental\\microfrontend\\python\\ops\\audio_microfrontend_op.py', reloading
+2026-03-05 17:53:54,766 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:53:56,435 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:53:56,435 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:53:56,435 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:53:56,435 | INFO | File exists? True
+2026-03-05 17:53:56,440 | WARNING |  * Debugger is active!
+2026-03-05 17:53:56,443 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:53:56,982 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\base.py', reloading
+2026-03-05 17:53:57,242 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-05 17:53:57,581 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 17:53:59,511 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 17:53:59,511 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 17:53:59,511 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 17:53:59,511 | INFO | File exists? True
+2026-03-05 17:53:59,519 | WARNING |  * Debugger is active!
+2026-03-05 17:53:59,523 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 17:54:28,754 | INFO | 127.0.0.1 - - [05/Mar/2026 17:54:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:55:08,228 | INFO | 127.0.0.1 - - [05/Mar/2026 17:55:08] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:02:14,134 | INFO | 127.0.0.1 - - [05/Mar/2026 18:02:14] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:02:28,741 | INFO | 127.0.0.1 - - [05/Mar/2026 18:02:28] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:16:40,707 | INFO | 127.0.0.1 - - [05/Mar/2026 18:16:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:23:50,154 | INFO | 127.0.0.1 - - [05/Mar/2026 18:23:50] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:24:14,726 | INFO | 127.0.0.1 - - [05/Mar/2026 18:24:14] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:24:18,147 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-05 18:24:18,147 | INFO | Processing 4 employees for attrition prediction...
+2026-03-05 18:24:18,147 | INFO | Predicting employee index 0...
+2026-03-05 18:24:18,168 | INFO | Predicting employee index 1...
+2026-03-05 18:24:18,188 | INFO | Predicting employee index 2...
+2026-03-05 18:24:18,208 | INFO | Predicting employee index 3...
+2026-03-05 18:24:18,265 | INFO | 127.0.0.1 - - [05/Mar/2026 18:24:18] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 18:26:42,254 | INFO | 127.0.0.1 - - [05/Mar/2026 18:26:42] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:27:12,952 | INFO | 127.0.0.1 - - [05/Mar/2026 18:27:12] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:30:08,261 | INFO | 127.0.0.1 - - [05/Mar/2026 18:30:08] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:30:11,960 | INFO | 127.0.0.1 - - [05/Mar/2026 18:30:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:30:15,258 | INFO | 127.0.0.1 - - [05/Mar/2026 18:30:15] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:30:33,283 | INFO | 127.0.0.1 - - [05/Mar/2026 18:30:33] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:30:35,132 | INFO | 127.0.0.1 - - [05/Mar/2026 18:30:35] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:33:27,295 | INFO | 127.0.0.1 - - [05/Mar/2026 18:33:27] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:35:40,767 | INFO | 127.0.0.1 - - [05/Mar/2026 18:35:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:36:46,247 | INFO | 127.0.0.1 - - [05/Mar/2026 18:36:46] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:36:46,949 | INFO | 127.0.0.1 - - [05/Mar/2026 18:36:46] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:38:44,268 | INFO | 127.0.0.1 - - [05/Mar/2026 18:38:44] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:38:53,940 | INFO | 127.0.0.1 - - [05/Mar/2026 18:38:53] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:38:57,710 | INFO | 127.0.0.1 - - [05/Mar/2026 18:38:57] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:39:02,082 | INFO | 127.0.0.1 - - [05/Mar/2026 18:39:02] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:40:27,468 | INFO | 127.0.0.1 - - [05/Mar/2026 18:40:27] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:42:22,908 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 18:42:23,720 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 18:42:26,052 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 18:42:26,052 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 18:42:26,052 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 18:42:26,052 | INFO | File exists? True
+2026-03-05 18:42:26,063 | WARNING |  * Debugger is active!
+2026-03-05 18:42:26,067 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 18:53:02,029 | INFO | 127.0.0.1 - - [05/Mar/2026 18:53:02] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:13:06,016 | INFO | 127.0.0.1 - - [05/Mar/2026 19:13:06] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:15:12,257 | INFO | 127.0.0.1 - - [05/Mar/2026 19:15:12] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:16:24,912 | ERROR | Preview error for row 0: 'Age'
+2026-03-05 19:16:24,912 | ERROR | Preview error for row 1: 'Age'
+2026-03-05 19:16:24,912 | ERROR | Preview error for row 2: 'Age'
+2026-03-05 19:16:24,913 | ERROR | Preview error for row 3: 'Age'
+2026-03-05 19:16:24,913 | ERROR | Preview error for row 4: 'Age'
+2026-03-05 19:16:24,915 | INFO | 127.0.0.1 - - [05/Mar/2026 19:16:24] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:16:43,821 | INFO | 127.0.0.1 - - [05/Mar/2026 19:16:43] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:17:07,256 | INFO | 127.0.0.1 - - [05/Mar/2026 19:17:07] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:19:19,265 | INFO | 127.0.0.1 - - [05/Mar/2026 19:19:19] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:19:37,847 | INFO | 127.0.0.1 - - [05/Mar/2026 19:19:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:19:54,272 | INFO | 127.0.0.1 - - [05/Mar/2026 19:19:54] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:20:18,260 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-05 19:20:18,260 | INFO | Processing 4 employees for attrition prediction...
+2026-03-05 19:20:18,262 | INFO | Predicting employee index 0...
+2026-03-05 19:20:19,943 | INFO | Predicting employee index 1...
+2026-03-05 19:20:19,963 | INFO | Predicting employee index 2...
+2026-03-05 19:20:19,989 | INFO | Predicting employee index 3...
+2026-03-05 19:20:20,018 | INFO | 127.0.0.1 - - [05/Mar/2026 19:20:20] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:20:24,200 | INFO | 127.0.0.1 - - [05/Mar/2026 19:20:24] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:21:31,265 | INFO | 127.0.0.1 - - [05/Mar/2026 19:21:31] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:21:58,831 | INFO | 127.0.0.1 - - [05/Mar/2026 19:21:58] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:22:02,973 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-05 19:22:02,973 | INFO | Processing 4 employees for attrition prediction...
+2026-03-05 19:22:02,974 | INFO | Predicting employee index 0...
+2026-03-05 19:22:02,998 | INFO | Predicting employee index 1...
+2026-03-05 19:22:03,019 | INFO | Predicting employee index 2...
+2026-03-05 19:22:03,037 | INFO | Predicting employee index 3...
+2026-03-05 19:22:03,065 | INFO | 127.0.0.1 - - [05/Mar/2026 19:22:03] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:22:11,088 | INFO | 127.0.0.1 - - [05/Mar/2026 19:22:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:29,134 | INFO | 127.0.0.1 - - [05/Mar/2026 19:22:29] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:35,543 | INFO | 127.0.0.1 - - [05/Mar/2026 19:22:35] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:40,849 | INFO | 127.0.0.1 - - [05/Mar/2026 19:22:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:58,813 | INFO | 127.0.0.1 - - [05/Mar/2026 19:22:58] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:23:14,230 | INFO | 127.0.0.1 - - [05/Mar/2026 19:23:14] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:23:17,464 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-05 19:23:17,464 | INFO | Processing 4 employees for attrition prediction...
+2026-03-05 19:23:17,464 | INFO | Predicting employee index 0...
+2026-03-05 19:23:17,483 | INFO | Predicting employee index 1...
+2026-03-05 19:23:17,507 | INFO | Predicting employee index 2...
+2026-03-05 19:23:17,526 | INFO | Predicting employee index 3...
+2026-03-05 19:23:17,554 | INFO | 127.0.0.1 - - [05/Mar/2026 19:23:17] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:25:12,252 | INFO | 127.0.0.1 - - [05/Mar/2026 19:25:12] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:25:48,868 | INFO | 127.0.0.1 - - [05/Mar/2026 19:25:48] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:26:00,354 | INFO | 127.0.0.1 - - [05/Mar/2026 19:26:00] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:26:02,032 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-05 19:26:02,032 | INFO | Processing 4 employees for attrition prediction...
+2026-03-05 19:26:02,032 | INFO | Predicting employee index 0...
+2026-03-05 19:26:02,056 | INFO | Predicting employee index 1...
+2026-03-05 19:26:02,076 | INFO | Predicting employee index 2...
+2026-03-05 19:26:02,097 | INFO | Predicting employee index 3...
+2026-03-05 19:26:02,124 | INFO | 127.0.0.1 - - [05/Mar/2026 19:26:02] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:27:47,104 | INFO | 127.0.0.1 - - [05/Mar/2026 19:27:47] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:28:51,280 | INFO | 127.0.0.1 - - [05/Mar/2026 19:28:51] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:29:04,128 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-05 19:29:04,128 | INFO | Processing 4 employees for attrition prediction...
+2026-03-05 19:29:04,128 | INFO | Predicting employee index 0...
+2026-03-05 19:29:04,151 | INFO | Predicting employee index 1...
+2026-03-05 19:29:04,174 | INFO | Predicting employee index 2...
+2026-03-05 19:29:04,192 | INFO | Predicting employee index 3...
+2026-03-05 19:29:04,218 | INFO | 127.0.0.1 - - [05/Mar/2026 19:29:04] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:50:13,727 | INFO | 127.0.0.1 - - [05/Mar/2026 19:50:13] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:50:21,375 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-05 19:50:21,379 | INFO | Processing 4 employees for attrition prediction...
+2026-03-05 19:50:21,380 | INFO | Predicting employee index 0...
+2026-03-05 19:50:21,442 | INFO | Predicting employee index 1...
+2026-03-05 19:50:21,468 | INFO | Predicting employee index 2...
+2026-03-05 19:50:21,493 | INFO | Predicting employee index 3...
+2026-03-05 19:50:21,543 | INFO | 127.0.0.1 - - [05/Mar/2026 19:50:21] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:53:35,945 | INFO | 127.0.0.1 - - [05/Mar/2026 19:53:35] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:56:40,710 | INFO | 127.0.0.1 - - [05/Mar/2026 19:56:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:56:53,120 | INFO | 127.0.0.1 - - [05/Mar/2026 19:56:53] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 22:11:39,086 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 22:11:40,670 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 22:11:51,903 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 22:11:51,904 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 22:11:51,905 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 22:11:51,906 | INFO | File exists? True
+2026-03-05 22:11:51,943 | WARNING |  * Debugger is active!
+2026-03-05 22:11:51,978 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 22:11:52,432 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-05 22:11:52,661 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-05 22:11:52,835 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-05 22:11:53,349 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 22:11:56,353 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 22:11:56,353 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 22:11:56,353 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 22:11:56,354 | INFO | File exists? True
+2026-03-05 22:11:56,363 | WARNING |  * Debugger is active!
+2026-03-05 22:11:56,373 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 22:11:56,468 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
+2026-03-05 22:11:56,604 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\io_ops.py', reloading
+2026-03-05 22:11:56,677 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\string_ops.py', reloading
+2026-03-05 22:11:56,897 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_prims\\__init__.py', reloading
+2026-03-05 22:11:56,945 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\tpu\\ops\\tpu_ops.py', reloading
+2026-03-05 22:11:57,042 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\saver.py', reloading
+2026-03-05 22:11:57,086 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\logging_ops.py', reloading
+2026-03-05 22:11:57,127 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\script_ops.py', reloading
+2026-03-05 22:11:57,167 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\data\\ops\\dataset_ops.py', reloading
+2026-03-05 22:11:57,216 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\auto_control_deps.py', reloading
+2026-03-05 22:11:57,220 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_meta_registrations.py', reloading
+2026-03-05 22:11:57,662 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 22:12:03,178 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 22:12:03,178 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 22:12:03,178 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 22:12:03,180 | INFO | File exists? True
+2026-03-05 22:12:03,216 | WARNING |  * Debugger is active!
+2026-03-05 22:12:03,237 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 22:12:03,543 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cudnn_rnn_grad.py', reloading
+2026-03-05 22:12:03,553 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\rnn_grad.py', reloading
+2026-03-05 22:12:03,558 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sparse_grad.py', reloading
+2026-03-05 22:12:03,575 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\state_grad.py', reloading
+2026-03-05 22:12:03,613 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\proto_ops.py', reloading
+2026-03-05 22:12:04,089 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2026-03-05 22:12:04,122 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2026-03-05 22:12:04,273 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\signal\\fft_ops.py', reloading
+2026-03-05 22:12:04,530 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 22:12:09,759 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 22:12:09,760 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 22:12:09,760 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 22:12:09,760 | INFO | File exists? True
+2026-03-05 22:12:09,785 | WARNING |  * Debugger is active!
+2026-03-05 22:12:09,808 | INFO |  * Debugger PIN: 403-625-082
+2026-03-05 22:12:13,743 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-05 22:12:13,775 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-05 22:12:14,111 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-05 22:12:19,753 | INFO | Starting Employee Attrition Prediction API...
+2026-03-05 22:12:19,753 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-05 22:12:19,753 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-05 22:12:19,753 | INFO | File exists? True
+2026-03-05 22:12:19,772 | WARNING |  * Debugger is active!
+2026-03-05 22:12:19,782 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 13:09:28,350 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 13:09:28,351 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 13:09:28,351 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 13:09:28,351 | INFO | File exists? True
+2026-03-06 13:09:28,368 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.28.3.50:5003
+2026-03-06 13:09:28,369 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-06 13:09:28,383 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 13:09:30,087 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 13:09:30,087 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 13:09:30,087 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 13:09:30,087 | INFO | File exists? True
+2026-03-06 13:09:30,094 | WARNING |  * Debugger is active!
+2026-03-06 13:09:30,098 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 13:09:30,233 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-06 13:09:30,309 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-06 13:09:30,378 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-06 13:09:30,571 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-06 13:09:30,585 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-06 13:09:30,617 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-06 13:09:30,684 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-06 13:09:30,756 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-06 13:09:30,838 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2026-03-06 13:09:30,880 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2026-03-06 13:09:30,957 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2026-03-06 13:09:31,029 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\library.py', reloading
+2026-03-06 13:09:31,040 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_prims\\nvfuser_prims.py', reloading
+2026-03-06 13:09:31,244 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 13:09:33,008 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 13:09:33,008 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 13:09:33,008 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 13:09:33,008 | INFO | File exists? True
+2026-03-06 13:09:33,014 | WARNING |  * Debugger is active!
+2026-03-06 13:09:33,018 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 13:09:33,123 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nccl_ops.py', reloading
+2026-03-06 13:09:34,142 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 13:09:36,073 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 13:09:36,073 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 13:09:36,074 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 13:09:36,074 | INFO | File exists? True
+2026-03-06 13:09:36,083 | WARNING |  * Debugger is active!
+2026-03-06 13:09:36,090 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 13:09:36,199 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\lite\\experimental\\microfrontend\\python\\ops\\audio_microfrontend_op.py', reloading
+2026-03-06 13:09:37,246 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 13:09:39,280 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 13:09:39,280 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 13:09:39,280 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 13:09:39,280 | INFO | File exists? True
+2026-03-06 13:09:39,288 | WARNING |  * Debugger is active!
+2026-03-06 13:09:39,292 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 13:09:39,391 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-06 13:09:39,416 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-06 13:09:40,246 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\base.py', reloading
+2026-03-06 13:09:40,444 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 13:09:43,084 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 13:09:43,084 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 13:09:43,084 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 13:09:43,084 | INFO | File exists? True
+2026-03-06 13:09:43,092 | WARNING |  * Debugger is active!
+2026-03-06 13:09:43,097 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 13:10:20,888 | INFO | 127.0.0.1 - - [06/Mar/2026 13:10:20] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:19:43,191 | INFO | 127.0.0.1 - - [06/Mar/2026 13:19:43] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:22:59,798 | INFO | 127.0.0.1 - - [06/Mar/2026 13:22:59] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:23:50,269 | INFO | 127.0.0.1 - - [06/Mar/2026 13:23:50] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:24:13,940 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-06 13:24:13,940 | INFO | Processing 4 employees for attrition prediction...
+2026-03-06 13:24:13,941 | INFO | Predicting employee index 0...
+2026-03-06 13:24:15,277 | INFO | Predicting employee index 1...
+2026-03-06 13:24:15,299 | INFO | Predicting employee index 2...
+2026-03-06 13:24:15,319 | INFO | Predicting employee index 3...
+2026-03-06 13:24:15,354 | INFO | 127.0.0.1 - - [06/Mar/2026 13:24:15] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-06 13:24:19,048 | INFO | 127.0.0.1 - - [06/Mar/2026 13:24:19] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-06 13:24:58,337 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-06 13:24:58,633 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 13:25:02,542 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 13:25:02,542 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 13:25:02,542 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 13:25:02,542 | INFO | File exists? True
+2026-03-06 13:25:02,556 | WARNING |  * Debugger is active!
+2026-03-06 13:25:02,564 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 13:28:47,085 | INFO | 127.0.0.1 - - [06/Mar/2026 13:28:47] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:29:07,878 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-06 13:29:07,878 | INFO | Processing 4 employees for attrition prediction...
+2026-03-06 13:29:07,879 | INFO | Predicting employee index 0...
+2026-03-06 13:29:09,152 | INFO | Predicting employee index 1...
+2026-03-06 13:29:09,178 | INFO | Predicting employee index 2...
+2026-03-06 13:29:09,198 | INFO | Predicting employee index 3...
+2026-03-06 13:29:09,232 | INFO | 127.0.0.1 - - [06/Mar/2026 13:29:09] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-06 13:29:10,996 | INFO | 127.0.0.1 - - [06/Mar/2026 13:29:10] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-06 13:50:51,899 | INFO | 127.0.0.1 - - [06/Mar/2026 13:50:51] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:26:21,478 | INFO | 127.0.0.1 - - [06/Mar/2026 16:26:21] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:39:49,576 | INFO | 127.0.0.1 - - [06/Mar/2026 16:39:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:45:15,358 | INFO | 127.0.0.1 - - [06/Mar/2026 16:45:15] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:45:32,697 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-06 16:45:32,698 | INFO | Processing 4 employees for attrition prediction...
+2026-03-06 16:45:32,699 | INFO | Predicting employee index 0...
+2026-03-06 16:45:32,853 | INFO | Predicting employee index 1...
+2026-03-06 16:45:32,876 | INFO | Predicting employee index 2...
+2026-03-06 16:45:32,901 | INFO | Predicting employee index 3...
+2026-03-06 16:45:32,944 | INFO | 127.0.0.1 - - [06/Mar/2026 16:45:32] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-06 16:45:36,500 | INFO | 127.0.0.1 - - [06/Mar/2026 16:45:36] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-06 16:45:39,244 | INFO | Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-06 16:45:39,244 | INFO | Download requested - filename: attrition_results_20260306_164532.csv
+2026-03-06 16:45:39,245 | INFO | Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\attrition_results_20260306_164532.csv
+2026-03-06 16:45:39,246 | INFO | File found, size: 327 bytes
+2026-03-06 16:45:39,256 | INFO | 127.0.0.1 - - [06/Mar/2026 16:45:39] "GET /api/download/attrition_results_20260306_164532.csv HTTP/1.1" 200 -
+2026-03-06 16:47:52,322 | INFO | 127.0.0.1 - - [06/Mar/2026 16:47:52] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 17:50:09,815 | INFO | 127.0.0.1 - - [06/Mar/2026 17:50:09] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 17:50:36,928 | INFO | 127.0.0.1 - - [06/Mar/2026 17:50:36] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 17:51:46,051 | INFO | 127.0.0.1 - - [06/Mar/2026 17:51:46] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 17:55:43,598 | INFO | 127.0.0.1 - - [06/Mar/2026 17:55:43] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 18:02:48,788 | INFO | 127.0.0.1 - - [06/Mar/2026 18:02:48] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 18:03:29,881 | INFO | 127.0.0.1 - - [06/Mar/2026 18:03:29] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 18:04:11,003 | INFO | 127.0.0.1 - - [06/Mar/2026 18:04:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:11:28,676 | INFO | 127.0.0.1 - - [06/Mar/2026 20:11:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:22:27,223 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Api.py', reloading
+2026-03-06 20:22:28,638 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:22:33,465 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:22:33,465 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:22:33,465 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:22:33,465 | INFO | File exists? True
+2026-03-06 20:22:33,481 | WARNING |  * Debugger is active!
+2026-03-06 20:22:33,488 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:22:33,529 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\DenoisingAutoEncoderDataset.py', reloading
+2026-03-06 20:22:33,545 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\__init__.py', reloading
+2026-03-06 20:22:33,559 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2026-03-06 20:22:33,572 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-06 20:22:33,769 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-06 20:22:33,854 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-06 20:22:33,932 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-06 20:22:34,761 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:22:37,824 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:22:37,825 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:22:37,825 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:22:37,825 | INFO | File exists? True
+2026-03-06 20:22:37,833 | WARNING |  * Debugger is active!
+2026-03-06 20:22:37,839 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:22:42,122 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-06 20:22:42,145 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-06 20:22:42,186 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-06 20:22:42,252 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-06 20:22:42,903 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-06 20:22:43,055 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:22:44,538 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:22:44,538 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:22:44,538 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:22:44,538 | INFO | File exists? True
+2026-03-06 20:22:44,550 | WARNING |  * Debugger is active!
+2026-03-06 20:22:44,553 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:22:45,888 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
+2026-03-06 20:22:45,906 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
+2026-03-06 20:22:45,938 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
+2026-03-06 20:22:46,578 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\io_ops.py', reloading
+2026-03-06 20:22:46,723 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:22:48,167 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:22:48,168 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:22:48,168 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:22:48,168 | INFO | File exists? True
+2026-03-06 20:22:48,173 | WARNING |  * Debugger is active!
+2026-03-06 20:22:48,175 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:22:48,341 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\tpu\\ops\\tpu_ops.py', reloading
+2026-03-06 20:22:48,383 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\saver.py', reloading
+2026-03-06 20:22:48,421 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\logging_ops.py', reloading
+2026-03-06 20:22:49,289 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:22:50,857 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:22:50,857 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:22:50,857 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:22:50,857 | INFO | File exists? True
+2026-03-06 20:22:50,862 | WARNING |  * Debugger is active!
+2026-03-06 20:22:50,864 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:22:51,040 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\lookup_ops.py', reloading
+2026-03-06 20:22:51,107 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\special_math_ops.py', reloading
+2026-03-06 20:22:51,174 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_ops.py', reloading
+2026-03-06 20:22:51,579 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\autograph\\utils\\ag_logging.py', reloading
+2026-03-06 20:22:51,617 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_math_ops.py', reloading
+2026-03-06 20:22:51,641 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\parsing_ops.py', reloading
+2026-03-06 20:22:51,749 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_grad.py', reloading
+2026-03-06 20:22:51,771 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ctc_ops.py', reloading
+2026-03-06 20:22:51,810 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\data_flow_grad.py', reloading
+2026-03-06 20:22:51,852 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sets_impl.py', reloading
+2026-03-06 20:22:51,882 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\composite_tensor_ops.py', reloading
+2026-03-06 20:22:51,984 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:22:53,489 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:22:53,490 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:22:53,490 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:22:53,490 | INFO | File exists? True
+2026-03-06 20:22:53,495 | WARNING |  * Debugger is active!
+2026-03-06 20:22:53,498 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:23:07,712 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cudnn_rnn_grad.py', reloading
+2026-03-06 20:23:07,727 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\rnn_grad.py', reloading
+2026-03-06 20:23:07,738 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sparse_grad.py', reloading
+2026-03-06 20:23:07,754 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\state_grad.py', reloading
+2026-03-06 20:23:07,779 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\proto_ops.py', reloading
+2026-03-06 20:23:07,949 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2026-03-06 20:23:07,969 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2026-03-06 20:23:08,037 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\signal\\fft_ops.py', reloading
+2026-03-06 20:23:08,100 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\linalg\\sparse\\sparse_csr_matrix_grad.py', reloading
+2026-03-06 20:23:08,123 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_conversion_ops.py', reloading
+2026-03-06 20:23:08,171 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\profiler\\internal\\flops_registry.py', reloading
+2026-03-06 20:23:08,286 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sdca_ops.py', reloading
+2026-03-06 20:23:08,333 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\checkpoint_ops.py', reloading
+2026-03-06 20:23:08,799 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:23:10,409 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:23:10,409 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:23:10,409 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:23:10,410 | INFO | File exists? True
+2026-03-06 20:23:10,416 | WARNING |  * Debugger is active!
+2026-03-06 20:23:10,419 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:23:10,689 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\debug_gradients.py', reloading
+2026-03-06 20:23:11,292 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\dumping_callback.py', reloading
+2026-03-06 20:23:11,525 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:23:13,066 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:23:13,066 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:23:13,066 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:23:13,066 | INFO | File exists? True
+2026-03-06 20:23:13,072 | WARNING |  * Debugger is active!
+2026-03-06 20:23:13,075 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:23:15,703 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\lite\\experimental\\microfrontend\\python\\ops\\audio_microfrontend_op.py', reloading
+2026-03-06 20:23:16,223 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:23:17,921 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:23:17,921 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:23:17,921 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:23:17,922 | INFO | File exists? True
+2026-03-06 20:23:17,927 | WARNING |  * Debugger is active!
+2026-03-06 20:23:17,931 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 20:23:21,517 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-06 20:23:21,538 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-06 20:23:22,128 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 20:23:23,741 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 20:23:23,741 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 20:23:23,741 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 20:23:23,741 | INFO | File exists? True
+2026-03-06 20:23:23,747 | WARNING |  * Debugger is active!
+2026-03-06 20:23:23,751 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 22:59:42,783 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\MasterAPI.py', reloading
+2026-03-06 22:59:43,420 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 22:59:46,771 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 22:59:46,771 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 22:59:46,771 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 22:59:46,772 | INFO | File exists? True
+2026-03-06 22:59:46,788 | WARNING |  * Debugger is active!
+2026-03-06 22:59:46,797 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 22:59:47,526 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\cuda\\__init__.py', reloading
+2026-03-06 22:59:47,527 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\__init__.py', reloading
+2026-03-06 22:59:47,527 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\DenoisingAutoEncoderDataset.py', reloading
+2026-03-06 22:59:47,527 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\__init__.py', reloading
+2026-03-06 22:59:47,529 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-06 22:59:47,529 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2026-03-06 22:59:47,708 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-06 22:59:47,765 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-06 22:59:47,783 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-06 22:59:47,785 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-06 22:59:47,787 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-06 22:59:47,816 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-06 22:59:47,826 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-06 22:59:47,995 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 22:59:50,174 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 22:59:50,175 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 22:59:50,175 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 22:59:50,175 | INFO | File exists? True
+2026-03-06 22:59:50,183 | WARNING |  * Debugger is active!
+2026-03-06 22:59:50,187 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 22:59:50,906 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cudnn_rnn_grad.py', reloading
+2026-03-06 22:59:50,911 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\rnn_grad.py', reloading
+2026-03-06 22:59:50,914 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sparse_grad.py', reloading
+2026-03-06 22:59:50,923 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\state_grad.py', reloading
+2026-03-06 22:59:50,942 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\proto_ops.py', reloading
+2026-03-06 22:59:51,199 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2026-03-06 22:59:51,211 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2026-03-06 22:59:51,370 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 22:59:53,542 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 22:59:53,542 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 22:59:53,542 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 22:59:53,543 | INFO | File exists? True
+2026-03-06 22:59:53,553 | WARNING |  * Debugger is active!
+2026-03-06 22:59:53,557 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 22:59:54,249 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-06 22:59:54,249 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-06 22:59:54,735 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 22:59:57,111 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 22:59:57,111 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 22:59:57,111 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 22:59:57,111 | INFO | File exists? True
+2026-03-06 22:59:57,120 | WARNING |  * Debugger is active!
+2026-03-06 22:59:57,123 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 23:00:09,332 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-06 23:00:09,340 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Data_Validators.py', reloading
+2026-03-06 23:00:09,355 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction.py', reloading
+2026-03-06 23:00:09,362 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction_advance.py', reloading
+2026-03-06 23:00:09,371 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\preprocess.py', reloading
+2026-03-06 23:00:09,378 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Setup_File.py', reloading
+2026-03-06 23:00:09,384 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Train.py', reloading
+2026-03-06 23:00:09,564 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-06 23:00:09,574 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Data_Validators.py', reloading
+2026-03-06 23:00:09,650 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\PredictModel.py', reloading
+2026-03-06 23:00:09,666 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-06 23:00:09,741 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\test.py', reloading
+2026-03-06 23:00:09,750 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\TrainModel.py', reloading
+2026-03-06 23:00:10,079 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\Employee_Retention.py', reloading
+2026-03-06 23:00:10,096 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\feature_engineering.py', reloading
+2026-03-06 23:00:10,105 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\prediction.py', reloading
+2026-03-06 23:00:10,118 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictionV2.py', reloading
+2026-03-06 23:00:10,128 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictor_utils.py', reloading
+2026-03-06 23:00:10,495 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 23:00:14,127 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 23:00:14,127 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 23:00:14,127 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 23:00:14,127 | INFO | File exists? True
+2026-03-06 23:00:14,142 | WARNING |  * Debugger is active!
+2026-03-06 23:00:14,151 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 23:04:43,438 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\node_modules\\flatted\\python\\flatted.py', reloading
+2026-03-06 23:04:43,611 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 23:04:49,742 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 23:04:49,743 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 23:04:49,743 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 23:04:49,743 | INFO | File exists? True
+2026-03-06 23:04:49,765 | WARNING |  * Debugger is active!
+2026-03-06 23:04:49,778 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 23:07:58,561 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Accuracy.py', reloading
+2026-03-06 23:07:58,608 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Load_Data.py', reloading
+2026-03-06 23:07:58,616 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\modelTrain.py', reloading
+2026-03-06 23:07:58,627 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\model_utils.py', reloading
+2026-03-06 23:07:58,646 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\predict_main.py', reloading
+2026-03-06 23:07:59,304 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 23:08:06,540 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 23:08:06,541 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 23:08:06,541 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 23:08:06,541 | INFO | File exists? True
+2026-03-06 23:08:06,561 | WARNING |  * Debugger is active!
+2026-03-06 23:08:06,575 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 23:12:25,151 | INFO | 127.0.0.1 - - [06/Mar/2026 23:12:25] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 23:41:05,275 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:05,879 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 23:41:09,027 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 23:41:09,028 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 23:41:09,028 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 23:41:09,028 | INFO | File exists? True
+2026-03-06 23:41:09,045 | WARNING |  * Debugger is active!
+2026-03-06 23:41:09,053 | INFO |  * Debugger PIN: 403-625-082
+2026-03-06 23:41:49,438 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:49,585 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-06 23:41:51,425 | INFO | Starting Employee Attrition Prediction API...
+2026-03-06 23:41:51,425 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-06 23:41:51,425 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-06 23:41:51,425 | INFO | File exists? True
+2026-03-06 23:41:51,432 | WARNING |  * Debugger is active!
+2026-03-06 23:41:51,436 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 02:01:25,403 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 02:01:25,850 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 02:01:28,499 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 02:01:28,499 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 02:01:28,499 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 02:01:28,499 | INFO | File exists? True
+2026-03-07 02:01:28,510 | WARNING |  * Debugger is active!
+2026-03-07 02:01:28,516 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 02:01:28,734 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\cuda\\__init__.py', reloading
+2026-03-07 02:01:28,735 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\__init__.py', reloading
+2026-03-07 02:01:28,736 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\DenoisingAutoEncoderDataset.py', reloading
+2026-03-07 02:01:28,736 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\datasets\\__init__.py', reloading
+2026-03-07 02:01:28,737 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2026-03-07 02:01:28,737 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-07 02:01:28,867 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2026-03-07 02:01:28,910 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2026-03-07 02:01:28,958 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\functional.py', reloading
+2026-03-07 02:01:29,262 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-07 02:01:29,264 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-07 02:01:29,265 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-07 02:01:29,280 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-07 02:01:29,304 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-07 02:01:29,326 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2026-03-07 02:01:29,328 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2026-03-07 02:01:29,338 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2026-03-07 02:01:29,439 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\resource_variable_ops.py', reloading
+2026-03-07 02:01:29,454 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
+2026-03-07 02:01:29,457 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
+2026-03-07 02:01:29,459 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
+2026-03-07 02:01:29,472 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\io_ops.py', reloading
+2026-03-07 02:01:29,477 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\string_ops.py', reloading
+2026-03-07 02:01:29,480 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\library.py', reloading
+2026-03-07 02:01:29,481 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_prims\\nvfuser_prims.py', reloading
+2026-03-07 02:01:29,510 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\tpu\\ops\\tpu_ops.py', reloading
+2026-03-07 02:01:29,534 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\saver.py', reloading
+2026-03-07 02:01:29,541 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\logging_ops.py', reloading
+2026-03-07 02:01:29,712 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 02:01:32,024 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 02:01:32,025 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 02:01:32,025 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 02:01:32,025 | INFO | File exists? True
+2026-03-07 02:01:32,032 | WARNING |  * Debugger is active!
+2026-03-07 02:01:32,036 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 02:01:32,268 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2026-03-07 02:01:32,281 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2026-03-07 02:01:32,345 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\signal\\fft_ops.py', reloading
+2026-03-07 02:01:32,403 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\linalg\\sparse\\sparse_csr_matrix_grad.py', reloading
+2026-03-07 02:01:32,423 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_conversion_ops.py', reloading
+2026-03-07 02:01:32,475 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\profiler\\internal\\flops_registry.py', reloading
+2026-03-07 02:01:32,562 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sdca_ops.py', reloading
+2026-03-07 02:01:32,599 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\checkpoint_ops.py', reloading
+2026-03-07 02:01:32,690 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\debug_gradients.py', reloading
+2026-03-07 02:01:32,747 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\debug\\lib\\dumping_callback.py', reloading
+2026-03-07 02:01:33,219 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 02:01:34,762 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 02:01:34,762 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 02:01:34,762 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 02:01:34,762 | INFO | File exists? True
+2026-03-07 02:01:34,768 | WARNING |  * Debugger is active!
+2026-03-07 02:01:34,771 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 02:01:34,799 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-07 02:01:34,799 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-07 02:01:35,404 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\base.py', reloading
+2026-03-07 02:01:35,909 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 02:01:37,480 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 02:01:37,480 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 02:01:37,480 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 02:01:37,480 | INFO | File exists? True
+2026-03-07 02:01:37,485 | WARNING |  * Debugger is active!
+2026-03-07 02:01:37,488 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:19:17,302 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:19:17,305 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:19:17,305 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:19:17,307 | INFO | File exists? True
+2026-03-07 11:19:17,385 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.28.22.173:5003
+2026-03-07 11:19:17,385 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-07 11:19:17,435 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:19:25,976 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:19:25,976 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:19:25,976 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:19:25,976 | INFO | File exists? True
+2026-03-07 11:19:25,997 | WARNING |  * Debugger is active!
+2026-03-07 11:19:26,008 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:19:27,221 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cudnn_rnn_grad.py', reloading
+2026-03-07 11:19:27,228 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\rnn_grad.py', reloading
+2026-03-07 11:19:27,234 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sparse_grad.py', reloading
+2026-03-07 11:19:27,244 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\state_grad.py', reloading
+2026-03-07 11:19:27,278 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\proto_ops.py', reloading
+2026-03-07 11:19:27,649 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\cond_v2.py', reloading
+2026-03-07 11:19:27,667 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\while_v2.py', reloading
+2026-03-07 11:19:27,767 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\signal\\fft_ops.py', reloading
+2026-03-07 11:19:27,852 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\linalg\\sparse\\sparse_csr_matrix_grad.py', reloading
+2026-03-07 11:19:27,880 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_conversion_ops.py', reloading
+2026-03-07 11:19:27,972 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\profiler\\internal\\flops_registry.py', reloading
+2026-03-07 11:19:28,349 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:19:32,734 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:19:32,734 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:19:32,734 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:19:32,735 | INFO | File exists? True
+2026-03-07 11:19:32,754 | WARNING |  * Debugger is active!
+2026-03-07 11:19:32,761 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:19:34,661 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\base.py', reloading
+2026-03-07 11:19:35,095 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:19:40,822 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:19:40,822 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:19:40,823 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:19:40,823 | INFO | File exists? True
+2026-03-07 11:19:40,843 | WARNING |  * Debugger is active!
+2026-03-07 11:19:40,854 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:22:05,889 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 11:22:06,628 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:22:10,829 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:22:10,829 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:22:10,829 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:22:10,830 | INFO | File exists? True
+2026-03-07 11:22:10,848 | WARNING |  * Debugger is active!
+2026-03-07 11:22:10,857 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:22:18,881 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-07 11:22:19,172 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:22:22,601 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:22:22,601 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:22:22,601 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:22:22,601 | INFO | File exists? True
+2026-03-07 11:22:22,636 | WARNING |  * Debugger is active!
+2026-03-07 11:22:22,648 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:23:38,420 | INFO | 127.0.0.1 - - [07/Mar/2026 11:23:38] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 11:23:49,208 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 11:23:49,208 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 11:23:49,208 | INFO | Predicting employee index 0...
+2026-03-07 11:23:50,298 | INFO | Predicting employee index 1...
+2026-03-07 11:23:50,320 | INFO | Predicting employee index 2...
+2026-03-07 11:23:50,343 | INFO | Predicting employee index 3...
+2026-03-07 11:23:50,378 | INFO | 127.0.0.1 - - [07/Mar/2026 11:23:50] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 11:23:52,724 | INFO | 127.0.0.1 - - [07/Mar/2026 11:23:52] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 11:50:15,387 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\pdfplumber\\pdf.py', reloading
+2026-03-07 11:50:15,409 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\pdfplumber\\container.py', reloading
+2026-03-07 11:50:15,976 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:50:20,052 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:50:20,052 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:50:20,052 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:50:20,053 | INFO | File exists? True
+2026-03-07 11:50:20,064 | WARNING |  * Debugger is active!
+2026-03-07 11:50:20,070 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:51:05,307 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:51:05,309 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:51:05,709 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:51:07,685 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:51:07,685 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:51:07,685 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:51:07,685 | INFO | File exists? True
+2026-03-07 11:51:07,690 | WARNING |  * Debugger is active!
+2026-03-07 11:51:07,695 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:51:55,282 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:51:55,282 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:51:55,282 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:51:55,282 | INFO | File exists? True
+2026-03-07 11:51:55,313 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://172.18.77.123:5003
+2026-03-07 11:51:55,313 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-07 11:51:55,323 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:51:57,419 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:51:57,419 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:51:57,419 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:51:57,420 | INFO | File exists? True
+2026-03-07 11:51:57,426 | WARNING |  * Debugger is active!
+2026-03-07 11:51:57,429 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:54:52,026 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:54:52,027 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:54:52,029 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:54:52,659 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:54:55,412 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:54:55,412 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:54:55,412 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:54:55,413 | INFO | File exists? True
+2026-03-07 11:54:55,421 | WARNING |  * Debugger is active!
+2026-03-07 11:54:55,425 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 11:59:14,982 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:14,984 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:14,985 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:14,986 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:15,828 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 11:59:18,126 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 11:59:18,126 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 11:59:18,126 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 11:59:18,126 | INFO | File exists? True
+2026-03-07 11:59:18,136 | WARNING |  * Debugger is active!
+2026-03-07 11:59:18,140 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:00:05,890 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\flask\\helpers.py', reloading
+2026-03-07 12:00:05,906 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2026-03-07 12:00:06,810 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:00:09,155 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:00:09,155 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:00:09,155 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:00:09,155 | INFO | File exists? True
+2026-03-07 12:00:09,163 | WARNING |  * Debugger is active!
+2026-03-07 12:00:09,166 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:03:05,757 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,759 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,759 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:06,355 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\rdflib\\namespace\\_SDO.py', reloading
+2026-03-07 12:03:06,869 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:03:09,963 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:03:09,963 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:03:09,963 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:03:09,964 | INFO | File exists? True
+2026-03-07 12:03:09,971 | WARNING |  * Debugger is active!
+2026-03-07 12:03:09,975 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:13:27,249 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:27,250 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:27,253 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:27,399 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:13:30,034 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:13:30,034 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:13:30,034 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:13:30,034 | INFO | File exists? True
+2026-03-07 12:13:30,042 | WARNING |  * Debugger is active!
+2026-03-07 12:13:30,046 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:22:19,821 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,822 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,823 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,823 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:20,936 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:22:23,548 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:22:23,548 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:22:23,548 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:22:23,548 | INFO | File exists? True
+2026-03-07 12:22:23,560 | WARNING |  * Debugger is active!
+2026-03-07 12:22:23,564 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:22:23,815 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\registry.py', reloading
+2026-03-07 12:22:23,817 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\ops.py', reloading
+2026-03-07 12:22:23,818 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_ops.py', reloading
+2026-03-07 12:22:23,832 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\list_ops.py', reloading
+2026-03-07 12:22:23,853 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_ops.py', reloading
+2026-03-07 12:22:23,877 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_ops.py', reloading
+2026-03-07 12:22:23,879 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\check_ops.py', reloading
+2026-03-07 12:22:23,887 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_tensor.py', reloading
+2026-03-07 12:22:23,980 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\resource_variable_ops.py', reloading
+2026-03-07 12:22:23,997 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\bitwise_ops.py', reloading
+2026-03-07 12:22:23,998 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\library.py', reloading
+2026-03-07 12:22:23,999 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\torch\\_prims\\nvfuser_prims.py', reloading
+2026-03-07 12:22:24,000 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\stateless_random_ops.py', reloading
+2026-03-07 12:22:24,002 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\random_ops.py', reloading
+2026-03-07 12:22:24,012 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\io_ops.py', reloading
+2026-03-07 12:22:24,018 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\string_ops.py', reloading
+2026-03-07 12:22:24,049 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\tpu\\ops\\tpu_ops.py', reloading
+2026-03-07 12:22:24,079 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\saver.py', reloading
+2026-03-07 12:22:24,084 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\logging_ops.py', reloading
+2026-03-07 12:22:24,090 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\script_ops.py', reloading
+2026-03-07 12:22:24,096 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\data\\ops\\dataset_ops.py', reloading
+2026-03-07 12:22:24,099 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\framework\\auto_control_deps.py', reloading
+2026-03-07 12:22:24,154 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\lookup_ops.py', reloading
+2026-03-07 12:22:24,178 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\special_math_ops.py', reloading
+2026-03-07 12:22:24,196 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_ops.py', reloading
+2026-03-07 12:22:24,253 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\autograph\\utils\\ag_logging.py', reloading
+2026-03-07 12:22:24,270 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_math_ops.py', reloading
+2026-03-07 12:22:24,276 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\parsing_ops.py', reloading
+2026-03-07 12:22:24,330 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nn_grad.py', reloading
+2026-03-07 12:22:24,335 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ctc_ops.py', reloading
+2026-03-07 12:22:24,341 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\data_flow_grad.py', reloading
+2026-03-07 12:22:24,353 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\sets_impl.py', reloading
+2026-03-07 12:22:24,364 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\composite_tensor_ops.py', reloading
+2026-03-07 12:22:24,392 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\compiler\\tf2xla\\python\\xla.py', reloading
+2026-03-07 12:22:24,412 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\compiler\\jit\\ops\\xla_ops_grad.py', reloading
+2026-03-07 12:22:24,421 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\tpu\\tpu.py', reloading
+2026-03-07 12:22:24,436 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\array_grad.py', reloading
+2026-03-07 12:22:24,443 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\control_flow_grad.py', reloading
+2026-03-07 12:22:24,445 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\image_grad.py', reloading
+2026-03-07 12:22:24,450 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\linalg_grad.py', reloading
+2026-03-07 12:22:24,452 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\manip_grad.py', reloading
+2026-03-07 12:22:24,454 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\math_grad.py', reloading
+2026-03-07 12:22:24,465 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\optional_grad.py', reloading
+2026-03-07 12:22:24,467 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\random_grad.py', reloading
+2026-03-07 12:22:24,489 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\training\\queue_runner_impl.py', reloading
+2026-03-07 12:22:24,510 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\ragged\\ragged_gather_ops.py', reloading
+2026-03-07 12:22:24,519 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\image_ops_impl.py', reloading
+2026-03-07 12:22:24,525 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\image_ops.py', reloading
+2026-03-07 12:22:24,527 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\tensor_array_grad.py', reloading
+2026-03-07 12:22:24,573 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorflow\\python\\ops\\nccl_ops.py', reloading
+2026-03-07 12:22:24,729 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:22:27,120 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:22:27,120 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:22:27,120 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:22:27,120 | INFO | File exists? True
+2026-03-07 12:22:27,127 | WARNING |  * Debugger is active!
+2026-03-07 12:22:27,131 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:22:27,583 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\logging\\__init__.py', reloading
+2026-03-07 12:22:27,584 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\encodings\\cp1252.py', reloading
+2026-03-07 12:22:28,291 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:22:30,671 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:22:30,671 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:22:30,671 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:22:30,672 | INFO | File exists? True
+2026-03-07 12:22:30,715 | WARNING |  * Debugger is active!
+2026-03-07 12:22:30,732 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:25:20,478 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-07 12:25:20,971 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:25:24,328 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:25:24,328 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:25:24,328 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:25:24,329 | INFO | File exists? True
+2026-03-07 12:25:24,340 | WARNING |  * Debugger is active!
+2026-03-07 12:25:24,347 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:25:30,745 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 12:25:31,607 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 12:25:33,812 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 12:25:33,812 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 12:25:33,812 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 12:25:33,812 | INFO | File exists? True
+2026-03-07 12:25:33,820 | WARNING |  * Debugger is active!
+2026-03-07 12:25:33,823 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 12:32:14,546 | INFO | 127.0.0.1 - - [07/Mar/2026 12:32:14] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 12:32:35,743 | INFO | 127.0.0.1 - - [07/Mar/2026 12:32:35] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 12:32:42,012 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 12:32:42,012 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 12:32:42,014 | INFO | Predicting employee index 0...
+2026-03-07 12:32:42,051 | INFO | Predicting employee index 1...
+2026-03-07 12:32:42,091 | INFO | Predicting employee index 2...
+2026-03-07 12:32:42,127 | INFO | Predicting employee index 3...
+2026-03-07 12:32:42,307 | INFO | 127.0.0.1 - - [07/Mar/2026 12:32:42] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 12:39:20,733 | INFO | Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-07 12:39:20,734 | INFO | Download requested - filename: attrition_results_20260307_123242.csv
+2026-03-07 12:39:20,734 | INFO | Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\attrition_results_20260307_123242.csv
+2026-03-07 12:39:20,735 | INFO | File found, size: 327 bytes
+2026-03-07 12:39:20,740 | INFO | 127.0.0.1 - - [07/Mar/2026 12:39:20] "GET /api/download/attrition_results_20260307_123242.csv HTTP/1.1" 200 -
+2026-03-07 13:05:25,213 | INFO | 127.0.0.1 - - [07/Mar/2026 13:05:25] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 13:06:14,633 | INFO | 127.0.0.1 - - [07/Mar/2026 13:06:14] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 13:06:24,380 | INFO | 127.0.0.1 - - [07/Mar/2026 13:06:24] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 13:06:35,592 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:06:35,592 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:06:35,593 | INFO | Predicting employee index 0...
+2026-03-07 13:06:35,635 | INFO | Predicting employee index 1...
+2026-03-07 13:06:35,672 | INFO | Predicting employee index 2...
+2026-03-07 13:06:35,707 | INFO | Predicting employee index 3...
+2026-03-07 13:06:35,766 | INFO | 127.0.0.1 - - [07/Mar/2026 13:06:35] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:09:52,463 | INFO |  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-07 13:09:54,081 | INFO |  * Restarting with watchdog (windowsapi)
+2026-03-07 13:09:59,366 | INFO | Starting Employee Attrition Prediction API...
+2026-03-07 13:09:59,367 | INFO | Model path from config: Employee_Retention/employee_attrition_model.pkl
+2026-03-07 13:09:59,367 | INFO | Absolute model path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\Employee_Retention\employee_attrition_model.pkl
+2026-03-07 13:09:59,367 | INFO | File exists? True
+2026-03-07 13:09:59,388 | WARNING |  * Debugger is active!
+2026-03-07 13:09:59,403 | INFO |  * Debugger PIN: 403-625-082
+2026-03-07 13:15:40,060 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:15:40,060 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:15:40,061 | INFO | Predicting employee index 0...
+2026-03-07 13:15:41,179 | INFO | Predicting employee index 1...
+2026-03-07 13:15:41,206 | INFO | Predicting employee index 2...
+2026-03-07 13:15:41,227 | INFO | Predicting employee index 3...
+2026-03-07 13:15:41,261 | INFO | 127.0.0.1 - - [07/Mar/2026 13:15:41] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:16:06,607 | INFO | 127.0.0.1 - - [07/Mar/2026 13:16:06] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 13:16:09,277 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:16:09,278 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:16:09,278 | INFO | Predicting employee index 0...
+2026-03-07 13:16:09,305 | INFO | Predicting employee index 1...
+2026-03-07 13:16:09,326 | INFO | Predicting employee index 2...
+2026-03-07 13:16:09,347 | INFO | Predicting employee index 3...
+2026-03-07 13:16:09,374 | INFO | 127.0.0.1 - - [07/Mar/2026 13:16:09] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:16:51,361 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:16:51,361 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:16:51,362 | INFO | Predicting employee index 0...
+2026-03-07 13:16:51,384 | INFO | Predicting employee index 1...
+2026-03-07 13:16:51,402 | INFO | Predicting employee index 2...
+2026-03-07 13:16:51,423 | INFO | Predicting employee index 3...
+2026-03-07 13:16:51,450 | INFO | 127.0.0.1 - - [07/Mar/2026 13:16:51] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:18:23,696 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:18:23,697 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:18:23,697 | INFO | Predicting employee index 0...
+2026-03-07 13:18:23,721 | INFO | Predicting employee index 1...
+2026-03-07 13:18:23,741 | INFO | Predicting employee index 2...
+2026-03-07 13:18:23,761 | INFO | Predicting employee index 3...
+2026-03-07 13:18:23,791 | INFO | 127.0.0.1 - - [07/Mar/2026 13:18:23] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:28:54,193 | INFO | 127.0.0.1 - - [07/Mar/2026 13:28:54] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 13:29:08,356 | INFO | 127.0.0.1 - - [07/Mar/2026 13:29:08] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 13:29:19,917 | INFO | 127.0.0.1 - - [07/Mar/2026 13:29:19] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 13:29:20,333 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:29:20,334 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:29:20,335 | INFO | Predicting employee index 0...
+2026-03-07 13:29:20,356 | INFO | Predicting employee index 1...
+2026-03-07 13:29:20,376 | INFO | Predicting employee index 2...
+2026-03-07 13:29:20,399 | INFO | Predicting employee index 3...
+2026-03-07 13:29:20,425 | INFO | 127.0.0.1 - - [07/Mar/2026 13:29:20] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:29:22,498 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:29:22,498 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:29:22,498 | INFO | Predicting employee index 0...
+2026-03-07 13:29:22,525 | INFO | Predicting employee index 1...
+2026-03-07 13:29:22,548 | INFO | Predicting employee index 2...
+2026-03-07 13:29:22,571 | INFO | Predicting employee index 3...
+2026-03-07 13:29:22,602 | INFO | 127.0.0.1 - - [07/Mar/2026 13:29:22] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:30:47,215 | INFO | Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-07 13:30:47,215 | INFO | Download requested - filename: attrition_results_20260307_132920.csv
+2026-03-07 13:30:47,215 | INFO | Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\attrition_results_20260307_132920.csv
+2026-03-07 13:30:47,215 | INFO | File found, size: 327 bytes
+2026-03-07 13:30:47,216 | INFO | 127.0.0.1 - - [07/Mar/2026 13:30:47] "GET /api/download/attrition_results_20260307_132920.csv HTTP/1.1" 200 -
+2026-03-07 13:32:14,704 | INFO | CSV loaded with 4 rows and columns: ['Age', 'BusinessTravel', 'JobRole', 'JobLevel', 'MonthlyIncome', 'OverTime']
+2026-03-07 13:32:14,704 | INFO | Processing 4 employees for attrition prediction...
+2026-03-07 13:32:14,705 | INFO | Predicting employee index 0...
+2026-03-07 13:32:14,732 | INFO | Predicting employee index 1...
+2026-03-07 13:32:14,757 | INFO | Predicting employee index 2...
+2026-03-07 13:32:14,782 | INFO | Predicting employee index 3...
+2026-03-07 13:32:14,812 | INFO | 127.0.0.1 - - [07/Mar/2026 13:32:14] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 13:55:51,444 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 13:55:51,454 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-07 13:55:51,463 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Data_Validators.py', reloading
+2026-03-07 13:55:51,477 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction.py', reloading
+2026-03-07 13:55:51,486 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction_advance.py', reloading
+2026-03-07 13:55:51,493 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\preprocess.py', reloading
+2026-03-07 13:55:51,499 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Setup_File.py', reloading
+2026-03-07 13:55:51,507 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Train.py', reloading
+2026-03-07 13:55:51,623 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-07 13:55:51,630 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-07 13:55:51,637 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Data_Validators.py', reloading
+2026-03-07 13:55:51,644 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-07 13:55:51,703 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\PredictModel.py', reloading
+2026-03-07 13:55:51,716 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-07 13:55:51,784 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\test.py', reloading
+2026-03-07 13:55:51,791 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\TrainModel.py', reloading
+2026-03-07 13:55:51,947 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-07 13:55:52,022 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\Employee_Retention.py', reloading
+2026-03-07 13:55:52,030 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\feature_engineering.py', reloading
+2026-03-07 13:55:52,037 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\prediction.py', reloading
+2026-03-07 13:55:52,046 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictionV2.py', reloading
+2026-03-07 13:55:52,053 | INFO |  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictor_utils.py', reloading
+2026-03-07 13:55:52,562 | INFO |  * Restarting with watchdog (windowsapi)

@@ -1,0 +1,11 @@
+Age,Experience_Years,Education,Skills,Previous_Companies,Certifications,Job_Role_Applied,Fit_Percentage
+25,2,BSc IT,"Python, SQL, Data Analysis",TechSoft,AWS Cloud Practitioner,Data Analyst,80.92
+30,5,MSc Artificial Intelligence,"Python, Machine Learning, NLP","AI Labs, TechCorp","TensorFlow, PyTorch",Machine Learning Engineer,94.23
+28,4,BEng Software Engineering,"Java, Spring Boot, MySQL",CodeBase Ltd,Oracle Java Certification,Backend Developer,88.83
+35,8,MBA Information Systems,"Project Management, Agile, Scrum",Global Tech Solutions,PMP,IT Project Manager,98.91
+27,3,BSc Computer Science,"HTML, CSS, JavaScript, React",WebWorks,Frontend Developer Certification,Frontend Developer,84.24
+25,2,BSc IT,"Python, SQL, Data Analysis",TechSoft,AWS Cloud Practitioner,Data Analyst,80.92
+30,5,MSc Artificial Intelligence,"Python, Machine Learning, NLP","AI Labs, TechCorp","TensorFlow, PyTorch",Machine Learning Engineer,94.23
+28,4,BEng Software Engineering,"Java, Spring Boot, MySQL",CodeBase Ltd,Oracle Java Certification,Backend Developer,88.83
+35,8,MBA Information Systems,"Project Management, Agile, Scrum",Global Tech Solutions,PMP,IT Project Manager,98.91
+27,3,BSc Computer Science,"HTML, CSS, JavaScript, React",WebWorks,Frontend Developer Certification,Frontend Developer,84.24

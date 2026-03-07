@@ -1392,3 +1392,577 @@ FileNotFoundError: Failed to load model. Error: No file or directory found at ad
 2026-03-05 10:43:09,474 - __main__ - INFO -  Model and preprocessor loaded successfully.
 2026-03-05 10:43:09,487 - werkzeug - WARNING -  * Debugger is active!
 2026-03-05 10:43:09,500 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 13:36:03,549 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\MasterAPI.py', reloading
+2026-03-05 13:36:04,228 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-05 13:36:05,913 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 13:36:25,434 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 13:36:25,485 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 13:36:26,488 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 13:36:26,499 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 13:36:26,504 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 13:54:34,246 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 13:54:34,252 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 13:54:35,375 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 13:54:35,389 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.28.5.143:5002
+2026-03-05 13:54:35,389 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-05 13:54:35,402 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 13:54:43,372 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 13:54:43,374 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 13:54:44,235 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 13:54:44,243 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 13:54:44,248 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 13:55:10,505 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 13:55:10] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 14:37:43,206 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 14:37:43] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 14:38:13,939 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-05 14:38:14,280 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 14:38:14] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 14:38:15,021 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 14:38:24,218 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 14:38:24,220 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 14:38:25,069 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 14:38:25,081 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 14:38:25,088 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 14:38:25,133 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 14:38:25,133 - __main__ - INFO - Processing 25 employees...
+2026-03-05 14:38:25,145 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-05 14:38:25,534 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 14:38:25] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 14:38:26,701 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 14:38:32,525 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 14:38:32,527 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 14:38:33,356 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 14:38:33,363 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 14:38:33,369 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 14:54:21,109 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 14:54:22,244 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 14:54:30,443 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 14:54:30,450 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 14:54:31,407 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 14:54:31,417 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 14:54:31,424 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 15:01:06,168 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 15:01:06] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 15:02:46,722 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 15:02:46] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 15:02:49,355 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 15:02:49,355 - __main__ - INFO - Processing 25 employees...
+2026-03-05 15:02:49,434 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 15:02:49] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 15:05:35,835 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 15:05:35] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 15:05:46,436 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 15:05:46] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 15:05:49,057 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 15:05:49,058 - __main__ - INFO - Processing 25 employees...
+2026-03-05 15:05:49,122 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 15:05:49] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 16:52:58,170 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\36fed7a9-452e-492d-bba7-23ab32efaf71_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-05 16:52:58,181 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\40ac0440-1239-4886-8408-1b72e160f7dc_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-05 16:52:58,182 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\423e3616-8e50-450c-a73c-e95d39f224b6_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-05 16:52:58,183 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\4a56db2b-8c65-434b-a036-f3eb61172ddf_Cheat Sheet (3).zip.Cheat Sheet (3).zip', reloading
+2026-03-05 16:52:58,185 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\6a16cf10-78a1-4abc-9759-50cf532fa999_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-05 16:52:58,186 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\6a397fa2-3023-464c-956d-76bca1bcd3e7_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-05 16:52:58,187 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\715605aa-2dde-4bf3-a1c3-1118b7a0c061_Cheat Sheet (1).zip.Cheat Sheet (1).zip', reloading
+2026-03-05 16:52:58,190 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\7d33b7a0-e17b-413e-8d33-48e5ff408b69_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-05 16:52:58,193 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\899434f6-69dd-4b0d-bf96-3b8d7fc6f5a1_Cheat Sheet (4).zip.Cheat Sheet (4).zip', reloading
+2026-03-05 16:52:58,193 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\8bd59467-0891-44e7-bf01-18d3bf830d92_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-05 16:52:58,194 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\8d7d9dd0-a24d-4ee4-b13e-8e8d8c93a319_Cheat Sheet (4).zip.Cheat Sheet (4).zip', reloading
+2026-03-05 16:52:58,197 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\b4e5da4b-f7f4-4b3f-aea4-975b77915658_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-05 16:52:58,197 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\c1372e61-a5cd-422e-8363-e0a84aac0072_Cheat Sheet (1).zip.Cheat Sheet (1).zip', reloading
+2026-03-05 16:53:00,748 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 16:53:21,280 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 16:53:21,327 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 16:53:22,382 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 16:53:22,392 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 16:53:22,400 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:07:02,274 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:07:02] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:13:32,276 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:13:32] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:14:23,010 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:14:23] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:15:21,145 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\tests\\unicode_font.zip', reloading
+2026-03-05 17:15:21,245 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\tests\\unicode_files.zip', reloading
+2026-03-05 17:15:22,780 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:15:29,907 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 17:15:29,910 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 17:15:30,698 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 17:15:30,707 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 17:15:30,712 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:15:49,176 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\data\\images\\image-loading.zip', reloading
+2026-03-05 17:15:50,526 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:15:56,093 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 17:15:56,095 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 17:15:56,714 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 17:15:56,719 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 17:15:56,725 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:22:50,243 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\importlib_resources\\tests\\zipdata02\\ziptestdata.zip', reloading
+2026-03-05 17:22:50,380 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\importlib_resources\\tests\\zipdata01\\ziptestdata.zip', reloading
+2026-03-05 17:22:51,463 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:22:56,998 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 17:22:57,001 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 17:22:57,645 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 17:22:57,650 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 17:22:57,652 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:22:59,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\imageio\\resources\\images\\chelsea.zip', reloading
+2026-03-05 17:23:00,173 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:23:05,247 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 17:23:05,249 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 17:23:05,885 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 17:23:05,891 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 17:23:05,896 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:46:14,760 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:46:14] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:53:24,423 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:53:24] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:53:47,669 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 17:53:47,669 - __main__ - INFO - Processing 25 employees...
+2026-03-05 17:53:47,690 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-05 17:53:48,394 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:53:56,251 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 17:53:56,256 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 17:53:56,983 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 17:53:56,991 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 17:53:56,997 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:53:57,041 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 17:53:57,042 - __main__ - INFO - Processing 25 employees...
+2026-03-05 17:53:57,242 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-05 17:53:57,556 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:53:57] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 17:53:58,531 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:54:03,738 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 17:54:03,741 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 17:54:04,540 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 17:54:04,551 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 17:54:04,556 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:54:04,840 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:54:04] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 17:54:13,287 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:54:13] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:55:19,332 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:55:19] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:55:40,090 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 17:55:40] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:01:55,271 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:01:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:02:35,760 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:02:35] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:02:57,081 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:02:57] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:03:32,248 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 18:03:32,249 - __main__ - INFO - Processing 25 employees...
+2026-03-05 18:03:32,319 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:03:32] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 18:06:20,278 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:06:20] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:07:02,046 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:07:02] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:07:44,865 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:07:44] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:07:48,178 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 18:07:48,178 - __main__ - INFO - Processing 25 employees...
+2026-03-05 18:07:48,244 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:07:48] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 18:11:00,277 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:11:00] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:13:28,872 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\build\\test_update_ext_version.py', reloading
+2026-03-05 18:13:28,872 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\build\\update_package_json.py', reloading
+2026-03-05 18:13:28,872 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\build\\validate_packages.py', reloading
+2026-03-05 18:13:28,873 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\build\\update_ext_version.py', reloading
+2026-03-05 18:13:28,874 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\files\\templates\\new723ScriptTemplate\\script.py', reloading
+2026-03-05 18:13:28,875 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\files\\templates\\newPackageTemplate\\tests\\test_package_name.py', reloading
+2026-03-05 18:13:28,875 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\files\\templates\\newPackageTemplate\\package_name\\__main__.py', reloading
+2026-03-05 18:13:28,876 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\0Do7FyhN\\files\\templates\\newPackageTemplate\\package_name\\__init__.py', reloading
+2026-03-05 18:13:30,313 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 18:13:36,659 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 18:13:36,661 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 18:13:37,713 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 18:13:37,724 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 18:13:37,730 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 18:16:44,690 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:16:44] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:16:52,133 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:16:52] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:16:55,452 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 18:16:55,452 - __main__ - INFO - Processing 25 employees...
+2026-03-05 18:16:55,523 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:16:55] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 18:18:34,279 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:18:34] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:18:57,742 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:18:57] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:19:24,183 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:19:24] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:19:26,735 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 18:19:26,735 - __main__ - INFO - Processing 25 employees...
+2026-03-05 18:19:26,808 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:19:26] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 18:22:37,264 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:22:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:30:42,619 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:30:42] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:30:54,372 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:30:54] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:31:11,230 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:31:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:31:18,049 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:31:18] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:31:27,231 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:31:27] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:33:25,764 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:33:25] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:33:29,078 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:33:29] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:38:52,308 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:38:52] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:39:04,842 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:39:04] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:39:46,261 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:39:46] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:40:19,945 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:40:19] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:40:29,177 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:40:29] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:41:37,736 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:41:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:42:22,904 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 18:42:24,512 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 18:42:31,766 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 18:42:31,770 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 18:42:32,518 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 18:42:32,524 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 18:42:32,529 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 18:43:20,265 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:20] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:26,945 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:26] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:28,254 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:29,955 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:29] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:37,260 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:38,944 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:38] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:41,254 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:41] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:43,955 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:43] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:43:49,250 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:43:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:44:01,956 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:44:01] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:44:03,263 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:44:03] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:44:04,943 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:44:04] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:44:16,255 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:44:16] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:44:26,954 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:44:26] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:44:59,252 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:44:59] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:45:11,944 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:45:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:48:01,400 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:48:01] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:48:33,898 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:48:33] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:50:21,091 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:50:21] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:50:37,122 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:50:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:50:48,938 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:50:48] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:51:03,996 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:51:03] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:51:06,934 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:51:06] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:51:53,710 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:51:53] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 18:51:55,333 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 18:51:55,333 - __main__ - INFO - Processing 25 employees...
+2026-03-05 18:51:55,422 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:51:55] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 18:53:00,722 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:53:00] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:53:04,972 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:53:04] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:57:28,254 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:57:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:58:26,419 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:58:26] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:59:38,903 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 18:59:38,905 - __main__ - INFO - Processing 25 employees...
+2026-03-05 18:59:38,968 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:59:38] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 18:59:43,674 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 18:59:43] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:02:55,617 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:02:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:03:07,483 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 19:03:07,484 - __main__ - INFO - Processing 25 employees...
+2026-03-05 19:03:07,580 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:03:07] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:03:10,319 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:03:10] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:04:22,274 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:04:22] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:04:45,855 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 19:04:45,856 - __main__ - INFO - Processing 25 employees...
+2026-03-05 19:04:45,937 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:04:45] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:04:48,781 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:04:48] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:04:58,317 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:04:58] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:05:11,686 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:05:11] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:05:15,077 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 19:05:15,077 - __main__ - INFO - Processing 25 employees...
+2026-03-05 19:05:15,142 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:05:15] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:05:17,680 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:05:17] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:05:45,292 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 19:05:45,292 - __main__ - INFO - Processing 25 employees...
+2026-03-05 19:05:45,366 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:05:45] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:06:47,066 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:06:47] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:07:09,828 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-05 19:07:09,828 - __main__ - INFO - Processing 25 employees...
+2026-03-05 19:07:09,898 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:07:09] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-05 19:07:13,250 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:07:13] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-05 19:11:02,271 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:11:02] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:11:55,181 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:11:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:16:40,751 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:16:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:19:51,739 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:19:51] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:09,223 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:22:09] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:26,939 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:22:26] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:33,132 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:22:33] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:37,676 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:22:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:49,710 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:22:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:22:56,773 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:22:56] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:53:48,336 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:53:48] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:56:37,607 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:37] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:56:55,287 - werkzeug - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 22:11:39,085 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 22:11:42,979 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 22:12:13,736 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-05 22:12:13,797 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-05 22:12:15,876 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-05 22:12:15,946 - werkzeug - WARNING -  * Debugger is active!
+2026-03-05 22:12:15,967 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 13:09:39,386 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 13:09:39,436 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 13:09:40,258 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 13:09:40,270 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.28.3.50:5002
+2026-03-06 13:09:40,270 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-06 13:09:40,278 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 13:09:45,997 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 13:09:45,998 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 13:09:46,754 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 13:09:46,761 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 13:09:46,769 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 13:10:19,708 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 13:10:19] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:13:11,677 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 13:13:11] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:19:41,135 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 13:19:41] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:23:03,372 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 13:23:03] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:24:38,759 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 13:24:38] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:24:58,324 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-06 13:24:58,325 - __main__ - INFO - Processing 25 employees...
+2026-03-06 13:24:58,339 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-06 13:24:58,666 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-06 13:24:59,346 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 13:25:08,517 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 13:25:08,520 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 13:25:09,220 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 13:25:09,227 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 13:25:09,233 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 13:25:09,268 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-06 13:25:09,269 - __main__ - INFO - Processing 25 employees...
+2026-03-06 13:25:09,532 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 13:25:09] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-06 13:25:18,076 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 13:25:18] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-06 15:47:22,113 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 15:47:22] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:26:19,926 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 16:26:19] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:44:28,549 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 16:44:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:44:47,669 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-06 16:44:47,671 - __main__ - INFO - Processing 25 employees...
+2026-03-06 16:44:48,887 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 16:44:48] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-06 16:44:54,139 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 16:44:54] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-06 16:45:01,547 - __main__ - INFO - Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-06 16:45:01,548 - __main__ - INFO - Download requested - filename: productivity_results_20260306_164448.csv
+2026-03-06 16:45:01,548 - __main__ - INFO - Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\productivity_results_20260306_164448.csv
+2026-03-06 16:45:01,549 - __main__ - INFO - File found, size: 1884 bytes
+2026-03-06 16:45:01,559 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 16:45:01] "GET /api/download/productivity_results_20260306_164448.csv HTTP/1.1" 200 -
+2026-03-06 16:47:53,569 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 16:47:53] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 17:50:04,571 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 17:50:04] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 17:50:33,852 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 17:50:33] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 17:50:40,579 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 17:50:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:11:08,264 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:11:08] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:11:32,606 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:11:32] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:11:38,545 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:11:38] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:13:49,857 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:13:49] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:13:55,474 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:13:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:14:16,805 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-06 20:14:16,810 - __main__ - INFO - Processing 25 employees...
+2026-03-06 20:14:17,479 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:14:17] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-06 20:14:22,309 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:14:22] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-06 20:16:47,553 - __main__ - INFO - Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-06 20:16:47,553 - __main__ - INFO - Download requested - filename: productivity_results_20260306_201417.csv
+2026-03-06 20:16:47,554 - __main__ - INFO - Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\productivity_results_20260306_201417.csv
+2026-03-06 20:16:47,555 - __main__ - INFO - File found, size: 1884 bytes
+2026-03-06 20:16:47,572 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 20:16:47] "GET /api/download/productivity_results_20260306_201417.csv HTTP/1.1" 200 -
+2026-03-06 20:22:24,851 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\36fed7a9-452e-492d-bba7-23ab32efaf71_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-06 20:22:24,851 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\40ac0440-1239-4886-8408-1b72e160f7dc_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-06 20:22:24,865 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\423e3616-8e50-450c-a73c-e95d39f224b6_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-06 20:22:24,865 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\4a56db2b-8c65-434b-a036-f3eb61172ddf_Cheat Sheet (3).zip.Cheat Sheet (3).zip', reloading
+2026-03-06 20:22:24,897 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\6a16cf10-78a1-4abc-9759-50cf532fa999_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-06 20:22:24,897 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\6a397fa2-3023-464c-956d-76bca1bcd3e7_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-06 20:22:24,897 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\715605aa-2dde-4bf3-a1c3-1118b7a0c061_Cheat Sheet (1).zip.Cheat Sheet (1).zip', reloading
+2026-03-06 20:22:24,913 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\7d33b7a0-e17b-413e-8d33-48e5ff408b69_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-06 20:22:24,915 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\899434f6-69dd-4b0d-bf96-3b8d7fc6f5a1_Cheat Sheet (4).zip.Cheat Sheet (4).zip', reloading
+2026-03-06 20:22:24,915 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\8bd59467-0891-44e7-bf01-18d3bf830d92_Cheat Sheet (2).zip.Cheat Sheet (2).zip', reloading
+2026-03-06 20:22:24,916 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\8d7d9dd0-a24d-4ee4-b13e-8e8d8c93a319_Cheat Sheet (4).zip.Cheat Sheet (4).zip', reloading
+2026-03-06 20:22:24,919 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\b4e5da4b-f7f4-4b3f-aea4-975b77915658_Untitled (10).zip.Untitled (10).zip', reloading
+2026-03-06 20:22:24,920 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\AppData\\Local\\Temp\\c1372e61-a5cd-422e-8363-e0a84aac0072_Cheat Sheet (1).zip.Cheat Sheet (1).zip', reloading
+2026-03-06 20:22:27,133 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 20:23:21,512 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 20:23:21,550 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 20:23:22,402 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 20:23:22,408 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 20:23:22,414 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 22:59:42,790 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\MasterAPI.py', reloading
+2026-03-06 22:59:44,597 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 22:59:54,246 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 22:59:54,251 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 22:59:55,106 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 22:59:55,116 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 22:59:55,123 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:00:09,331 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-06 23:00:09,340 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Data_Validators.py', reloading
+2026-03-06 23:00:09,845 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:00:19,043 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 23:00:19,046 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 23:00:19,973 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 23:00:19,981 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 23:00:19,989 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:04:43,438 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\node_modules\\flatted\\python\\flatted.py', reloading
+2026-03-06 23:04:43,446 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\node_modules\\flatted\\python\\test.py', reloading
+2026-03-06 23:04:44,421 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:04:59,450 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 23:04:59,458 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 23:05:00,874 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 23:05:00,884 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 23:05:00,893 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:07:58,560 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Accuracy.py', reloading
+2026-03-06 23:07:58,608 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Load_Data.py', reloading
+2026-03-06 23:07:58,616 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\modelTrain.py', reloading
+2026-03-06 23:07:58,627 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\model_utils.py', reloading
+2026-03-06 23:07:58,646 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\predict_main.py', reloading
+2026-03-06 23:08:00,224 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:08:12,563 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 23:08:12,566 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 23:08:13,630 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 23:08:13,647 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 23:08:13,665 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:12:12,988 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 23:12:12] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 23:12:28,030 - werkzeug - INFO - 127.0.0.1 - - [06/Mar/2026 23:12:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 23:41:05,259 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:06,292 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:41:17,011 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 23:41:17,087 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 23:41:17,718 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 23:41:17,723 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 23:41:17,728 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:41:49,438 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:50,596 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:41:56,093 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-06 23:41:56,095 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-06 23:41:56,695 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-06 23:41:56,701 - werkzeug - WARNING -  * Debugger is active!
+2026-03-06 23:41:56,704 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 02:01:25,364 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-07 02:01:25,366 - __main__ - INFO - Processing 25 employees...
+2026-03-07 02:01:25,403 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 02:01:25,721 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-07 02:01:25,916 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-07 02:01:25,964 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 02:01:26,028 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 02:01:26] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 02:01:26,964 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 02:01:34,797 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 02:01:34,800 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 02:01:35,405 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 02:01:35,411 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 02:01:35,416 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 02:02:26,702 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 02:02:26] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 11:19:32,697 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:19:32,705 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:19:34,663 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:19:34,680 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.28.22.173:5002
+2026-03-07 11:19:34,681 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 11:19:34,701 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:19:46,478 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:19:46,479 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:19:47,477 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:19:47,490 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 11:19:47,502 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:21:57,330 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 11:21:57] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 11:22:05,861 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-07 11:22:05,861 - __main__ - INFO - Processing 25 employees...
+2026-03-07 11:22:05,889 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 11:22:06,777 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:22:17,635 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:22:17,641 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:22:18,701 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:22:18,710 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 11:22:18,718 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:22:18,761 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-07 11:22:18,761 - __main__ - INFO - Processing 25 employees...
+2026-03-07 11:22:18,881 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-07 11:22:19,333 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 11:22:19] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 11:22:20,550 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:22:31,376 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:22:31,377 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:22:32,183 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:22:32,193 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 11:22:32,198 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:23:11,111 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 11:23:11] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 11:50:15,388 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\pdfplumber\\pdf.py', reloading
+2026-03-07 11:50:15,409 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\pdfplumber\\container.py', reloading
+2026-03-07 11:50:16,762 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:52:12,621 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:52:12,669 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:52:13,802 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:52:13,819 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.18.77.123:5002
+2026-03-07 11:52:13,819 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 11:52:13,836 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:52:21,603 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:52:21,606 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:52:22,733 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:52:22,746 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 11:52:22,755 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:54:52,025 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:54:52,026 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:54:53,400 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:55:00,134 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:55:00,137 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:55:00,988 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:55:00,994 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 11:55:00,999 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:59:14,985 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:14,987 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:15,776 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:59:21,097 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 11:59:21,098 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 11:59:21,589 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 11:59:21,595 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 11:59:21,596 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:00:05,888 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\flask\\helpers.py', reloading
+2026-03-07 12:00:05,906 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2026-03-07 12:00:06,663 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:00:13,228 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 12:00:13,231 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 12:00:13,995 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 12:00:14,002 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 12:00:14,009 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:03:05,758 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,759 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,759 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,760 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:07,118 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:03:12,871 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 12:03:12,873 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 12:03:13,367 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 12:03:13,372 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 12:03:13,375 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:13:27,249 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:27,251 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:27,254 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:28,386 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:13:33,383 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 12:13:33,385 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 12:13:33,879 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 12:13:33,883 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 12:13:33,886 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:22:19,822 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,822 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,823 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:20,723 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:22:27,582 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 12:22:27,583 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 12:22:28,170 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 12:22:28,178 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 12:22:28,182 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:23:40,397 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 12:23:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 12:25:20,477 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-07 12:25:20,758 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 12:25:20] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 12:25:21,456 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:25:29,868 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 12:25:29,871 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 12:25:30,681 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 12:25:30,689 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 12:25:30,695 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:25:30,733 - __main__ - INFO - CSV loaded with 25 rows and columns: ['role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-07 12:25:30,734 - __main__ - INFO - Processing 25 employees...
+2026-03-07 12:25:30,745 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 12:25:31,035 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 12:25:31] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 12:25:32,237 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:25:39,321 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 12:25:39,325 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 12:25:40,338 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 12:25:40,345 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 12:25:40,351 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:28:28,709 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 12:28:28] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 12:28:41,417 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 12:28:41] "POST /api/predict/preview HTTP/1.1" 200 -
+2026-03-07 12:28:43,283 - __main__ - INFO - CSV loaded with 25 rows and columns: ['Employee_ID', 'role_level', 'position', 'age', 'experience_years', 'avg_task_completion', 'attendance_rate', 'projects_handled', 'overtime_hours', 'training_hours', 'FeedBack']
+2026-03-07 12:28:43,283 - __main__ - INFO - Processing 25 employees...
+2026-03-07 12:28:43,380 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 12:28:43] "POST /api/predict/batch HTTP/1.1" 200 -
+2026-03-07 12:28:56,613 - __main__ - INFO - Results folder absolute path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results
+2026-03-07 12:28:56,613 - __main__ - INFO - Download requested - filename: productivity_results_20260307_122843.csv
+2026-03-07 12:28:56,613 - __main__ - INFO - Full file path: C:\Users\pavat\Desktop\HRReactWeb_AppV26\HRReactWeb_AppV26\results\productivity_results_20260307_122843.csv
+2026-03-07 12:28:56,614 - __main__ - INFO - File found, size: 1962 bytes
+2026-03-07 12:28:56,615 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2026 12:28:56] "GET /api/download/productivity_results_20260307_122843.csv HTTP/1.1" 200 -
+2026-03-07 13:09:52,464 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-07 13:09:55,393 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 13:10:12,028 - __main__ - INFO - Starting Employee Productivity API...
+2026-03-07 13:10:12,033 - __main__ - INFO - Loading model and preprocessor using model_utils...
+2026-03-07 13:10:13,512 - __main__ - INFO -  Model and preprocessor loaded successfully.
+2026-03-07 13:10:13,525 - werkzeug - WARNING -  * Debugger is active!
+2026-03-07 13:10:13,534 - werkzeug - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 13:55:51,445 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 13:55:51,452 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-07 13:55:51,463 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Data_Validators.py', reloading
+2026-03-07 13:55:51,477 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction.py', reloading
+2026-03-07 13:55:51,486 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction_advance.py', reloading
+2026-03-07 13:55:51,493 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\preprocess.py', reloading
+2026-03-07 13:55:51,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Setup_File.py', reloading
+2026-03-07 13:55:51,507 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Train.py', reloading
+2026-03-07 13:55:51,623 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-07 13:55:51,630 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-07 13:55:51,637 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Data_Validators.py', reloading
+2026-03-07 13:55:51,644 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-07 13:55:51,703 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\PredictModel.py', reloading
+2026-03-07 13:55:51,716 - werkzeug - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading

@@ -1124,3 +1124,676 @@
 2026-03-05 10:43:14,125 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
 2026-03-05 10:43:14,133 - WARNING -  * Debugger is active!
 2026-03-05 10:43:14,138 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 13:36:03,550 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\MasterAPI.py', reloading
+2026-03-05 13:36:06,315 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 13:36:23,883 - INFO - Starting Dynamic Interview API...
+2026-03-05 13:36:23,884 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 13:36:23,884 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 13:36:23,884 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 13:36:29,878 - INFO - Use pytorch device: cpu
+2026-03-05 13:36:29,989 - INFO - Model loaded successfully
+2026-03-05 13:36:30,000 - INFO - CSV loaded with utf-8
+2026-03-05 13:36:30,007 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 13:36:30,014 - WARNING -  * Debugger is active!
+2026-03-05 13:36:30,018 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 13:54:31,936 - INFO - Starting Dynamic Interview API...
+2026-03-05 13:54:31,936 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 13:54:31,936 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 13:54:31,936 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 13:54:38,202 - INFO - Use pytorch device: cpu
+2026-03-05 13:54:38,299 - INFO - Model loaded successfully
+2026-03-05 13:54:38,306 - INFO - CSV loaded with utf-8
+2026-03-05 13:54:38,312 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 13:54:38,334 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://172.28.5.143:5004
+2026-03-05 13:54:38,334 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-05 13:54:38,354 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 13:54:45,807 - INFO - Starting Dynamic Interview API...
+2026-03-05 13:54:45,808 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 13:54:45,808 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 13:54:45,808 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 13:54:49,196 - INFO - Use pytorch device: cpu
+2026-03-05 13:54:49,226 - INFO - Model loaded successfully
+2026-03-05 13:54:49,229 - INFO - CSV loaded with utf-8
+2026-03-05 13:54:49,233 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 13:54:49,237 - WARNING -  * Debugger is active!
+2026-03-05 13:54:49,240 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 14:38:13,939 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-05 14:38:14,557 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-05 14:38:15,727 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 14:38:25,295 - INFO - Starting Dynamic Interview API...
+2026-03-05 14:38:25,295 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 14:38:25,296 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 14:38:25,296 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 14:38:30,600 - INFO - Use pytorch device: cpu
+2026-03-05 14:38:30,634 - INFO - Model loaded successfully
+2026-03-05 14:38:30,639 - INFO - CSV loaded with utf-8
+2026-03-05 14:38:30,646 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 14:38:30,652 - WARNING -  * Debugger is active!
+2026-03-05 14:38:30,658 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 14:54:21,110 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 14:54:22,603 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 14:54:31,011 - INFO - Starting Dynamic Interview API...
+2026-03-05 14:54:31,012 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 14:54:31,012 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 14:54:31,012 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 14:54:36,952 - INFO - Use pytorch device: cpu
+2026-03-05 14:54:36,989 - INFO - Model loaded successfully
+2026-03-05 14:54:36,999 - INFO - CSV loaded with utf-8
+2026-03-05 14:54:37,006 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 14:54:37,016 - WARNING -  * Debugger is active!
+2026-03-05 14:54:37,023 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 16:53:00,868 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Api.py', reloading
+2026-03-05 16:53:04,788 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 16:53:21,779 - INFO - Starting Dynamic Interview API...
+2026-03-05 16:53:21,779 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 16:53:21,780 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 16:53:21,780 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 16:53:27,498 - INFO - Use pytorch device: cpu
+2026-03-05 16:53:27,647 - INFO - Model loaded successfully
+2026-03-05 16:53:27,659 - INFO - CSV loaded with utf-8
+2026-03-05 16:53:27,670 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 16:53:27,677 - WARNING -  * Debugger is active!
+2026-03-05 16:53:27,682 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:15:21,145 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\tests\\unicode_font.zip', reloading
+2026-03-05 17:15:21,245 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\tests\\unicode_files.zip', reloading
+2026-03-05 17:15:23,271 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:15:30,508 - INFO - Starting Dynamic Interview API...
+2026-03-05 17:15:30,508 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 17:15:30,508 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 17:15:30,509 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 17:15:35,085 - INFO - Use pytorch device: cpu
+2026-03-05 17:15:35,112 - INFO - Model loaded successfully
+2026-03-05 17:15:35,117 - INFO - CSV loaded with utf-8
+2026-03-05 17:15:35,121 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:15:35,129 - WARNING -  * Debugger is active!
+2026-03-05 17:15:35,134 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:15:49,175 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\kivy\\data\\images\\image-loading.zip', reloading
+2026-03-05 17:15:50,101 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:15:56,565 - INFO - Starting Dynamic Interview API...
+2026-03-05 17:15:56,565 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 17:15:56,565 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 17:15:56,565 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 17:16:00,848 - INFO - Use pytorch device: cpu
+2026-03-05 17:16:00,875 - INFO - Model loaded successfully
+2026-03-05 17:16:00,880 - INFO - CSV loaded with utf-8
+2026-03-05 17:16:00,886 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:16:00,892 - WARNING -  * Debugger is active!
+2026-03-05 17:16:00,897 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:22:50,243 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\importlib_resources\\tests\\zipdata02\\ziptestdata.zip', reloading
+2026-03-05 17:22:51,044 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:22:57,518 - INFO - Starting Dynamic Interview API...
+2026-03-05 17:22:57,519 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 17:22:57,519 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 17:22:57,519 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 17:23:02,246 - INFO - Use pytorch device: cpu
+2026-03-05 17:23:02,276 - INFO - Model loaded successfully
+2026-03-05 17:23:02,280 - INFO - CSV loaded with utf-8
+2026-03-05 17:23:02,286 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:23:02,294 - WARNING -  * Debugger is active!
+2026-03-05 17:23:02,301 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 17:46:25,899 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:46:25,901 - INFO - 127.0.0.1 - - [05/Mar/2026 17:46:25] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 17:46:25,904 - INFO - 127.0.0.1 - - [05/Mar/2026 17:46:25] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:47:57,291 - INFO - 127.0.0.1 - - [05/Mar/2026 17:47:57] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:47:57,292 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:47:57,293 - INFO - 127.0.0.1 - - [05/Mar/2026 17:47:57] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 17:48:51,968 - INFO - 127.0.0.1 - - [05/Mar/2026 17:48:51] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:48:52,269 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:48:52,270 - INFO - 127.0.0.1 - - [05/Mar/2026 17:48:52] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 17:49:40,164 - INFO - 127.0.0.1 - - [05/Mar/2026 17:49:40] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:49:40,167 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:49:40,168 - INFO - 127.0.0.1 - - [05/Mar/2026 17:49:40] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 17:49:58,554 - INFO - 127.0.0.1 - - [05/Mar/2026 17:49:58] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 17:49:58,857 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:49:58,858 - INFO - 127.0.0.1 - - [05/Mar/2026 17:49:58] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 17:53:47,688 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-05 17:53:48,070 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-05 17:53:49,331 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 17:53:57,344 - INFO - Starting Dynamic Interview API...
+2026-03-05 17:53:57,345 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 17:53:57,345 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 17:53:57,345 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 17:54:02,115 - INFO - Use pytorch device: cpu
+2026-03-05 17:54:02,143 - INFO - Model loaded successfully
+2026-03-05 17:54:02,148 - INFO - CSV loaded with utf-8
+2026-03-05 17:54:02,153 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 17:54:02,159 - WARNING -  * Debugger is active!
+2026-03-05 17:54:02,165 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 18:38:56,178 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 18:38:56,203 - INFO - 127.0.0.1 - - [05/Mar/2026 18:38:56] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:38:56,204 - INFO - 127.0.0.1 - - [05/Mar/2026 18:38:56] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 18:39:00,368 - INFO - 127.0.0.1 - - [05/Mar/2026 18:39:00] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:39:00,672 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 18:39:00,673 - INFO - 127.0.0.1 - - [05/Mar/2026 18:39:00] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 18:40:31,256 - INFO - 127.0.0.1 - - [05/Mar/2026 18:40:31] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 18:40:31,260 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 18:40:31,260 - INFO - 127.0.0.1 - - [05/Mar/2026 18:40:31] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 18:42:22,913 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 18:42:26,580 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 18:42:33,710 - INFO - Starting Dynamic Interview API...
+2026-03-05 18:42:33,710 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 18:42:33,710 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 18:42:33,710 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 18:42:37,456 - INFO - Use pytorch device: cpu
+2026-03-05 18:42:37,563 - INFO - Model loaded successfully
+2026-03-05 18:42:37,567 - INFO - CSV loaded with utf-8
+2026-03-05 18:42:37,573 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 18:42:37,581 - WARNING -  * Debugger is active!
+2026-03-05 18:42:37,585 - INFO -  * Debugger PIN: 403-625-082
+2026-03-05 19:52:42,559 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 19:52:42,555 - INFO - 127.0.0.1 - - [05/Mar/2026 19:52:42] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:52:42,567 - INFO - 127.0.0.1 - - [05/Mar/2026 19:52:42] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 19:53:00,122 - INFO - 127.0.0.1 - - [05/Mar/2026 19:53:00] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:53:00,437 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 19:53:00,438 - INFO - 127.0.0.1 - - [05/Mar/2026 19:53:00] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 19:53:57,953 - INFO - 127.0.0.1 - - [05/Mar/2026 19:53:57] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:53:57,978 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 19:53:57,980 - INFO - 127.0.0.1 - - [05/Mar/2026 19:53:57] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 19:56:20,253 - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:20] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:56:20,258 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 19:56:20,258 - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:20] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 19:56:50,234 - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:50] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:56:50,551 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 19:56:50,551 - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:50] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 19:56:57,145 - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:57] "GET /api/test HTTP/1.1" 200 -
+2026-03-05 19:56:57,150 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 19:56:57,151 - INFO - 127.0.0.1 - - [05/Mar/2026 19:56:57] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-05 22:11:39,089 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-05 22:11:45,979 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-05 22:12:09,492 - INFO - Starting Dynamic Interview API...
+2026-03-05 22:12:09,492 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-05 22:12:09,493 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-05 22:12:09,494 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-05 22:12:19,768 - INFO - Use pytorch device: cpu
+2026-03-05 22:12:20,013 - INFO - Model loaded successfully
+2026-03-05 22:12:20,040 - INFO - CSV loaded with utf-8
+2026-03-05 22:12:20,059 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-05 22:12:20,069 - WARNING -  * Debugger is active!
+2026-03-05 22:12:20,077 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 13:09:38,490 - INFO - Starting Dynamic Interview API...
+2026-03-06 13:09:38,491 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 13:09:38,492 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 13:09:38,492 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 13:09:43,620 - INFO - Use pytorch device: cpu
+2026-03-06 13:09:43,810 - INFO - Model loaded successfully
+2026-03-06 13:09:43,829 - INFO - CSV loaded with utf-8
+2026-03-06 13:09:43,841 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 13:09:43,856 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://172.28.3.50:5004
+2026-03-06 13:09:43,856 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-06 13:09:43,868 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 13:09:48,659 - INFO - Starting Dynamic Interview API...
+2026-03-06 13:09:48,659 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 13:09:48,660 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 13:09:48,660 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 13:09:51,235 - INFO - Use pytorch device: cpu
+2026-03-06 13:09:51,256 - INFO - Model loaded successfully
+2026-03-06 13:09:51,258 - INFO - CSV loaded with utf-8
+2026-03-06 13:09:51,261 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 13:09:51,264 - WARNING -  * Debugger is active!
+2026-03-06 13:09:51,267 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 13:19:47,891 - INFO - 127.0.0.1 - - [06/Mar/2026 13:19:47] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 13:19:47,895 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 13:19:47,896 - INFO - 127.0.0.1 - - [06/Mar/2026 13:19:47] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-06 13:19:55,417 - INFO - 127.0.0.1 - - [06/Mar/2026 13:19:55] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 13:19:55,737 - INFO - Generating 10 questions for role: BI Analyst
+2026-03-06 13:19:59,584 - INFO - Raw output: ['Can you explain your experience with data visualization tools such as Tableau or Power BI?', 'What is your approach to gathering and analyzing data to provide meaningful insights for business decision-making?', 'How do you stay updated on the latest trends and technologies in business intelligence?', 'Can you walk us through a challenging project where you successfully used data to solve a business problem?', 'What programming languages are you proficient in for data analysis and reporting?', 'How do you ensure the data you analyze is accurate and reliable?', 'Can you discuss a time when you had to present complex data findings to non-technical stakeholders? How did you ensure they understood the information?', 'What key performance indicators (KPIs) do you think are most important for measuring the success of a BI project?', 'How do you approach collaborating with cross-functional teams to gather data requirements and deliver actionable insights?', 'What experience do you have with data warehousing and ETL processes?']
+2026-03-06 13:19:59,584 - INFO - Raw output type: <class 'list'>
+2026-03-06 13:19:59,584 - INFO - Returning 10 cleaned questions
+2026-03-06 13:19:59,584 - INFO - 127.0.0.1 - - [06/Mar/2026 13:19:59] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 13:20:57,224 - INFO - 127.0.0.1 - - [06/Mar/2026 13:20:57] "OPTIONS /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-06 13:20:57,492 - INFO - Evaluating 10 answers...
+2026-03-06 13:20:57,599 - ERROR - Error evaluating answer 1: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:57,652 - ERROR - Error evaluating answer 2: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:57,696 - ERROR - Error evaluating answer 3: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:57,748 - ERROR - Error evaluating answer 4: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:57,801 - ERROR - Error evaluating answer 5: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:57,859 - ERROR - Error evaluating answer 6: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:57,921 - ERROR - Error evaluating answer 7: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:57,967 - ERROR - Error evaluating answer 8: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:58,011 - ERROR - Error evaluating answer 9: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:58,056 - ERROR - Error evaluating answer 10: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 13:20:58,066 - INFO - 127.0.0.1 - - [06/Mar/2026 13:20:58] "POST /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-06 13:22:20,588 - INFO - 127.0.0.1 - - [06/Mar/2026 13:22:20] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 13:22:20,850 - INFO - Generating 10 questions for role: BI Analyst
+2026-03-06 13:22:25,037 - INFO - Raw output: ['Can you explain the process of data cleaning and preparation for a business intelligence analysis?', 'How do you approach identifying key performance indicators (KPIs) for a given business problem?', 'Describe a challenging data visualization project you worked on and how you overcame obstacles in the process.', 'How do you stay updated on the latest tools and technologies in the field of business intelligence?', 'Can you walk us through a time when you had to present complex data findings to non-technical stakeholders? How did you ensure clear communication?', 'What experience do you have with SQL and database querying for extracting and manipulating data?', 'Have you ever used machine learning algorithms in your BI analysis work? If so, can you provide an example?', 'How do you ensure data accuracy and integrity in your analysis process?', 'What steps do you take to ensure your BI reports and dashboards are user-friendly and easily understood by end-users?', 'Can you discuss a time when you had to work on a tight deadline for a BI project? How did you prioritize tasks and manage your time effectively?']
+2026-03-06 13:22:25,038 - INFO - Raw output type: <class 'list'>
+2026-03-06 13:22:25,038 - INFO - Returning 10 cleaned questions
+2026-03-06 13:22:25,039 - INFO - 127.0.0.1 - - [06/Mar/2026 13:22:25] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 13:24:58,339 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-06 13:24:58,666 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-06 13:24:59,768 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 13:25:08,881 - INFO - Starting Dynamic Interview API...
+2026-03-06 13:25:08,881 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 13:25:08,881 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 13:25:08,881 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 13:25:13,143 - INFO - Use pytorch device: cpu
+2026-03-06 13:25:13,181 - INFO - Model loaded successfully
+2026-03-06 13:25:13,190 - INFO - CSV loaded with utf-8
+2026-03-06 13:25:13,195 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 13:25:13,202 - WARNING -  * Debugger is active!
+2026-03-06 13:25:13,207 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 16:13:21,534 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 16:13:21,570 - INFO - 127.0.0.1 - - [06/Mar/2026 16:13:21] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-06 16:13:21,571 - INFO - 127.0.0.1 - - [06/Mar/2026 16:13:21] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:13:27,531 - INFO - 127.0.0.1 - - [06/Mar/2026 16:13:27] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 16:13:27,867 - INFO - Generating 10 questions for role: BI Analyst
+2026-03-06 16:13:30,666 - INFO - Raw output: ['What experience do you have with data visualization tools such as Tableau or Power BI?', 'Can you explain a complex data analysis project you have worked on in the past?', 'How do you ensure the accuracy and validity of the data you analyze?', 'What methodologies do you use to extract, transform, and load data for analysis?', 'Have you worked with SQL and database management systems before?', 'How do you stay updated with the latest trends and technologies in business intelligence?', 'Can you discuss a time when you had to present your findings to a non-technical audience?', 'What steps do you take to optimize and streamline BI processes within an organization?', 'Have you ever developed predictive models or forecasting algorithms using data analysis?', 'How do you handle working with large and complex datasets in your role as a BI Analyst?']
+2026-03-06 16:13:30,666 - INFO - Raw output type: <class 'list'>
+2026-03-06 16:13:30,673 - INFO - Returning 10 cleaned questions
+2026-03-06 16:13:30,674 - INFO - 127.0.0.1 - - [06/Mar/2026 16:13:30] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 16:13:58,313 - INFO - 127.0.0.1 - - [06/Mar/2026 16:13:58] "OPTIONS /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-06 16:13:58,650 - INFO - Evaluating 10 answers...
+2026-03-06 16:13:58,865 - ERROR - Error evaluating answer 1: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:58,914 - ERROR - Error evaluating answer 2: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:58,961 - ERROR - Error evaluating answer 3: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,016 - ERROR - Error evaluating answer 4: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,088 - ERROR - Error evaluating answer 5: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,141 - ERROR - Error evaluating answer 6: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,197 - ERROR - Error evaluating answer 7: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,259 - ERROR - Error evaluating answer 8: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,305 - ERROR - Error evaluating answer 9: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,351 - ERROR - Error evaluating answer 10: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 16:13:59,375 - INFO - 127.0.0.1 - - [06/Mar/2026 16:13:59] "POST /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-06 16:26:23,070 - INFO - 127.0.0.1 - - [06/Mar/2026 16:26:23] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:26:23,087 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 16:26:23,088 - INFO - 127.0.0.1 - - [06/Mar/2026 16:26:23] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-06 16:43:03,690 - INFO - 127.0.0.1 - - [06/Mar/2026 16:43:03] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:43:03,698 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 16:43:03,700 - INFO - 127.0.0.1 - - [06/Mar/2026 16:43:03] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-06 16:43:14,288 - INFO - 127.0.0.1 - - [06/Mar/2026 16:43:14] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 16:43:14,617 - INFO - Generating 10 questions for role: ML Engineer
+2026-03-06 16:43:16,804 - INFO - Raw output: ['Can you explain the difference between supervised and unsupervised learning?', 'What experience do you have with developing machine learning models from scratch?', 'How do you handle imbalanced datasets in machine learning projects?', 'Can you discuss a challenging machine learning project you worked on and how you overcame obstacles?', 'What is your experience with deep learning algorithms such as neural networks?', 'How do you stay updated with the latest trends and advancements in machine learning?', 'Can you explain the concept of overfitting and how to prevent it in machine learning models?', 'What programming languages and tools are you proficient in for machine learning tasks?', 'Have you worked with any specific machine learning frameworks like TensorFlow or PyTorch?', 'How do you approach feature selection and engineering in machine learning projects?']
+2026-03-06 16:43:16,804 - INFO - Raw output type: <class 'list'>
+2026-03-06 16:43:16,806 - INFO - Returning 10 cleaned questions
+2026-03-06 16:43:16,807 - INFO - 127.0.0.1 - - [06/Mar/2026 16:43:16] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 16:46:33,701 - INFO - 127.0.0.1 - - [06/Mar/2026 16:46:33] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:46:33,705 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 16:46:33,707 - INFO - 127.0.0.1 - - [06/Mar/2026 16:46:33] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-06 16:47:02,089 - INFO - 127.0.0.1 - - [06/Mar/2026 16:47:02] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 16:47:02,406 - INFO - Generating 10 questions for role: Backend Engineer
+2026-03-06 16:47:05,262 - INFO - Raw output: ['Can you explain the difference between synchronous and asynchronous programming?', 'How do you ensure the security of data in a backend system?', 'Can you discuss a challenging problem you faced in a previous project and how you solved it?', 'What is your experience with database management systems?', 'How do you approach optimizing the performance of a backend system?', 'Can you explain the concept of RESTful APIs and how you have used them in your previous work?', 'What is your experience with version control systems like Git?', 'How do you handle scalability issues in a backend system?', 'Can you discuss your experience with cloud computing platforms such as AWS or Azure?', 'What steps do you take to ensure code maintainability and readability in a backend project?']
+2026-03-06 16:47:05,262 - INFO - Raw output type: <class 'list'>
+2026-03-06 16:47:05,263 - INFO - Returning 10 cleaned questions
+2026-03-06 16:47:05,264 - INFO - 127.0.0.1 - - [06/Mar/2026 16:47:05] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 16:47:55,878 - INFO - 127.0.0.1 - - [06/Mar/2026 16:47:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 16:47:56,185 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 16:47:56,186 - INFO - 127.0.0.1 - - [06/Mar/2026 16:47:56] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-06 17:00:51,779 - INFO - 127.0.0.1 - - [06/Mar/2026 17:00:51] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 17:00:52,023 - INFO - Generating 10 questions for role: Backend Engineer
+2026-03-06 17:00:54,450 - INFO - Raw output: ['Can you explain the difference between synchronous and asynchronous programming?', 'How do you ensure the security of the backend systems you work on?', 'Have you ever worked with any specific databases or ORMs? If so, which ones and what was your experience?', 'What is your approach to optimizing backend code for performance?', 'Can you discuss a challenging technical problem you encountered in a previous project and how you solved it?', 'How do you handle and prevent potential data breaches in backend systems?', 'What tools or technologies do you typically use for backend development and why?', 'Can you explain the importance of scalability in backend systems and how you approach designing for it?', 'Have you worked on any projects involving microservices architecture? If so, what was your role and experience?', 'How do you stay updated on the latest trends and technologies in backend development?']
+2026-03-06 17:00:54,450 - INFO - Raw output type: <class 'list'>
+2026-03-06 17:00:54,465 - INFO - Returning 10 cleaned questions
+2026-03-06 17:00:54,466 - INFO - 127.0.0.1 - - [06/Mar/2026 17:00:54] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-06 17:02:44,612 - INFO - 127.0.0.1 - - [06/Mar/2026 17:02:44] "OPTIONS /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-06 17:02:44,875 - INFO - Evaluating 10 answers...
+2026-03-06 17:02:44,982 - ERROR - Error evaluating answer 1: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,049 - ERROR - Error evaluating answer 2: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,101 - ERROR - Error evaluating answer 3: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,159 - ERROR - Error evaluating answer 4: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,208 - ERROR - Error evaluating answer 5: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,264 - ERROR - Error evaluating answer 6: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,311 - ERROR - Error evaluating answer 7: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,371 - ERROR - Error evaluating answer 8: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,423 - ERROR - Error evaluating answer 9: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,473 - ERROR - Error evaluating answer 10: Can't get attribute 'BertSdpaSelfAttention' on <module 'transformers.models.bert.modeling_bert' from 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py'>
+2026-03-06 17:02:45,482 - INFO - 127.0.0.1 - - [06/Mar/2026 17:02:45] "POST /api/evaluate-answers HTTP/1.1" 200 -
+2026-03-06 20:11:30,506 - INFO - 127.0.0.1 - - [06/Mar/2026 20:11:30] "GET /api/test HTTP/1.1" 200 -
+2026-03-06 20:11:30,510 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 20:11:30,511 - INFO - 127.0.0.1 - - [06/Mar/2026 20:11:30] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-06 20:22:27,216 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Api.py', reloading
+2026-03-06 20:22:30,221 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 20:22:58,826 - INFO - Starting Dynamic Interview API...
+2026-03-06 20:22:58,826 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 20:22:58,827 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 20:22:58,827 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 20:23:22,128 - INFO - Use pytorch device: cpu
+2026-03-06 20:23:22,252 - INFO - Model loaded successfully
+2026-03-06 20:23:22,258 - INFO - CSV loaded with utf-8
+2026-03-06 20:23:22,270 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 20:23:22,278 - WARNING -  * Debugger is active!
+2026-03-06 20:23:22,284 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 20:23:22,392 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\base.py', reloading
+2026-03-06 20:23:24,074 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 20:23:31,480 - INFO - Starting Dynamic Interview API...
+2026-03-06 20:23:31,481 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 20:23:31,481 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 20:23:31,481 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 20:23:35,323 - INFO - Use pytorch device: cpu
+2026-03-06 20:23:35,353 - INFO - Model loaded successfully
+2026-03-06 20:23:35,357 - INFO - CSV loaded with utf-8
+2026-03-06 20:23:35,362 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 20:23:35,368 - WARNING -  * Debugger is active!
+2026-03-06 20:23:35,373 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 22:59:42,785 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\MasterAPI.py', reloading
+2026-03-06 22:59:45,742 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 22:59:55,591 - INFO - Starting Dynamic Interview API...
+2026-03-06 22:59:55,591 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 22:59:55,592 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 22:59:55,592 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 23:00:01,080 - INFO - Use pytorch device: cpu
+2026-03-06 23:00:01,111 - INFO - Model loaded successfully
+2026-03-06 23:00:01,116 - INFO - CSV loaded with utf-8
+2026-03-06 23:00:01,121 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 23:00:01,127 - WARNING -  * Debugger is active!
+2026-03-06 23:00:01,133 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:00:09,332 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-06 23:00:09,340 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Data_Validators.py', reloading
+2026-03-06 23:00:09,355 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction.py', reloading
+2026-03-06 23:00:09,362 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction_advance.py', reloading
+2026-03-06 23:00:09,371 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\preprocess.py', reloading
+2026-03-06 23:00:09,378 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Setup_File.py', reloading
+2026-03-06 23:00:09,384 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Train.py', reloading
+2026-03-06 23:00:09,564 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-06 23:00:09,574 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Data_Validators.py', reloading
+2026-03-06 23:00:09,650 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\PredictModel.py', reloading
+2026-03-06 23:00:09,666 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-06 23:00:09,741 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\test.py', reloading
+2026-03-06 23:00:09,750 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\TrainModel.py', reloading
+2026-03-06 23:00:10,079 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\Employee_Retention.py', reloading
+2026-03-06 23:00:10,096 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\feature_engineering.py', reloading
+2026-03-06 23:00:10,105 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\prediction.py', reloading
+2026-03-06 23:00:10,118 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictionV2.py', reloading
+2026-03-06 23:00:10,128 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictor_utils.py', reloading
+2026-03-06 23:00:11,255 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:00:21,317 - INFO - Starting Dynamic Interview API...
+2026-03-06 23:00:21,317 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 23:00:21,317 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 23:00:21,317 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 23:00:26,941 - INFO - Use pytorch device: cpu
+2026-03-06 23:00:26,968 - INFO - Model loaded successfully
+2026-03-06 23:00:26,974 - INFO - CSV loaded with utf-8
+2026-03-06 23:00:26,980 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 23:00:26,988 - WARNING -  * Debugger is active!
+2026-03-06 23:00:26,994 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:04:43,437 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\node_modules\\flatted\\python\\flatted.py', reloading
+2026-03-06 23:04:43,446 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\node_modules\\flatted\\python\\test.py', reloading
+2026-03-06 23:04:44,983 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:05:00,057 - INFO - Starting Dynamic Interview API...
+2026-03-06 23:05:00,057 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 23:05:00,059 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 23:05:00,059 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 23:05:07,739 - INFO - Use pytorch device: cpu
+2026-03-06 23:05:07,784 - INFO - Model loaded successfully
+2026-03-06 23:05:07,792 - INFO - CSV loaded with utf-8
+2026-03-06 23:05:07,805 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 23:05:07,815 - WARNING -  * Debugger is active!
+2026-03-06 23:05:07,832 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:07:58,561 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Accuracy.py', reloading
+2026-03-06 23:07:58,608 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Load_Data.py', reloading
+2026-03-06 23:07:58,616 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\modelTrain.py', reloading
+2026-03-06 23:07:58,627 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\model_utils.py', reloading
+2026-03-06 23:07:58,646 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\predict_main.py', reloading
+2026-03-06 23:08:00,911 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:08:12,221 - INFO - Starting Dynamic Interview API...
+2026-03-06 23:08:12,221 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 23:08:12,221 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 23:08:12,221 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 23:08:19,299 - INFO - Use pytorch device: cpu
+2026-03-06 23:08:19,325 - INFO - Model loaded successfully
+2026-03-06 23:08:19,330 - INFO - CSV loaded with utf-8
+2026-03-06 23:08:19,337 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 23:08:19,343 - WARNING -  * Debugger is active!
+2026-03-06 23:08:19,350 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:41:05,259 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:05,606 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:05,608 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:05,608 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:05,609 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:05,614 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:07,415 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:41:15,830 - INFO - Starting Dynamic Interview API...
+2026-03-06 23:41:15,830 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 23:41:15,831 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 23:41:15,831 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 23:41:20,693 - INFO - Use pytorch device: cpu
+2026-03-06 23:41:20,731 - INFO - Model loaded successfully
+2026-03-06 23:41:20,740 - INFO - CSV loaded with utf-8
+2026-03-06 23:41:20,745 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 23:41:20,754 - WARNING -  * Debugger is active!
+2026-03-06 23:41:20,760 - INFO -  * Debugger PIN: 403-625-082
+2026-03-06 23:41:49,438 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\frontend\\build.zip', reloading
+2026-03-06 23:41:51,012 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-06 23:41:57,066 - INFO - Starting Dynamic Interview API...
+2026-03-06 23:41:57,066 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-06 23:41:57,066 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-06 23:41:57,066 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-06 23:42:00,925 - INFO - Use pytorch device: cpu
+2026-03-06 23:42:00,955 - INFO - Model loaded successfully
+2026-03-06 23:42:00,959 - INFO - CSV loaded with utf-8
+2026-03-06 23:42:00,964 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-06 23:42:00,970 - WARNING -  * Debugger is active!
+2026-03-06 23:42:00,975 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 02:01:25,405 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 02:01:25,721 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-07 02:01:25,916 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-07 02:01:27,295 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 02:01:35,525 - INFO - Starting Dynamic Interview API...
+2026-03-07 02:01:35,525 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 02:01:35,525 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 02:01:35,525 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 02:01:39,838 - INFO - Use pytorch device: cpu
+2026-03-07 02:01:39,865 - INFO - Model loaded successfully
+2026-03-07 02:01:39,872 - INFO - CSV loaded with utf-8
+2026-03-07 02:01:39,877 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 02:01:39,885 - WARNING -  * Debugger is active!
+2026-03-07 02:01:39,892 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:19:31,326 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:19:31,326 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:19:31,327 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:19:31,328 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:19:42,022 - INFO - Use pytorch device: cpu
+2026-03-07 11:19:42,248 - INFO - Model loaded successfully
+2026-03-07 11:19:42,270 - INFO - CSV loaded with utf-8
+2026-03-07 11:19:42,284 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:19:42,303 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://172.28.22.173:5004
+2026-03-07 11:19:42,304 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 11:19:42,317 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:19:50,608 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:19:50,609 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:19:50,609 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:19:50,609 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:19:57,044 - INFO - Use pytorch device: cpu
+2026-03-07 11:19:57,089 - INFO - Model loaded successfully
+2026-03-07 11:19:57,094 - INFO - CSV loaded with utf-8
+2026-03-07 11:19:57,099 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:19:57,107 - WARNING -  * Debugger is active!
+2026-03-07 11:19:57,113 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:22:05,889 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2026-03-07 11:22:06,967 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:22:17,566 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:22:17,566 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:22:17,566 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:22:17,567 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:22:27,891 - INFO - Use pytorch device: cpu
+2026-03-07 11:22:27,952 - INFO - Model loaded successfully
+2026-03-07 11:22:27,957 - INFO - CSV loaded with utf-8
+2026-03-07 11:22:27,968 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:22:27,982 - WARNING -  * Debugger is active!
+2026-03-07 11:22:27,991 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:23:55,868 - INFO - 127.0.0.1 - - [07/Mar/2026 11:23:55] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 11:23:55,870 - ERROR - Dataset info error: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:23:55,870 - INFO - 127.0.0.1 - - [07/Mar/2026 11:23:55] "[35m[1mGET /api/dataset-info HTTP/1.1[0m" 500 -
+2026-03-07 11:24:01,062 - INFO - 127.0.0.1 - - [07/Mar/2026 11:24:01] "OPTIONS /api/generate-questions HTTP/1.1" 200 -
+2026-03-07 11:24:01,373 - INFO - Generating 10 questions for role: Data Scientist
+2026-03-07 11:24:06,805 - INFO - Raw output: ['Can you explain the difference between supervised and unsupervised learning?', 'How do you handle missing or incomplete data in a dataset?', 'Describe a project where you had to use machine learning techniques to solve a specific problem.', 'What programming languages are you proficient in for data analysis and why?', 'How do you ensure the accuracy of your predictive models?', 'Can you discuss a time when you had to work with a large dataset and how you managed it?', 'What data visualization tools have you used in the past and why?', 'How do you stay updated with the latest trends and advancements in the field of data science?', 'Describe a challenging problem you encountered during a data analysis project and how you resolved it.', 'How do you approach explaining complex technical concepts to non-technical stakeholders?']
+2026-03-07 11:24:06,805 - INFO - Raw output type: <class 'list'>
+2026-03-07 11:24:06,805 - INFO - Returning 10 cleaned questions
+2026-03-07 11:24:06,806 - INFO - 127.0.0.1 - - [07/Mar/2026 11:24:06] "POST /api/generate-questions HTTP/1.1" 200 -
+2026-03-07 11:24:16,721 - INFO - 127.0.0.1 - - [07/Mar/2026 11:24:16] "GET /api/test HTTP/1.1" 200 -
+2026-03-07 11:50:15,389 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\pdfplumber\\pdf.py', reloading
+2026-03-07 11:50:16,396 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:50:40,915 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:50:40,916 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:50:40,916 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:50:40,916 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:52:01,905 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:52:01,905 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:52:01,905 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:52:01,905 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:52:13,318 - INFO - Use pytorch device: cpu
+2026-03-07 11:52:13,378 - INFO - Model loaded successfully
+2026-03-07 11:52:13,386 - INFO - CSV loaded with utf-8
+2026-03-07 11:52:13,395 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:52:13,439 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://172.18.77.123:5004
+2026-03-07 11:52:13,439 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 11:52:13,459 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:52:22,160 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:52:22,160 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:52:22,160 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:52:22,160 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:52:27,553 - INFO - Use pytorch device: cpu
+2026-03-07 11:52:27,600 - INFO - Model loaded successfully
+2026-03-07 11:52:27,605 - INFO - CSV loaded with utf-8
+2026-03-07 11:52:27,614 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:52:27,620 - WARNING -  * Debugger is active!
+2026-03-07 11:52:27,626 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:54:52,026 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:54:52,028 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:54:53,822 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:55:00,915 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:55:00,915 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:55:00,916 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:55:00,916 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:55:06,356 - INFO - Use pytorch device: cpu
+2026-03-07 11:55:06,415 - INFO - Model loaded successfully
+2026-03-07 11:55:06,419 - INFO - CSV loaded with utf-8
+2026-03-07 11:55:06,426 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:55:06,434 - WARNING -  * Debugger is active!
+2026-03-07 11:55:06,440 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 11:59:14,984 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:14,984 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:14,985 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 11:59:16,558 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 11:59:21,731 - INFO - Starting Dynamic Interview API...
+2026-03-07 11:59:21,731 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 11:59:21,731 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 11:59:21,731 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 11:59:24,300 - INFO - Use pytorch device: cpu
+2026-03-07 11:59:24,324 - INFO - Model loaded successfully
+2026-03-07 11:59:24,327 - INFO - CSV loaded with utf-8
+2026-03-07 11:59:24,329 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 11:59:24,333 - WARNING -  * Debugger is active!
+2026-03-07 11:59:24,336 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:00:05,888 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\flask\\helpers.py', reloading
+2026-03-07 12:00:05,906 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2026-03-07 12:00:06,822 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:00:13,519 - INFO - Starting Dynamic Interview API...
+2026-03-07 12:00:13,520 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 12:00:13,520 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 12:00:13,520 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 12:00:20,276 - INFO - Use pytorch device: cpu
+2026-03-07 12:00:20,337 - INFO - Model loaded successfully
+2026-03-07 12:00:20,342 - INFO - CSV loaded with utf-8
+2026-03-07 12:00:20,347 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 12:00:20,356 - WARNING -  * Debugger is active!
+2026-03-07 12:00:20,362 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:03:05,757 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,759 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,760 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:05,762 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:03:06,355 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\rdflib\\namespace\\_SDO.py', reloading
+2026-03-07 12:03:06,629 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\treelog\\proto.py', reloading
+2026-03-07 12:03:07,867 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:03:13,364 - INFO - Starting Dynamic Interview API...
+2026-03-07 12:03:13,364 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 12:03:13,364 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 12:03:13,364 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 12:03:17,540 - INFO - Use pytorch device: cpu
+2026-03-07 12:03:17,575 - INFO - Model loaded successfully
+2026-03-07 12:03:17,578 - INFO - CSV loaded with utf-8
+2026-03-07 12:03:17,580 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 12:03:17,584 - WARNING -  * Debugger is active!
+2026-03-07 12:03:17,586 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:13:27,248 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:27,250 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:27,251 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:13:28,263 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:13:33,468 - INFO - Starting Dynamic Interview API...
+2026-03-07 12:13:33,468 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 12:13:33,468 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 12:13:33,468 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 12:13:36,112 - INFO - Use pytorch device: cpu
+2026-03-07 12:13:36,144 - INFO - Model loaded successfully
+2026-03-07 12:13:36,146 - INFO - CSV loaded with utf-8
+2026-03-07 12:13:36,149 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 12:13:36,154 - WARNING -  * Debugger is active!
+2026-03-07 12:13:36,157 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:22:19,822 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,823 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,823 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:19,823 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 12:22:21,378 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:22:28,294 - INFO - Starting Dynamic Interview API...
+2026-03-07 12:22:28,294 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 12:22:28,294 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 12:22:28,294 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 12:22:32,818 - INFO - Use pytorch device: cpu
+2026-03-07 12:22:32,856 - INFO - Model loaded successfully
+2026-03-07 12:22:32,860 - INFO - CSV loaded with utf-8
+2026-03-07 12:22:32,865 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 12:22:32,871 - WARNING -  * Debugger is active!
+2026-03-07 12:22:32,875 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 12:25:20,477 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\keras\\engine\\training.py', reloading
+2026-03-07 12:25:21,712 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 12:25:30,453 - INFO - Starting Dynamic Interview API...
+2026-03-07 12:25:30,454 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 12:25:30,454 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 12:25:30,454 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 12:25:35,806 - INFO - Use pytorch device: cpu
+2026-03-07 12:25:35,858 - INFO - Model loaded successfully
+2026-03-07 12:25:35,863 - INFO - CSV loaded with utf-8
+2026-03-07 12:25:35,869 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 12:25:35,877 - WARNING -  * Debugger is active!
+2026-03-07 12:25:35,882 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 13:09:52,471 - INFO -  * Detected change in 'C:\\Users\\pavat\\Downloads\\Python3_UpdateV8_2025_N\\Python38\\Lib\\site-packages\\tensorboard\\webfiles.zip', reloading
+2026-03-07 13:09:56,360 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 13:10:13,407 - INFO - Starting Dynamic Interview API...
+2026-03-07 13:10:13,408 - INFO - Dataset path: Dynamic_Interview/interview_data.csv
+2026-03-07 13:10:13,408 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-07 13:10:13,409 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-07 13:10:21,932 - INFO - Use pytorch device: cpu
+2026-03-07 13:10:21,994 - INFO - Model loaded successfully
+2026-03-07 13:10:22,003 - INFO - CSV loaded with utf-8
+2026-03-07 13:10:22,014 - ERROR - Failed to load dataset: 'InterviewDataProcessor' object has no attribute 'get_dataset_info'
+2026-03-07 13:10:22,024 - WARNING -  * Debugger is active!
+2026-03-07 13:10:22,032 - INFO -  * Debugger PIN: 403-625-082
+2026-03-07 13:55:51,445 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\API.py', reloading
+2026-03-07 13:55:51,452 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\config.py', reloading
+2026-03-07 13:55:51,463 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Data_Validators.py', reloading
+2026-03-07 13:55:51,477 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction.py', reloading
+2026-03-07 13:55:51,486 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Prediction_advance.py', reloading
+2026-03-07 13:55:51,493 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\preprocess.py', reloading
+2026-03-07 13:55:51,499 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Setup_File.py', reloading
+2026-03-07 13:55:51,507 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Cv_Screen\\Train.py', reloading
+2026-03-07 13:55:51,623 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\api.py', reloading
+2026-03-07 13:55:51,630 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Config.py', reloading
+2026-03-07 13:55:51,637 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\Data_Validators.py', reloading
+2026-03-07 13:55:51,644 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\InterviewDataProcessor.py', reloading
+2026-03-07 13:55:51,703 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\PredictModel.py', reloading
+2026-03-07 13:55:51,716 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\QuestionGenerator.py', reloading
+2026-03-07 13:55:51,784 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\test.py', reloading
+2026-03-07 13:55:51,790 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Dynamic_Interview\\TrainModel.py', reloading
+2026-03-07 13:55:51,947 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\API.py', reloading
+2026-03-07 13:55:52,022 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\Employee_Retention.py', reloading
+2026-03-07 13:55:52,030 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\feature_engineering.py', reloading
+2026-03-07 13:55:52,037 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\prediction.py', reloading
+2026-03-07 13:55:52,046 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictionV2.py', reloading
+2026-03-07 13:55:52,053 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Employee_Retention\\predictor_utils.py', reloading
+2026-03-07 13:55:52,155 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Accuracy.py', reloading
+2026-03-07 13:55:52,181 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Api.py', reloading
+2026-03-07 13:55:52,200 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\Load_Data.py', reloading
+2026-03-07 13:55:52,210 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\modelTrain.py', reloading
+2026-03-07 13:55:52,219 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\model_utils.py', reloading
+2026-03-07 13:55:52,236 - INFO -  * Detected change in 'C:\\Users\\pavat\\Desktop\\HRReactWeb_AppV26\\HRReactWeb_AppV26\\Performance_Productivity\\predict_main.py', reloading
