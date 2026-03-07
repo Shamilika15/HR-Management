@@ -1,50 +1,51 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Dashboard.css';
 
 const HomePage = () => {
   return (
-    <div className="homepage-container">
-      {/* Hero Section with Background */}
-      <div className="hero-section">
-        <div className="hero-overlay"></div>
-        <div className="hero-content">
+    <div className="dashboard-container">
+      {/* Hero Section */}
+      <div className="dashboard-hero">
+        <div className="hero-text-content">
           <div className="hero-badge">
             <i className="fas fa-robot"></i>
             <span>AI-Powered HCM System</span>
           </div>
-          
+
           <h1 className="hero-title">
             Welcome to <span className="gradient-text">AI_HCM</span>
           </h1>
-          
+
           <p className="hero-subtitle">
-            Revolutionizing Human Capital Management with Artificial Intelligence
+            Revolutionizing Human Capital Management with Artificial Intelligence. Streamline your HR processes and make data-driven decisions.
           </p>
-          
+
           <div className="hero-stats">
             <div className="stat-item">
-              <i className="fas fa-chart-line"></i>
-              <div>
+              <div className="stat-item-icon">
+                <i className="fas fa-brain"></i>
+              </div>
+              <div className="stat-content">
                 <span className="stat-value">4</span>
                 <span className="stat-label">AI Predictors</span>
               </div>
             </div>
+
             <div className="stat-item">
-              <i className="fas fa-users"></i>
-              <div>
+              <div className="stat-item-icon">
+                <i className="fas fa-database"></i>
+              </div>
+              <div className="stat-content">
                 <span className="stat-value">100%</span>
                 <span className="stat-label">Data-Driven</span>
               </div>
             </div>
-            <div className="stat-item">
-              <i className="fas fa-bolt"></i>
-              <div>
-                <span className="stat-value">Real-time</span>
-                <span className="stat-label">Analytics</span>
-              </div>
-            </div>
           </div>
+        </div>
+
+        <div className="hero-image-content">
+          <img src="/static/Assets/images/login-hero-robot.png" alt="AI Robot Assistant" />
         </div>
       </div>
 
@@ -57,39 +58,36 @@ const HomePage = () => {
 
         <div className="features-grid">
           <div className="feature-card">
-            <div className="feature-icon" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+            <div className="feature-icon">
               <i className="fas fa-chart-line"></i>
             </div>
             <h3>Candidate Fit Predictor</h3>
             <p>Match candidates to job descriptions with AI-powered similarity scoring and predictive analytics.</p>
-             
           </div>
 
           <div className="feature-card">
-            <div className="feature-icon" style={{ background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)' }}>
+            <div className="feature-icon">
               <i className="fas fa-tachometer-alt"></i>
             </div>
             <h3>Productivity Predictor</h3>
             <p>Forecast employee productivity levels and identify performance patterns.</p>
-             
           </div>
 
           <div className="feature-card">
-            <div className="feature-icon" style={{ background: 'linear-gradient(135deg, #dc3545 0%, #fd7e14 100%)' }}>
+            <div className="feature-icon">
               <i className="fas fa-exclamation-triangle"></i>
             </div>
             <h3>Attrition Predictor</h3>
             <p>Identify employees at risk of leaving and take proactive retention measures.</p>
-             
           </div>
 
           <div className="feature-card">
-            <div className="feature-icon" style={{ background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' }}>
+            <div className="feature-icon">
               <i className="fas fa-comments"></i>
             </div>
             <h3>Dynamic Interview</h3>
             <p>AI-powered interview questions and answer evaluation system.</p>
-             
+
           </div>
         </div>
       </div>

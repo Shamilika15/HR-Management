@@ -1,7 +1,7 @@
 
 import React, { useState, useContext, useEffect } from 'react';
 import { AuthContext } from './AuthContext';
- 
+
 
 
 const API_BASE_URL = 'http://localhost:5001';
@@ -14,7 +14,7 @@ const CandidateFitPredictor = () => {
   const [result, setResult] = useState(null);
   const [apiStatus, setApiStatus] = useState(null);
   const [isCheckingApi, setIsCheckingApi] = useState(false);
-  
+
 
   const [csvFile, setCsvFile] = useState(null);
   const [csvFileName, setCsvFileName] = useState('');
@@ -35,25 +35,25 @@ const CandidateFitPredictor = () => {
         method: 'GET',
         headers: { 'Accept': 'application/json' }
       });
-      
+
       if (response.ok) {
         const data = await response.json();
-        setApiStatus({ 
-          status: 'connected', 
-          message: `✅ API connected. Model loaded: ${data.model_loaded ? 'Yes' : 'No'}`,
+        setApiStatus({
+          status: 'connected',
+          message: `API connected. Model loaded: ${data.model_loaded ? 'Yes' : 'No'}`,
           details: data
         });
         setError('');
       } else {
-        setApiStatus({ 
-          status: 'error', 
-          message: `❌ API returned status ${response.status}` 
+        setApiStatus({
+          status: 'error',
+          message: `API returned status ${response.status}`
         });
       }
     } catch (err) {
-      setApiStatus({ 
-        status: 'error', 
-        message: `❌ Cannot connect to API at ${API_BASE_URL}. Make sure Flask server is running.` 
+      setApiStatus({
+        status: 'error',
+        message: `Cannot connect to API at ${API_BASE_URL}. Make sure Flask server is running.`
       });
     } finally {
       setIsCheckingApi(false);
@@ -96,7 +96,7 @@ const CandidateFitPredictor = () => {
       if (!csvFile) {
         throw new Error('Please upload a CSV file');
       }
-      
+
       if (!jobPdfFile) {
         throw new Error('Please upload a job description PDF');
       }
@@ -117,7 +117,7 @@ const CandidateFitPredictor = () => {
       }
 
       const data = await response.json();
-      
+
       if (data.success) {
         setBatchResult(data);
       } else {
@@ -155,7 +155,7 @@ const CandidateFitPredictor = () => {
       }
 
       const data = await response.json();
-      
+
       if (data.success) {
         setPreviewData(data);
       } else {
@@ -188,48 +188,50 @@ const CandidateFitPredictor = () => {
 
   return (
     <div className="predictor-container">
-<div className="predictor-hero">
-  <div className="hero-content">
-    <div className="hero-icon">
-      <i className="fas fa-brain"></i>
-    </div>
+      <div className="prod-hero">
+        <div className="prod-hero-heading">
+          <div className="prod-hero-badge">
+            <i className="fas fa-brain"></i>
+            <span>AI-Powered Talent Matching</span>
+          </div>
+          <h1 className="prod-hero-title">
+            Candidate-Job Fit <span className="prod-hero-highlight">Predictor</span>
+          </h1>
+          <p className="prod-hero-subtitle">
+            Analyze candidate profiles against job descriptions using advanced
+            machine learning algorithms to identify the best-fit talent instantly.
+          </p>
+        </div>
 
-    <div className="hero-text">
-      <h1>AI-Powered Candidate-Job Fit Predictor</h1>
-      <p>
-        Analyze candidate profiles against job descriptions using advanced 
-        machine learning algorithms to identify the best-fit talent instantly.
-      </p>
-    </div>
-  </div>
+        <div className="prod-hero-divider"></div>
 
-  <div className="hero-stats">
-    <div className="hero-stat">
-      <i className="fas fa-robot"></i>
-      <span>Smart Matching</span>
-    </div>
-    <div className="hero-stat">
-      <i className="fas fa-chart-line"></i>
-      <span>Data-Driven Insights</span>
-    </div>
-    <div className="hero-stat">
-      <i className="fas fa-bolt"></i>
-      <span>Fast Processing</span>
-    </div>
-  </div>
-</div>
+        <div className="prod-hero-pills">
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-robot"></i></span>
+            <span className="prod-pill-label">Smart Matching</span>
+          </div>
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-chart-line"></i></span>
+            <span className="prod-pill-label">Data-Driven Insights</span>
+          </div>
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-bolt"></i></span>
+            <span className="prod-pill-label">Fast Processing</span>
+          </div>
+        </div>
+      </div>
 
       {/* API Status Indicator */}
       {apiStatus && (
         <div className={`api-status ${apiStatus.status}`}>
           <i className={`fas fa-${apiStatus.status === 'connected' ? 'check-circle' : 'exclamation-circle'}`}></i>
           <span>{apiStatus.message}</span>
-          <button 
-            onClick={checkApiHealth} 
+          <button
+            onClick={checkApiHealth}
             className="refresh-status"
             disabled={isCheckingApi}
           >
-            <i className={`fas fa-sync-alt ${isCheckingApi ? 'fa-spin' : ''}`}></i> 
+            <i className={`fas fa-sync-alt ${isCheckingApi ? 'fa-spin' : ''}`}></i>
             {isCheckingApi ? 'Checking...' : 'Refresh'}
           </button>
         </div>
@@ -247,16 +249,16 @@ const CandidateFitPredictor = () => {
       <div className="batch-csv-section">
         <form onSubmit={handleBatchPredict} className="predictor-form">
           <div className="form-section">
-            
+
             <p className="section-description">
               Upload an employee CSV file and a job description PDF to get fit scores for all candidates.
-               
+
             </p>
-            
+
             <div className="file-upload-grid">
               <div className="file-upload-card">
                 <div className="file-upload-icon">
-                  <i className="fas fa-file-csv"></i>
+                  <i className="fa-solid fa-cloud-arrow-up"></i>
                 </div>
                 <h4>Employee CSV File</h4>
                 <label className="file-upload-label large">
@@ -279,7 +281,7 @@ const CandidateFitPredictor = () => {
 
               <div className="file-upload-card">
                 <div className="file-upload-icon">
-                  <i className="fas fa-file-pdf"></i>
+                  <i className="fa-solid fa-cloud-arrow-up"></i>
                 </div>
                 <h4>Job Description PDF</h4>
                 <label className="file-upload-label large">
@@ -302,8 +304,8 @@ const CandidateFitPredictor = () => {
             </div>
 
             <div className="action-buttons">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className="preview-btn"
                 onClick={handlePreview}
                 disabled={loading || !csvFile}
@@ -311,9 +313,9 @@ const CandidateFitPredictor = () => {
                 <i className="fas fa-eye"></i>
                 Preview Results
               </button>
-              
-              <button 
-                type="submit" 
+
+              <button
+                type="submit"
                 className="predict-btn"
                 disabled={loading || !csvFile || !jobPdfFile || apiStatus?.status !== 'connected'}
               >
@@ -355,7 +357,7 @@ const CandidateFitPredictor = () => {
                 <span className="stat-value">{previewData.summary.min_fit}%</span>
               </div>
             </div>
-            
+
             <div className="preview-table">
               <table>
                 <thead>
@@ -385,7 +387,7 @@ const CandidateFitPredictor = () => {
         {/* Batch Results */}
         {batchResult && (
           <div className="batch-results">
-            <h3>✅ Batch Processing Complete</h3>
+            <h3>Batch Processing Complete</h3>
             <div className="result-summary">
               <div className="result-stat">
                 <i className="fas fa-users"></i>
@@ -394,7 +396,7 @@ const CandidateFitPredictor = () => {
                   <span className="stat-value">{batchResult.total_candidates} Candidates</span>
                 </div>
               </div>
-              
+
               {batchResult.summary && (
                 <>
                   <div className="result-stat">
@@ -404,7 +406,7 @@ const CandidateFitPredictor = () => {
                       <span className="stat-value">{batchResult.summary.average_fit}%</span>
                     </div>
                   </div>
-                  
+
                   <div className="result-stat">
                     <i className="fas fa-trophy"></i>
                     <div>

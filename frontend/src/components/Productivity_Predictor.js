@@ -1,7 +1,7 @@
 
 import React, { useState, useContext, useEffect } from 'react';
 import { AuthContext } from './AuthContext';
- 
+
 
 const API_BASE_URL = 'http://localhost:5002';
 
@@ -11,7 +11,7 @@ const EmployeeProductivity = () => {
   const [error, setError] = useState('');
   const [apiStatus, setApiStatus] = useState(null);
   const [isCheckingApi, setIsCheckingApi] = useState(false);
-  
+
   // Batch processing state
   const [csvFile, setCsvFile] = useState(null);
   const [csvFileName, setCsvFileName] = useState('');
@@ -29,18 +29,18 @@ const EmployeeProductivity = () => {
       const response = await fetch(`${API_BASE_URL}/api/test`);
       if (response.ok) {
         const data = await response.json();
-        setApiStatus({ 
-          status: 'connected', 
-          message: `✅ API connected. Model loaded: ${data.model_loaded ? 'Yes' : 'No'}`,
+        setApiStatus({
+          status: 'connected',
+          message: `API connected. Model loaded: ${data.model_loaded ? 'Yes' : 'No'}`,
           details: data
         });
       } else {
-        setApiStatus({ status: 'error', message: '❌ API not responding properly' });
+        setApiStatus({ status: 'error', message: 'API not responding properly' });
       }
     } catch (err) {
-      setApiStatus({ 
-        status: 'error', 
-        message: '❌ Cannot connect to API. Make sure Flask server is running on port 5002.' 
+      setApiStatus({
+        status: 'error',
+        message: 'Cannot connect to API. Make sure Flask server is running on port 5002.'
       });
     } finally {
       setIsCheckingApi(false);
@@ -80,7 +80,7 @@ const EmployeeProductivity = () => {
       });
 
       const data = await response.json();
-      
+
       if (data.success) {
         setBatchResult(data);
       } else {
@@ -112,7 +112,7 @@ const EmployeeProductivity = () => {
       });
 
       const data = await response.json();
-      
+
       if (data.success) {
         setPreviewData(data);
       } else {
@@ -132,7 +132,7 @@ const EmployeeProductivity = () => {
   };
 
   const getRiskColor = (riskLevel) => {
-    switch(riskLevel) {
+    switch (riskLevel) {
       case 'High Risk': return '#dc3545';
       case 'Moderate Risk': return '#ffc107';
       case 'Low Risk': return '#28a745';
@@ -158,36 +158,40 @@ const EmployeeProductivity = () => {
 
   return (
     <div className="productivity-container">
-<div className="predictor-hero">
-  <div className="hero-content">
-    <div className="hero-icon">
-      <i className="fas fa-chart-bar"></i>
-    </div>
+      <div className="prod-hero">
+        {/* Centred heading block */}
+        <div className="prod-hero-heading">
+          <div className="prod-hero-badge">
+            <i className="fas fa-chart-bar"></i>
+            <span>AI-Powered Analytics</span>
+          </div>
+          <h1 className="prod-hero-title">
+            Employee Performance &amp; <span className="prod-hero-highlight">Productivity Predictor</span>
+          </h1>
+          <p className="prod-hero-subtitle">
+            Analyze employee performance data in bulk and generate productivity
+            insights using intelligent machine learning models.
+          </p>
+        </div>
 
-    <div className="hero-text">
-      <h1>Employee Productivity Batch Predictor</h1>
-      <p>
-        Analyze employee performance data in bulk and generate productivity
-        insights using intelligent machine learning models.
-      </p>
-    </div>
-  </div>
+        {/* Vertical spacer + stat pills */}
+        <div className="prod-hero-divider"></div>
 
-  <div className="hero-stats">
-    <div className="hero-stat">
-      <i className="fas fa-database"></i>
-      <span>Bulk Processing</span>
-    </div>
-    <div className="hero-stat">
-      <i className="fas fa-chart-line"></i>
-      <span>Performance Insights</span>
-    </div>
-    <div className="hero-stat">
-      <i className="fas fa-cogs"></i>
-      <span>Automated Analysis</span>
-    </div>
-  </div>
-</div>
+        <div className="prod-hero-pills">
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-database"></i></span>
+            <span className="prod-pill-label">Bulk Processing</span>
+          </div>
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-chart-line"></i></span>
+            <span className="prod-pill-label">Performance Insights</span>
+          </div>
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-cogs"></i></span>
+            <span className="prod-pill-label">Automated Analysis</span>
+          </div>
+        </div>
+      </div>
 
       {/* API Status */}
       {apiStatus && (
@@ -210,104 +214,108 @@ const EmployeeProductivity = () => {
         </div>
       )}
 
-      {/* Batch Processing Section */}
+      {/* Upload Section */}
       <div className="batch-processing-section">
-        <div className="batch-upload-card">
-          <div className="upload-icon">
-            <i className="fas fa-file-csv"></i>
-          </div>
-          <h3>Upload Employee CSV File</h3>
-          <p className="upload-description">
-            Upload a CSV file with the following columns:
-          </p>
-          
-        
-          
-          
-          <label className="file-upload-label large">
+        <div className="upload-card-modern">
+
+          {/* Cloud icon */}
+          <div className="ucm-icon-wrap">
             <i className="fas fa-cloud-upload-alt"></i>
-            {csvFileName ? 'Change CSV File' : 'Select CSV File'}
-            <input
-              type="file"
-              accept=".csv"
-              onChange={handleCsvFileChange}
-              style={{ display: 'none' }}
-            />
-          </label>
-          
+          </div>
+
+          {/* Title & subtitle */}
+          <h3 className="ucm-title">Upload Employee Data</h3>
+          <p className="ucm-subtitle">
+            Drag and drop your CSV file here, or click to browse.
+          </p>
+
+          {/* Selected file indicator */}
           {csvFileName && (
-            <div className="selected-file">
-              <i className="fas fa-check-circle"></i>
-              <span>{csvFileName}</span>
-            </div>
+            <p className="ucm-selected">
+              <i className="fas fa-file-csv"></i>
+              Selected: <strong>{csvFileName}</strong>
+            </p>
           )}
 
-          <div className="batch-actions">
-            <button 
-              className="preview-btn"
+          {/* Action buttons — Row 1: secondary actions */}
+          <div className="ucm-actions ucm-row-secondary">
+            {/* SELECT CSV FILE */}
+            <label className="ucm-btn ucm-btn-outline ucm-half">
+              <i className="fas fa-folder-open"></i>
+              Select CSV File
+              <input
+                type="file"
+                accept=".csv"
+                onChange={handleCsvFileChange}
+                style={{ display: 'none' }}
+              />
+            </label>
+
+            {/* PREVIEW DATA */}
+            <button
+              className="ucm-btn ucm-btn-outline ucm-half"
               onClick={handlePreview}
               disabled={loading || !csvFile}
             >
               <i className="fas fa-eye"></i>
               Preview Data
             </button>
-            
-            <button 
-              className="predict-btn"
-              onClick={handleBatchPredict}
-              disabled={loading || !csvFile}
-            >
-              {loading ? (
-                <>
-                  <i className="fas fa-spinner fa-spin"></i>
-                  Processing...
-                </>
-              ) : (
-                <>
-                  <i className="fas fa-play"></i>
-                  Process Batch
-                </>
-              )}
-            </button>
           </div>
+
+          {/* Row 2: Primary action full-width */}
+          <button
+            className="ucm-btn ucm-btn-primary ucm-full"
+            onClick={handleBatchPredict}
+            disabled={loading || !csvFile}
+          >
+            {loading ? (
+              <><i className="fas fa-spinner fa-spin"></i> Processing...</>
+            ) : (
+              <><i className="fas fa-bolt"></i> Run Prediction</>
+            )}
+          </button>
         </div>
 
         {/* Preview Results */}
-        {previewData && (
-          <div className="preview-section">
-            <h3>📋 Data Preview</h3>
-            <p>Total rows: {previewData.total_rows} | Showing first {previewData.preview_rows}</p>
-            
-            <div className="preview-table">
-              <table>
-                <thead>
-                  <tr>
-                    {previewData.columns.map(col => (
-                      <th key={col}>{col}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {previewData.preview.map((row, idx) => (
-                    <tr key={idx}>
-                      {previewData.columns.map(col => (
-                        <td key={col}>
-                          {typeof row[col] === 'number' ? row[col].toFixed(2) : row[col]}
-                        </td>
+        {previewData && (() => {
+          const PREVIEW_COLUMNS = ['role_level', 'position', 'Predicted_Class', 'Productivity_Score', 'Adjusted_Productivity', 'Risk_Level'];
+          const visibleCols = PREVIEW_COLUMNS.filter(col => previewData.columns.includes(col));
+          return (
+            <div className="preview-section">
+              <h3>Data Preview</h3>
+              <p>Total rows: {previewData.total_rows} | Showing first {previewData.preview_rows}</p>
+
+              <div className="preview-table">
+                <table>
+                  <thead>
+                    <tr>
+                      {visibleCols.map(col => (
+                        <th key={col}>{col}</th>
                       ))}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {previewData.preview.map((row, idx) => (
+                      <tr key={idx}>
+                        {visibleCols.map(col => (
+                          <td key={col}>
+                            {typeof row[col] === 'number' ? row[col].toFixed(2) : (row[col] ?? '—')}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
-        )}
+          );
+        })()}
 
         {/* Batch Results */}
         {batchResult && (
           <div className="batch-results">
-            <h3>✅ Batch Processing Complete</h3>
-            
+            <h3>Batch Processing Complete</h3>
+
             <div className="summary-stats">
               <div className="stat-card">
                 <i className="fas fa-users"></i>
@@ -316,7 +324,7 @@ const EmployeeProductivity = () => {
                   <span className="stat-value">{batchResult.total_employees}</span>
                 </div>
               </div>
-              
+
               <div className="stat-card">
                 <i className="fas fa-chart-line"></i>
                 <div>
@@ -324,7 +332,7 @@ const EmployeeProductivity = () => {
                   <span className="stat-value">{batchResult.summary.average_productivity.toFixed(1)}%</span>
                 </div>
               </div>
-              
+
               <div className="stat-card">
                 <i className="fas fa-tachometer-alt"></i>
                 <div>
@@ -336,46 +344,166 @@ const EmployeeProductivity = () => {
 
             {/* Class Distribution */}
             <div className="class-distribution">
-              <h4>Performance Class Distribution</h4>
-              <div className="class-bars">
+              <div className="class-dist-header">
+                <div className="class-dist-title-group">
+                  <i className="fas fa-chart-pie class-dist-icon"></i>
+                  <h4>Performance Class Distribution</h4>
+                </div>
+                <span className="class-dist-total">{batchResult.total_employees} employees</span>
+              </div>
+              <div className="class-cards-grid">
                 {[1, 2, 3, 4, 5].map(classNum => {
                   const count = batchResult.summary.class_distribution[classNum] || 0;
-                  const percentage = (count / batchResult.total_employees) * 100;
+                  const percentage = batchResult.total_employees > 0
+                    ? ((count / batchResult.total_employees) * 100).toFixed(1)
+                    : 0;
+                  const classConfig = [
+                    { label: 'Very Low', gradient: 'linear-gradient(135deg, #f5576c, #f093fb)', glow: '#f5576c' },
+                    { label: 'Low', gradient: 'linear-gradient(135deg, #fd7e14, #ffc107)', glow: '#fd7e14' },
+                    { label: 'Average', gradient: 'linear-gradient(135deg, #4facfe, #00f2fe)', glow: '#4facfe' },
+                    { label: 'High', gradient: 'linear-gradient(135deg, #43e97b, #38f9d7)', glow: '#43e97b' },
+                    { label: 'Very High', gradient: 'linear-gradient(135deg, #667eea, #764ba2)', glow: '#667eea' },
+                  ][classNum - 1];
                   return (
-                    <div key={classNum} className="class-bar-item">
-                      <span className="class-label">Class {classNum}</span>
-                      <span className="class-desc">{getClassLabel(classNum)}</span>
-                      <div className="progress-bar">
-                        <div 
-                          className={`progress-fill class-${classNum}`}
-                          style={{ width: `${percentage}%` }}
-                        ></div>
+                    <div key={classNum} className="class-perf-card">
+                      <div className="class-perf-card-top" style={{ background: classConfig.gradient }}>
+                        <span className="class-perf-num">C{classNum}</span>
+                        <span className="class-perf-pct">{percentage}%</span>
                       </div>
-                      <span className="class-count">{count}</span>
+                      <div className="class-perf-card-body">
+                        <div className="class-perf-count">{count}</div>
+                        <div className="class-perf-label">{classConfig.label}</div>
+                        <div className="class-perf-bar-wrap">
+                          <div
+                            className="class-perf-bar-fill"
+                            style={{ width: `${percentage}%`, background: classConfig.gradient, boxShadow: `0 0 8px ${classConfig.glow}60` }}
+                          ></div>
+                        </div>
+                      </div>
                     </div>
                   );
                 })}
               </div>
             </div>
 
-            {/* Risk Distribution */}
-            <div className="risk-distribution">
-              <h4>Risk Distribution</h4>
-              <div className="risk-bars">
-                {Object.entries(batchResult.summary.risk_distribution).map(([risk, count]) => (
-                  <div key={risk} className="risk-bar-item">
-                    <span className="risk-label">{risk}</span>
-                    <div className="progress-bar">
-                      <div 
-                        className={`progress-fill ${risk.toLowerCase().replace(' ', '-')}`}
-                        style={{ width: `${(count / batchResult.total_employees) * 100}%` }}
-                      ></div>
-                    </div>
-                    <span className="risk-count">{count}</span>
+            {/* Risk Distribution — Pie Chart */}
+            {(() => {
+              const RISK_CONFIG = {
+                'High Risk': { color: '#ef4444', glow: '#ef444440' },
+                'Moderate Risk': { color: '#f59e0b', glow: '#f59e0b40' },
+                'Low Risk': { color: '#10b981', glow: '#10b98140' },
+              };
+              const riskEntries = Object.entries(batchResult.summary.risk_distribution);
+              const total = riskEntries.reduce((s, [, c]) => s + c, 0);
+
+              // SVG donut parameters
+              const R = 70; // radius
+              const CX = 90; const CY = 90; // centre of SVG
+              const STROKE = 28; // donut width
+              const circumference = 2 * Math.PI * R;
+              let cumulativeAngle = -90; // start at top
+
+              const slices = riskEntries.map(([risk, count]) => {
+                const pct = total > 0 ? count / total : 0;
+                const angle = pct * 360;
+                const startAngle = cumulativeAngle;
+                cumulativeAngle += angle;
+                const config = RISK_CONFIG[risk] || { color: '#94a3b8', glow: '#94a3b840' };
+                return { risk, count, pct, startAngle, angle, ...config };
+              });
+
+              // Compute stroke-dasharray arc for each slice
+              const polarToXY = (angleDeg, r) => {
+                const rad = (angleDeg * Math.PI) / 180;
+                return {
+                  x: CX + r * Math.cos(rad),
+                  y: CY + r * Math.sin(rad),
+                };
+              };
+
+              const describeArc = (startDeg, angleDeg) => {
+                if (angleDeg >= 360) angleDeg = 359.99;
+                const start = polarToXY(startDeg, R);
+                const end = polarToXY(startDeg + angleDeg, R);
+                const large = angleDeg > 180 ? 1 : 0;
+                return `M ${start.x} ${start.y} A ${R} ${R} 0 ${large} 1 ${end.x} ${end.y}`;
+              };
+
+              return (
+                <div className="risk-pie-section">
+                  <div className="risk-pie-header">
+                    <i className="fas fa-chart-pie risk-pie-icon"></i>
+                    <h4>Risk Distribution</h4>
                   </div>
-                ))}
-              </div>
-            </div>
+
+                  <div className="risk-pie-layout">
+                    {/* SVG Donut */}
+                    <div className="risk-pie-chart-wrap">
+                      <svg width="180" height="180" viewBox="0 0 180 180">
+                        {/* Background ring */}
+                        <circle cx={CX} cy={CY} r={R} fill="none" stroke="#f1f5f9" strokeWidth={STROKE} />
+                        {/* Slices */}
+                        {slices.map((s, i) => (
+                          <path
+                            key={i}
+                            d={describeArc(s.startAngle, s.angle)}
+                            fill="none"
+                            stroke={s.color}
+                            strokeWidth={STROKE}
+                            strokeLinecap="butt"
+                            style={{ filter: `drop-shadow(0 0 4px ${s.glow})` }}
+                          />
+                        ))}
+                        {/* Count labels on each slice */}
+                        {slices.map((s, i) => {
+                          if (s.angle < 20) return null; // skip tiny slices
+                          const midAngle = s.startAngle + s.angle / 2;
+                          const midRad = (midAngle * Math.PI) / 180;
+                          const lx = CX + R * Math.cos(midRad);
+                          const ly = CY + R * Math.sin(midRad);
+                          return (
+                            <text
+                              key={`lbl-${i}`}
+                              x={lx}
+                              y={ly + 4}
+                              textAnchor="middle"
+                              fontSize="11"
+                              fontWeight="800"
+                              fill="#ffffff"
+                              style={{ pointerEvents: 'none', textShadow: '0 1px 2px rgba(0,0,0,0.4)' }}
+                            >
+                              {s.count}
+                            </text>
+                          );
+                        })}
+                        {/* Centre text */}
+                        <text x={CX} y={CY - 8} textAnchor="middle" fontSize="24" fontWeight="800" fill="#1e293b">{total}</text>
+                        <text x={CX} y={CY + 12} textAnchor="middle" fontSize="10" fill="#94a3b8" fontWeight="600" letterSpacing="1">TOTAL</text>
+                      </svg>
+                    </div>
+
+                    {/* Legend */}
+                    <div className="risk-pie-legend">
+                      {slices.map((s, i) => (
+                        <div key={i} className="risk-legend-item">
+                          <span className="risk-legend-dot" style={{ background: s.color, boxShadow: `0 0 6px ${s.glow}` }}></span>
+                          <div className="risk-legend-info">
+                            <span className="risk-legend-name">{s.risk}</span>
+                            <div className="risk-legend-bar-wrap">
+                              <div className="risk-legend-bar-fill" style={{ width: `${(s.pct * 100).toFixed(1)}%`, background: s.color }}></div>
+                            </div>
+                          </div>
+                          <div className="risk-legend-stats">
+                            <span className="risk-legend-count" style={{ color: s.color }}>{s.count}</span>
+                            <span className="risk-legend-pct">{(s.pct * 100).toFixed(1)}%</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              );
+            })()}
 
             {/* Top Performers */}
             {batchResult.top_performers.length > 0 && (
@@ -387,7 +515,7 @@ const EmployeeProductivity = () => {
                       <span className="rank">#{idx + 1}</span>
                       <span className="name">{performer.name || `Employee ${idx + 1}`}</span>
                       <span className="score">{performer.Adjusted_Productivity.toFixed(1)}%</span>
-                      <span className="risk-badge" style={{ 
+                      <span className="risk-badge" style={{
                         background: getRiskColor(performer.Risk_Level) + '20',
                         color: getRiskColor(performer.Risk_Level)
                       }}>

@@ -1,7 +1,7 @@
 
 import React, { useState, useContext, useEffect } from 'react';
 import { AuthContext } from './AuthContext';
- 
+
 
 const API_BASE_URL = 'http://localhost:5004';
 
@@ -11,7 +11,7 @@ const DynamicInterview = () => {
   const [error, setError] = useState('');
   const [apiStatus, setApiStatus] = useState(null);
   const [isCheckingApi, setIsCheckingApi] = useState(false);
-  
+
 
   const [role, setRole] = useState('Backend Engineer');
   const [numQuestions, setNumQuestions] = useState(10);
@@ -33,18 +33,18 @@ const DynamicInterview = () => {
       const response = await fetch(`${API_BASE_URL}/api/test`);
       if (response.ok) {
         const data = await response.json();
-        setApiStatus({ 
-          status: 'connected', 
-          message: `✅ API connected. Dataset loaded: ${data.dataset_loaded ? 'Yes' : 'No'}`,
+        setApiStatus({
+          status: 'connected',
+          message: `API connected. Dataset loaded: ${data.dataset_loaded ? 'Yes' : 'No'}`,
           details: data
         });
       } else {
-        setApiStatus({ status: 'error', message: '❌ API not responding properly' });
+        setApiStatus({ status: 'error', message: 'API not responding properly' });
       }
     } catch (err) {
-      setApiStatus({ 
-        status: 'error', 
-        message: '❌ Cannot connect to API. Make sure Flask server is running on port 5004.' 
+      setApiStatus({
+        status: 'error',
+        message: 'Cannot connect to API. Make sure Flask server is running on port 5004.'
       });
     } finally {
       setIsCheckingApi(false);
@@ -68,11 +68,11 @@ const DynamicInterview = () => {
 
   const extractQuestions = (questionsData) => {
     let extractedQuestions = [];
-    
+
     console.log('Raw questions data:', questionsData);
-    
+
     if (!questionsData) return extractedQuestions;
-    
+
 
     if (Array.isArray(questionsData)) {
       questionsData.forEach(item => {
@@ -85,7 +85,7 @@ const DynamicInterview = () => {
             .replace(/^"question":\s*"/i, '')   // Remove "question": prefix
             .replace(/",$/, '')                  // Remove trailing comma and quote
             .trim();
-          
+
           if (clean && clean.length > 5) {
             extractedQuestions.push(clean);
           }
@@ -105,7 +105,7 @@ const DynamicInterview = () => {
         }
       });
     }
-    
+
 
     else if (typeof questionsData === 'string') {
       try {
@@ -127,14 +127,14 @@ const DynamicInterview = () => {
             .replace(/^"|"$/g, '')
             .replace(/^"question":\s*"/i, '')
             .trim();
-          
+
           if (clean && clean.length > 5 && !clean.startsWith('===') && !clean.startsWith('---')) {
             extractedQuestions.push(clean);
           }
         });
       }
     }
-    
+
 
     else if (typeof questionsData === 'object' && questionsData !== null) {
 
@@ -151,12 +151,12 @@ const DynamicInterview = () => {
         }
       });
     }
-    
+
 
     extractedQuestions = [...new Set(extractedQuestions)]
       .filter(q => q && q.length > 5)
       .slice(0, numQuestions);
-    
+
     console.log('Extracted questions:', extractedQuestions);
     return extractedQuestions;
   };
@@ -176,7 +176,7 @@ const DynamicInterview = () => {
       }
 
       console.log('Generating questions for role:', role);
-      
+
       const response = await fetch(`${API_BASE_URL}/api/generate-questions`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -188,11 +188,11 @@ const DynamicInterview = () => {
 
       const data = await response.json();
       console.log('API Response:', data);
-      
+
       if (data.success) {
 
         let questions = extractQuestions(data.questions);
-        
+
 
         if (questions.length === 0) {
           questions = [
@@ -203,11 +203,11 @@ const DynamicInterview = () => {
             `Tell me about a time you solved a complex problem in your ${role} role.`
           ].slice(0, numQuestions);
         }
-        
+
         setGeneratedQuestions(questions);
 
         setCandidateAnswers(questions.map(() => ''));
-        
+
         if (data.note) {
           console.log('Note:', data.note);
         }
@@ -236,7 +236,7 @@ const DynamicInterview = () => {
     try {
 
       const validAnswers = candidateAnswers.filter(ans => ans && ans.trim() !== '');
-      
+
       if (validAnswers.length === 0) {
         throw new Error('Please provide at least one answer');
       }
@@ -252,7 +252,7 @@ const DynamicInterview = () => {
       });
 
       const data = await response.json();
-      
+
       if (data.success) {
         setEvaluationResults(data);
         setShowResults(true);
@@ -284,48 +284,50 @@ const DynamicInterview = () => {
   if (!user) {
     return (
       <div className="interview-container">
-       
-	 
-		
-		
+
+
+
+
       </div>
     );
   }
 
   return (
     <div className="interview-container">
-      
-	  
-	<div className="predictor-hero">
-  <div className="hero-content">
-    <div className="hero-icon">
-      <i className="fas fa-user-lock"></i>
-    </div>
 
-    <div className="hero-text">
-      <h1>Dynamic Interview System</h1>
-      <p>
-        Please log in to access the AI-powered interview platform and 
-        generate intelligent, role-specific interview questions.
-      </p>
-    </div>
-  </div>
 
-  <div className="hero-stats">
-    <div className="hero-stat">
-      <i className="fas fa-brain"></i>
-      <span>AI Question Generation</span>
-    </div>
-    <div className="hero-stat">
-      <i className="fas fa-comments"></i>
-      <span>Dynamic Interviews</span>
-    </div>
-    <div className="hero-stat">
-      <i className="fas fa-shield-alt"></i>
-      <span>Secure Access</span>
-    </div>
-  </div>
-</div>
+      <div className="prod-hero">
+        <div className="prod-hero-heading">
+          <div className="prod-hero-badge">
+            <i className="fas fa-user-lock"></i>
+            <span>AI-Powered Interviews</span>
+          </div>
+          <h1 className="prod-hero-title">
+            Dynamic Interview <span className="prod-hero-highlight">System</span>
+          </h1>
+          <p className="prod-hero-subtitle">
+            Please log in to access the AI-powered interview platform and
+            generate intelligent, role-specific interview questions.
+          </p>
+        </div>
+
+        <div className="prod-hero-divider"></div>
+
+        <div className="prod-hero-pills">
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-brain"></i></span>
+            <span className="prod-pill-label">AI Question Generation</span>
+          </div>
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-comments"></i></span>
+            <span className="prod-pill-label">Dynamic Interviews</span>
+          </div>
+          <div className="prod-hero-pill">
+            <span className="prod-pill-icon"><i className="fas fa-shield-alt"></i></span>
+            <span className="prod-pill-label">Secure Access</span>
+          </div>
+        </div>
+      </div>
 
       {/* API Status */}
       {apiStatus && (
@@ -363,43 +365,43 @@ const DynamicInterview = () => {
           <h3>Interview  </h3>
           <form onSubmit={handleGenerateQuestions}>
             <div className="form-row">
-             
 
-<label>Job Role *</label>
-<select
-  value={role}
-  onChange={(e) => setRole(e.target.value)}
-  required
->
-  <option value="">-- Select Job Role --</option>
-  <option value="Mobile Developer">Mobile Developer</option>
-  <option value="Frontend Developer">Frontend Developer</option>
-  <option value="Backend Engineer">Backend Engineer</option>
-  <option value="BI Analyst">BI Analyst</option>
-  <option value="ML Engineer">ML Engineer</option>
-  <option value="Cloud Engineer">Cloud Engineer</option>
-  <option value="Data Scientist">Data Scientist</option>
-  <option value="DevOps Engineer">DevOps Engineer</option>
-  <option value="HR Manager">HR Manager</option>
-  <option value="Cybersecurity Specialist">Cybersecurity Specialist</option>
-</select>
-              
-            <div className="form-group" style={{ display: 'none' }}>
-  <label>Number of Questions</label>
-  <input
-    type="number"
-    value={numQuestions}
-    onChange={(e) => setNumQuestions(parseInt(e.target.value) || 10)}
-    min="1"
-    max="10"
-  />
-</div>
+
+              <label>Job Role *</label>
+              <select
+                value={role}
+                onChange={(e) => setRole(e.target.value)}
+                required
+              >
+                <option value="">-- Select Job Role --</option>
+                <option value="Mobile Developer">Mobile Developer</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Engineer">Backend Engineer</option>
+                <option value="BI Analyst">BI Analyst</option>
+                <option value="ML Engineer">ML Engineer</option>
+                <option value="Cloud Engineer">Cloud Engineer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="DevOps Engineer">DevOps Engineer</option>
+                <option value="HR Manager">HR Manager</option>
+                <option value="Cybersecurity Specialist">Cybersecurity Specialist</option>
+              </select>
+
+              <div className="form-group" style={{ display: 'none' }}>
+                <label>Number of Questions</label>
+                <input
+                  type="number"
+                  value={numQuestions}
+                  onChange={(e) => setNumQuestions(parseInt(e.target.value) || 10)}
+                  min="1"
+                  max="10"
+                />
+              </div>
             </div>
-			
-			
-			
-			
-            
+
+
+
+
+
             <button type="submit" className="generate-btn" disabled={loading}>
               {loading ? (
                 <>
@@ -409,7 +411,7 @@ const DynamicInterview = () => {
               ) : (
                 <>
                   <i className="fas fa-play"></i>
-                    Start
+                  Start
                 </>
               )}
             </button>
@@ -421,7 +423,7 @@ const DynamicInterview = () => {
       {generatedQuestions.length > 0 && !showResults && (
         <div className="interview-section">
           <h3>Interview Questions for {role}</h3>
-          
+
           <div className="questions-list">
             {generatedQuestions.map((question, idx) => (
               <div key={idx} className="question-answer-card">
@@ -445,7 +447,7 @@ const DynamicInterview = () => {
           </div>
 
           <div className="action-buttons">
-            <button 
+            <button
               className="evaluate-btn"
               onClick={handleEvaluate}
               disabled={loading || !candidateAnswers.some(ans => ans && ans.trim() !== '')}
@@ -470,7 +472,7 @@ const DynamicInterview = () => {
       {showResults && evaluationResults && (
         <div className="results-section">
           <h3>📊 Evaluation Results</h3>
-          
+
           <div className="summary-stats">
             <div className="stat-card">
               <span className="stat-label">Average Score</span>
@@ -496,18 +498,18 @@ const DynamicInterview = () => {
               <div key={idx} className="result-card">
                 <div className="result-header">
                   <span className="question-number">Question {result.question_number}</span>
-                  <span 
+                  <span
                     className="score-badge"
                     style={{ backgroundColor: getScoreColor(result.score) }}
                   >
                     {result.score}% - {result.result_label}
                   </span>
                 </div>
-                
+
                 <div className="question-text">
                   <strong>Question:</strong> {generatedQuestions[idx] || 'N/A'}
                 </div>
-                
+
                 <div className="answer-comparison">
                   <div className="candidate-answer">
                     <strong>Your Answer:</strong>
@@ -521,9 +523,9 @@ const DynamicInterview = () => {
 
                 <div className="similarity-indicator">
                   <div className="similarity-bar">
-                    <div 
+                    <div
                       className="similarity-fill"
-                      style={{ 
+                      style={{
                         width: `${result.score}%`,
                         backgroundColor: getScoreColor(result.score)
                       }}
@@ -535,7 +537,7 @@ const DynamicInterview = () => {
             ))}
           </div>
 
-          <button 
+          <button
             className="new-interview-btn"
             onClick={resetInterview}
           >

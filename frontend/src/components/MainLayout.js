@@ -8,29 +8,56 @@ const MainLayout = ({ children }) => {
   const navigate = useNavigate();
   const location = useLocation();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleLogout = () => {
     logout();
-    navigate('/');
+    navigate('/Register');
   };
 
   const isActive = (path) => {
     return location.pathname === path;
   };
 
-  console.log('User in MainLayout:', user);
+  const closeMobileSidebar = () => setMobileOpen(false);
+
+  const isAuthPage = location.pathname.toLowerCase() === '/login' || location.pathname.toLowerCase() === '/register';
+
+  if (isAuthPage) {
+    return (
+      <div className="app-container" style={{ background: '#0f1624' }}>
+        <main className="main-content" style={{ marginLeft: 0, padding: 0, width: '100%' }}>
+          {children}
+        </main>
+      </div>
+    );
+  }
 
   return (
     <div className="app-container">
+      {/* Mobile Hamburger Button */}
+      <button
+        className="mobile-menu-toggle"
+        onClick={() => setMobileOpen(!mobileOpen)}
+        aria-label="Toggle menu"
+      >
+        <i className={`fas fa-${mobileOpen ? 'times' : 'bars'}`}></i>
+      </button>
+
+      {/* Overlay for mobile */}
+      {mobileOpen && (
+        <div className="sidebar-overlay" onClick={closeMobileSidebar}></div>
+      )}
+
       {/* Sidebar */}
-      <aside className={`sidebar ${sidebarCollapsed ? 'collapsed' : ''}`}>
+      <aside className={`sidebar ${sidebarCollapsed ? 'collapsed' : ''} ${mobileOpen ? 'mobile-open' : ''}`}>
         <div className="sidebar-header">
           <div className="logo-container">
             <img src="/static/Assets/images/logo.png" alt="FOCUSBOOST" className="sidebar-logo" />
-            {!sidebarCollapsed && <span className="logo-text">AI_HCM System</span>}
+            {!sidebarCollapsed && <span className="logo-text">AI HCM System</span>}
           </div>
-          <button 
-            className="sidebar-toggle" 
+          <button
+            className="sidebar-toggle"
             onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
           >
             <i className={`fas fa-chevron-${sidebarCollapsed ? 'right' : 'left'}`}></i>
@@ -47,7 +74,7 @@ const MainLayout = ({ children }) => {
               {!sidebarCollapsed && (
                 <div className="user-details">
                   <span className="user-name">{user.email}</span>
-                 
+
                 </div>
               )}
             </div>
@@ -65,14 +92,14 @@ const MainLayout = ({ children }) => {
                       {!sidebarCollapsed && <span>Home</span>}
                     </Link>
                   </li>
-                  
+
                   <li className={`nav-item ${isActive('/register') ? 'active' : ''}`}>
                     <Link to="/register" className="nav-link">
                       <i className="fas fa-user-plus"></i>
                       {!sidebarCollapsed && <span>Register</span>}
                     </Link>
                   </li>
-                  
+
                   <li className={`nav-item ${isActive('/login') ? 'active' : ''}`}>
                     <Link to="/login" className="nav-link">
                       <i className="fas fa-sign-in-alt"></i>
@@ -91,28 +118,28 @@ const MainLayout = ({ children }) => {
                           {!sidebarCollapsed && <span>Dashboard</span>}
                         </Link>
                       </li>
-                      
+
                       <li className={`nav-item ${isActive('/CandidateFitPredictor') ? 'active' : ''}`}>
                         <Link to="/CandidateFitPredictor" className="nav-link">
                           <i className="fas fa-chart-line"></i>
                           {!sidebarCollapsed && <span>Candidate Fit</span>}
                         </Link>
                       </li>
-                      
+
                       <li className={`nav-item ${isActive('/Productivity_Predictor') ? 'active' : ''}`}>
                         <Link to="/Productivity_Predictor" className="nav-link">
                           <i className="fas fa-tachometer-alt"></i>
                           {!sidebarCollapsed && <span>Productivity</span>}
                         </Link>
                       </li>
-                      
+
                       <li className={`nav-item ${isActive('/Employee_Attrition') ? 'active' : ''}`}>
                         <Link to="/Employee_Attrition" className="nav-link">
                           <i className="fas fa-exclamation-triangle"></i>
                           {!sidebarCollapsed && <span>Attrition</span>}
                         </Link>
                       </li>
-                      
+
                       <li className={`nav-item ${isActive('/Dynamic_Interview') ? 'active' : ''}`}>
                         <Link to="/Dynamic_Interview" className="nav-link">
                           <i className="fas fa-comments"></i>
@@ -121,7 +148,7 @@ const MainLayout = ({ children }) => {
                       </li>
                     </>
                   )}
-                  
+
                   {user.userType === 'club' && (
                     <li className={`nav-item ${isActive('/RankedPlayers') ? 'active' : ''}`}>
                       <Link to="/RankedPlayers" className="nav-link">
