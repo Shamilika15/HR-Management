@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+*.log
+api.log
+attrition_api.log
+attrition_prediction.log
+interview_analysis.log
+interview_api.log
+
+# Build files
+dist/
+build/
+out/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Results and uploads
+results/
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
